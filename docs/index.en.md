@@ -18,8 +18,18 @@ Posit Connect can host much more in principle. Best practices are initially defi
 
 ## Process at a Glance
 
-<!-- TODO: Brief overview of the steps (link to overview page) -->
+Getting from an idea to a published app takes four steps. The diagram below shows the process at a glance:
+
+![Process Overview](assets/ablauf.en.svg)
+
+For a detailed explanation of each step, see the [Process Overview](ablauf.md) page.
 
 ## Further Resources
 
 <!-- TODO: Links to ZHAW-internal resources, Posit Connect documentation, etc. -->
+
+## Who We Are
+
+This service is operated by ZHAW Services Research Data.
+
+**Contact:** [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch)

@@ -17,16 +17,16 @@ The steps at a glance:
 
 ### Step 1: Usage Assessment
 
-<!-- TODO: Short description + link to usage assessment page -->
+Every app starts with a usage assessment via the Self Service Portal (SSP), covering data protection, resource needs, and security. See [Usage Assessment](nutzungsabklaerung.md).
 
 ### Step 2: Develop Your App
 
-<!-- TODO: Short description + link to app development section -->
+Next, you develop your app—either using our template or by integrating an existing one. We primarily support Shiny, Streamlit, and Quarto. See [Develop Your App](app-entwickeln/template.md).
 
 ### Step 3: Share Your Code
 
-<!-- TODO: Short description + link to code sharing section -->
+Your source code is published in a repository on github.zhaw.ch so that Posit Connect can read the app directly from there. See [Share Your Code](code-teilen/github-zhaw.md).
 
 ### Step 4: Feedback & Deployment
 
-<!-- TODO: Short description + link to deployment page -->
+Finally, we review the code and handle the deployment on Posit Connect. Once deployed, you receive your app's URL. See [Deployment](deployment.md).

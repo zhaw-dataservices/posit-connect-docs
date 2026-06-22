@@ -17,16 +17,16 @@ Die Schritte im Überblick:
 
 ### Schritt 1: Nutzungsabklärung
 
-<!-- TODO: Kurzbeschreibung + Link zur Nutzungsabklärung-Seite -->
+Jede App startet mit einer Nutzungsabklärung über das Self Service Portal (SSP). Dabei werden Datenschutz, Ressourcenbedarf und Sicherheit geprüft. Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
 
 ### Schritt 2: App entwickeln
 
-<!-- TODO: Kurzbeschreibung + Link zur App-entwickeln-Sektion -->
+Anschliessend entwickelst du deine App – entweder mit unserem Template oder durch Einbinden einer bestehenden App. Unterstützt werden primär Shiny, Streamlit und Quarto. Siehe [App entwickeln](app-entwickeln/template.md).
 
 ### Schritt 3: Code teilen
 
-<!-- TODO: Kurzbeschreibung + Link zur Code-teilen-Sektion -->
+Der Source Code wird in einem Repository auf github.zhaw.ch bereitgestellt, damit Posit Connect die App direkt von dort lesen kann. Siehe [Code teilen](code-teilen/github-zhaw.md).
 
 ### Schritt 4: Feedback & Deployment
 
-<!-- TODO: Kurzbeschreibung + Link zur Deployment-Seite -->
+Zum Schluss prüfen wir den Code und übernehmen das Deployment auf Posit Connect. Nach dem Deployment erhältst du die URL deiner App. Siehe [Deployment](deployment.md).

@@ -18,8 +18,18 @@ Posit Connect kann grundsätzlich vieles mehr hosten. Best Practices sind zunäc
 
 ## Ablauf auf einen Blick
 
-<!-- TODO: Kurze Übersicht der Schritte (Link zu Ablauf-Seite) -->
+Von der Idee bis zur publizierten App führen vier Schritte. Die folgende Grafik zeigt den Ablauf im Überblick:
+
+![Ablauf im Überblick](assets/ablauf.svg)
+
+Eine ausführliche Erklärung der einzelnen Schritte findet sich auf der Seite [Ablauf im Überblick](ablauf.md).
 
 ## Weitere Ressourcen
 
 <!-- TODO: Links zu ZHAW-internen Ressourcen, Posit Connect Dokumentation etc. -->
+
+## Wer wir sind
+
+Dieser Service wird von den ZHAW Services Forschungsdaten betrieben.
+
+**Kontakt:** [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch)
