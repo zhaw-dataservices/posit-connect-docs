@@ -35,4 +35,4 @@ source("write_manifest.R")
 
 ### Generating manifest.json
 
-<!-- TODO: Analogous write_manifest.py – coming once template is available -->
+<!-- TODO: Analogous write_manifest.py—coming once template is available -->

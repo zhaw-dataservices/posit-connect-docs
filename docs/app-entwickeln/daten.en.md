@@ -17,7 +17,7 @@ Data should ideally:
 
 ## Loading Data in Your App
 
-<!-- TODO: How to load data – directly from ORD repository, local file, etc. -->
+<!-- TODO: How to load data—directly from ORD repository, local file, etc. -->
 
 ## What Should Not Be on the Server
 

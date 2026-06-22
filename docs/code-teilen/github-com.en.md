@@ -8,7 +8,7 @@ In exceptional cases, code can be shared on GitHub.com instead of github.zhaw.ch
 
 ## Steps
 
-<!-- TODO: Analogous to github.zhaw.ch – create repo, grant access -->
+<!-- TODO: Analogous to github.zhaw.ch—create repo, grant access -->
 
 ## Notes
 

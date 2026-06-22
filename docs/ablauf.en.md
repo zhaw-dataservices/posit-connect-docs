@@ -1,6 +1,6 @@
 # Process Overview
 
-This page describes the full process – from developing an app to publishing it on Posit Connect.
+This page describes the full process—from developing an app to publishing it on Posit Connect.
 
 ## Process Summary
 
@@ -8,10 +8,10 @@ This page describes the full process – from developing an app to publishing it
 
 The steps at a glance:
 
-1. **Usage assessment** — Check via the Self Service Portal (SSP)
-2. **Develop your app** — Use our template or integrate an existing app
-3. **Share your code** — Provide source code on github.zhaw.ch
-4. **Feedback & deployment** — We review the code and deploy the app
+1. **Usage assessment**—Check via the Self Service Portal (SSP)
+2. **Develop your app**—Use our template or integrate an existing app
+3. **Share your code**—Provide source code on github.zhaw.ch
+4. **Feedback & deployment**—We review the code and deploy the app
 
 ## Detailed Description
 

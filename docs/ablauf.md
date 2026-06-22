@@ -8,10 +8,10 @@ Diese Seite beschreibt den gesamten Prozess – von der Entwicklung einer App bi
 
 Die Schritte im Überblick:
 
-1. **Nutzungsabklärung** — Abklärung im Self Service Portal (SSP)
-2. **App entwickeln** — App mit unserem Template entwickeln oder bestehende App einbinden
-3. **Code teilen** — Source Code auf github.zhaw.ch bereitstellen
-4. **Feedback & Deployment** — Wir prüfen den Code und deployen die App
+1. **Nutzungsabklärung** – Abklärung im Self Service Portal (SSP)
+2. **App entwickeln** – App mit unserem Template entwickeln oder bestehende App einbinden
+3. **Code teilen** – Source Code auf github.zhaw.ch bereitstellen
+4. **Feedback & Deployment** – Wir prüfen den Code und deployen die App
 
 ## Detaillierte Beschreibung der Schritte
 

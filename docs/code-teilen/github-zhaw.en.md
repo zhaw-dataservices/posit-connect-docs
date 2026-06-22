@@ -20,7 +20,7 @@ The standard case: code is shared on ZHAW's GitHub Enterprise server (github.zha
 
 ## Branch Conventions
 
-<!-- TODO: To be defined with ICT – placeholder -->
+<!-- TODO: To be defined with ICT—placeholder -->
 
 !!! note "Work in Progress"
     The exact branch workflow (e.g. `main` for production code, feature branches for development) is still being defined with ICT. This page will be updated once the process is finalised.

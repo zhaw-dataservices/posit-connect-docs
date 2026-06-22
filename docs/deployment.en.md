@@ -4,7 +4,7 @@ Once the code is available on GitHub and all prerequisites are met, we handle th
 
 ## What We Check
 
-<!-- TODO: Checklist – what is reviewed before deployment? (manifest.json, dependencies, data protection, etc.) -->
+<!-- TODO: Checklist—what is reviewed before deployment? (manifest.json, dependencies, data protection, etc.) -->
 
 ## Process After Handover
 

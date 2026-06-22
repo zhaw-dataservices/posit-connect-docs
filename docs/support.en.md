@@ -8,7 +8,7 @@
 
 ### Which frameworks are supported?
 
-Shiny (R), Streamlit (Python), and Quarto are primarily supported. Posit Connect can generally host more – please get in touch if needed.
+Shiny (R), Streamlit (Python), and Quarto are primarily supported. Posit Connect can generally host more—please get in touch if needed.
 
 ### Do I have to use the template?
 
@@ -24,7 +24,7 @@ Shiny (R), Streamlit (Python), and Quarto are primarily supported. Posit Connect
 
 ### Can I change my app after deployment?
 
-<!-- TODO: Formulate answer – branch workflow TBD -->
+<!-- TODO: Formulate answer—branch workflow TBD -->
 
 ## Known Issues
 

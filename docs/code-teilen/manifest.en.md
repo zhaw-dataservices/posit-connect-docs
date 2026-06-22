@@ -1,6 +1,6 @@
 # Creating manifest.json
 
-Posit Connect reads apps directly from GitHub. A `manifest.json` file is required – it describes the app and its dependencies.
+Posit Connect reads apps directly from GitHub. A `manifest.json` file is required—it describes the app and its dependencies.
 
 ## What Is manifest.json?
 
@@ -20,7 +20,7 @@ The generated `manifest.json` must be committed to the repository.
 
 ## For Streamlit Apps (Python)
 
-<!-- TODO: write_manifest.py – coming once the Streamlit template is available -->
+<!-- TODO: write_manifest.py—coming once the Streamlit template is available -->
 
 ## Keeping manifest.json Up to Date
 
