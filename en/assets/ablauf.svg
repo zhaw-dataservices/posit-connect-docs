@@ -1,5 +1,5 @@
 <svg viewBox="0 0 760 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Arial, sans-serif">
-  <title>Posit Connect – Process Overview</title>
+  <title>Posit Connect—Process Overview</title>
   <desc>Process from usage assessment and app development to deployment on Posit Connect.</desc>
 
   <defs>
@@ -61,7 +61,7 @@
   <line x1="64" y1="312" x2="694" y2="312" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
   <circle cx="78" cy="331" r="3.5" fill="#333333"/>
   <text x="88" y="335" font-size="13" fill="#333333">github.zhaw.ch</text>
-  <text x="88" y="349" font-size="11" fill="#666666">Standard case — ZHAW GitHub Enterprise</text>
+  <text x="88" y="349" font-size="11" fill="#666666">Standard case—ZHAW GitHub Enterprise</text>
   <circle cx="410" cy="331" r="3.5" fill="#999999"/>
   <text x="420" y="335" font-size="13" fill="#666666">GitHub.com</text>
   <text x="420" y="349" font-size="11" fill="#999999">Exception depending on data context</text>
@@ -107,7 +107,7 @@
   <text x="100" y="585" font-size="15" fill="#333333" font-weight="bold">Deployment on Posit Connect</text>
   <line x1="64" y1="596" x2="694" y2="596" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
   <circle cx="78" cy="614" r="3.5" fill="#333333"/>
-  <text x="88" y="618" font-size="13" fill="#333333">App live — URL will be shared</text>
+  <text x="88" y="618" font-size="13" fill="#333333">App live—URL will be shared</text>
   <circle cx="410" cy="614" r="3.5" fill="#333333"/>
   <text x="420" y="618" font-size="13" fill="#333333">Access rights configured</text>
   <circle cx="78" cy="638" r="3.5" fill="#333333"/>
