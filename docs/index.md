@@ -1,20 +1,14 @@
 # Willkommen
 
-Diese Seite dokumentiert den ZHAW-Service «Interaktive Datenvisualisierung» – die zentrale Hosting-Infrastruktur für interaktive Forschungsdatenvisualisierungen auf Basis von Shiny, Streamlit und Dash.
+Diese Seite dokumentiert den ZHAW-Service «Interaktive Datenvisualisierung» – die zentrale Hosting-Infrastruktur für interaktive Forschungsdatenvisualisierungen.
 
 ## Über diesen Service
 
-<!-- TODO: Kurzbeschreibung des Services, wer ihn betreibt, für wen er gedacht ist -->
+Seit Juni 2026 betreibt die ZHAW mit Posit Connect eine Plattform für interaktive Datenvisualisierungen. Forscher:innen können damit ihre Daten interaktiv erlebbar machen – passend für ganz unterschiedliche Zielgruppen.
 
-## Unterstützte Frameworks
+Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können, ganz ohne eigene Installation. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Ebenso hosten wir gerne interaktive Berichte und Webseiten, die mit Quarto (R / Python) erstellt wurden.
 
-Wir unterstützen primär:
-
-- **Shiny** (R)
-- **Streamlit** (Python)
-- **Quarto** (R / Python)
-
-Posit Connect kann grundsätzlich vieles mehr hosten. Best Practices sind zunächst für Shiny und Streamlit definiert.
+Posit Connect kann grundsätzlich noch mehr veröffentlichen; einen vollständigen Überblick bietet die [Produktseite von Posit Connect](https://posit.co/products/enterprise/connect). Unsere Best Practices und unser Support sind zunächst auf Shiny und Streamlit ausgerichtet.
 
 ## Ablauf auf einen Blick
 
@@ -24,11 +18,7 @@ Von der Idee bis zur publizierten App führen vier Schritte. Die folgende Grafik
 
 Eine ausführliche Erklärung der einzelnen Schritte findet sich auf der Seite [Ablauf im Überblick](ablauf.md).
 
-## Weitere Ressourcen
-
-<!-- TODO: Links zu ZHAW-internen Ressourcen, Posit Connect Dokumentation etc. -->
-
-## Wer wir sind
+## Kontakt
 
 Dieser Service wird von den ZHAW Services Forschungsdaten betrieben.
 

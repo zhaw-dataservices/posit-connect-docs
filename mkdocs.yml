@@ -65,6 +65,22 @@ plugins:
         - locale: en
           name: English
           build: true
+          # Translate the header title for the English build.
+          site_name: "Posit Connect—Documentation"
+          # Translate the nav labels (which come from mkdocs.yml, not the pages).
+          # Maps each German nav label to its English equivalent.
+          nav_translations:
+            Ablauf im Überblick: Process Overview
+            Nutzungsabklärung: Usage Assessment
+            App entwickeln: Develop Your App
+            Template verwenden: Using the Template
+            Bestehende App einbinden: Integrate an Existing App
+            Datensparsamkeit & Daten: Data Minimisation & Data
+            REDCap-Integration: REDCap Integration
+            Code teilen & Deployment vorbereiten: Share Code & Prepare Deployment
+            Repository auf github.zhaw.ch: Repository on github.zhaw.ch
+            GitHub.com als Alternative: GitHub.com as an Alternative
+            manifest.json erstellen: Create manifest.json
 
 # ---------------------------------------------------------------------------
 # Navigation — list pages explicitly so the order is predictable.
