@@ -1,14 +1,20 @@
-<svg viewBox="0 0 760 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Arial, sans-serif">
+<svg viewBox="0 0 760 744" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Arial, sans-serif">
   <title>Posit Connect—Process Overview</title>
-  <desc>Process from usage assessment and app development to deployment on Posit Connect.</desc>
+  <desc>Process from the initial consultation through app development to deployment on Posit Connect.</desc>
 
   <defs>
     <marker id="a" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
       <polygon points="0 0,10 3.5,0 7" fill="#333333"/>
     </marker>
+    <marker id="ar" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,9 3,0 6" fill="#666666"/>
+    </marker>
+    <marker id="ag" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,9 3,0 6" fill="#00795d"/>
+    </marker>
   </defs>
 
-  <rect width="760" height="720" fill="#ffffff"/>
+  <rect width="760" height="744" fill="#ffffff"/>
 
   <!-- PARALLEL BAND -->
   <rect x="16" y="16" width="728" height="215" rx="8" fill="#f7f7f7" stroke="#cccccc" stroke-width="1.5" stroke-dasharray="6,4"/>
@@ -19,14 +25,14 @@
   <rect x="28" y="46" width="4" height="160" rx="2" fill="#333333"/>
   <rect x="38" y="55" width="22" height="18" rx="3" fill="#333333"/>
   <text x="49" y="68" font-size="11" fill="white" font-weight="bold" text-anchor="middle">1</text>
-  <text x="68" y="68" font-size="15" fill="#333333" font-weight="bold">Usage Assessment</text>
+  <text x="68" y="68" font-size="15" fill="#333333" font-weight="bold">Initial Consultation</text>
   <line x1="32" y1="80" x2="362" y2="80" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
   <circle cx="46" cy="102" r="3.5" fill="#333333"/>
-  <text x="56" y="106" font-size="13" fill="#333333">Self Service Portal (SSP)</text>
-  <text x="56" y="120" font-size="11" fill="#666666">Assessment before publication</text>
+  <text x="56" y="106" font-size="13" fill="#333333">Initial contact</text>
+  <text x="56" y="120" font-size="11" fill="#666666">We discuss the next steps together</text>
   <circle cx="46" cy="142" r="3.5" fill="#333333"/>
-  <text x="56" y="146" font-size="13" fill="#333333">Initial contact</text>
-  <text x="56" y="160" font-size="11" fill="#666666">We discuss the next steps together</text>
+  <text x="56" y="146" font-size="13" fill="#333333">Self Service Portal (SSP)</text>
+  <text x="56" y="160" font-size="11" fill="#666666">Complete the form, incl. usage assessment if needed</text>
 
   <!-- STEP 2 -->
   <rect x="382" y="46" width="350" height="160" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
@@ -53,8 +59,8 @@
   <line x1="380" y1="248" x2="380" y2="276" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
 
   <!-- STEP 3 -->
-  <rect x="60" y="278" width="640" height="88" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="60" y="278" width="4" height="88" rx="2" fill="#333333"/>
+  <rect x="60" y="278" width="640" height="112" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="60" y="278" width="4" height="112" rx="2" fill="#333333"/>
   <rect x="70" y="288" width="22" height="18" rx="3" fill="#333333"/>
   <text x="81" y="301" font-size="11" fill="white" font-weight="bold" text-anchor="middle">3</text>
   <text x="100" y="301" font-size="15" fill="#333333" font-weight="bold">Share Code</text>
@@ -65,56 +71,57 @@
   <circle cx="410" cy="331" r="3.5" fill="#999999"/>
   <text x="420" y="335" font-size="13" fill="#666666">GitHub.com</text>
   <text x="420" y="349" font-size="11" fill="#999999">Exception depending on data context</text>
+  <circle cx="78" cy="369" r="3.5" fill="#333333"/>
+  <text x="88" y="373" font-size="13" fill="#333333">Collaboration with other researchers via Git possible</text>
 
   <!-- ARROW TO STEP 4 -->
-  <line x1="380" y1="366" x2="380" y2="395" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
+  <line x1="380" y1="390" x2="380" y2="419" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
 
   <!-- STEP 4 -->
-  <rect x="60" y="398" width="640" height="116" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="60" y="398" width="4" height="116" rx="2" fill="#333333"/>
-  <rect x="70" y="408" width="22" height="18" rx="3" fill="#333333"/>
-  <text x="81" y="421" font-size="11" fill="white" font-weight="bold" text-anchor="middle">4</text>
-  <text x="100" y="421" font-size="15" fill="#333333" font-weight="bold">Review by ZHAW Services Research Data</text>
-  <line x1="64" y1="432" x2="694" y2="432" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
-  <circle cx="78" cy="450" r="3.5" fill="#333333"/>
-  <text x="88" y="454" font-size="13" fill="#333333">Best Practices</text>
-  <circle cx="78" cy="470" r="3.5" fill="#333333"/>
-  <text x="88" y="474" font-size="13" fill="#333333">Corporate Design</text>
-  <circle cx="78" cy="490" r="3.5" fill="#333333"/>
-  <text x="88" y="494" font-size="13" fill="#333333">Data Protection &amp; Minimisation</text>
-  <circle cx="410" cy="450" r="3.5" fill="#333333"/>
-  <text x="420" y="454" font-size="13" fill="#333333">Metadata &amp; Project Assignment</text>
-  <circle cx="410" cy="470" r="3.5" fill="#333333"/>
-  <text x="420" y="474" font-size="13" fill="#333333">Access Rights</text>
-  <circle cx="410" cy="490" r="3.5" fill="#333333"/>
-  <text x="420" y="494" font-size="13" fill="#333333">EOL</text>
+  <rect x="60" y="422" width="640" height="116" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="60" y="422" width="4" height="116" rx="2" fill="#333333"/>
+  <rect x="70" y="432" width="22" height="18" rx="3" fill="#333333"/>
+  <text x="81" y="445" font-size="11" fill="white" font-weight="bold" text-anchor="middle">4</text>
+  <text x="100" y="445" font-size="15" fill="#333333" font-weight="bold">Review by ZHAW Services Research Data</text>
+  <line x1="64" y1="456" x2="694" y2="456" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
+  <circle cx="78" cy="474" r="3.5" fill="#333333"/>
+  <text x="88" y="478" font-size="13" fill="#333333">Best Practices</text>
+  <circle cx="78" cy="494" r="3.5" fill="#333333"/>
+  <text x="88" y="498" font-size="13" fill="#333333">Corporate Design</text>
+  <circle cx="78" cy="518" r="3.5" fill="#333333"/>
+  <text x="88" y="522" font-size="13" fill="#333333">Data Protection &amp; Minimisation</text>
+  <circle cx="410" cy="474" r="3.5" fill="#333333"/>
+  <text x="420" y="478" font-size="13" fill="#333333">Metadata &amp; Project Assignment</text>
+  <circle cx="410" cy="494" r="3.5" fill="#333333"/>
+  <text x="420" y="498" font-size="13" fill="#333333">Access Rights</text>
+  <circle cx="410" cy="518" r="3.5" fill="#333333"/>
+  <text x="420" y="522" font-size="13" fill="#333333">End of Life (EOL)</text>
 
-  <!-- REVISION LOOP -->
-  <path d="M 700,456 C 742,456 742,322 700,322" stroke="#c11e48" stroke-width="1.8" fill="none"/>
-  <rect x="706" y="380" width="52" height="20" rx="3" fill="#c11e48"/>
-  <text x="732" y="394" font-size="11" fill="white" font-weight="bold" text-anchor="middle">Revision</text>
+  <!-- REWORK LOOP – grey, arrow back to step 3, vertical label -->
+  <path d="M 700,480 C 746,480 746,322 716,322 L 700,322" stroke="#666666" stroke-width="1.8" fill="none" marker-end="url(#ar)"/>
+  <text x="753" y="401" font-size="11" fill="#666666" font-weight="bold" text-anchor="middle" transform="rotate(-90 753 401)">Rework</text>
 
   <!-- OK LINE -->
-  <line x1="380" y1="514" x2="380" y2="558" stroke="#00795d" stroke-width="1.8"/>
-  <rect x="360" y="526" width="40" height="20" rx="3" fill="#00795d"/>
-  <text x="380" y="540" font-size="11" fill="white" font-weight="bold" text-anchor="middle">OK</text>
+  <line x1="380" y1="538" x2="380" y2="582" stroke="#00795d" stroke-width="1.8" marker-end="url(#ag)"/>
+  <rect x="360" y="544" width="40" height="18" rx="3" fill="#00795d"/>
+  <text x="380" y="557" font-size="11" fill="white" font-weight="bold" text-anchor="middle">OK</text>
 
   <!-- STEP 5 -->
-  <rect x="60" y="562" width="640" height="100" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="60" y="562" width="4" height="100" rx="2" fill="#333333"/>
-  <rect x="70" y="572" width="22" height="18" rx="3" fill="#333333"/>
-  <text x="81" y="585" font-size="11" fill="white" font-weight="bold" text-anchor="middle">5</text>
-  <text x="100" y="585" font-size="15" fill="#333333" font-weight="bold">Deployment on Posit Connect</text>
-  <line x1="64" y1="596" x2="694" y2="596" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
-  <circle cx="78" cy="614" r="3.5" fill="#333333"/>
-  <text x="88" y="618" font-size="13" fill="#333333">App live—URL will be shared</text>
-  <circle cx="410" cy="614" r="3.5" fill="#333333"/>
-  <text x="420" y="618" font-size="13" fill="#333333">Access rights configured</text>
+  <rect x="60" y="586" width="640" height="100" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="60" y="586" width="4" height="100" rx="2" fill="#333333"/>
+  <rect x="70" y="596" width="22" height="18" rx="3" fill="#333333"/>
+  <text x="81" y="609" font-size="11" fill="white" font-weight="bold" text-anchor="middle">5</text>
+  <text x="100" y="609" font-size="15" fill="#333333" font-weight="bold">Deployment on Posit Connect</text>
+  <line x1="64" y1="620" x2="694" y2="620" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
   <circle cx="78" cy="638" r="3.5" fill="#333333"/>
-  <text x="88" y="642" font-size="13" fill="#333333">Marketing / Communication (if applicable)</text>
+  <text x="88" y="642" font-size="13" fill="#333333">App live</text>
   <circle cx="410" cy="638" r="3.5" fill="#333333"/>
-  <text x="420" y="642" font-size="13" fill="#333333">Updates as needed</text>
+  <text x="420" y="642" font-size="13" fill="#333333">Access rights configured</text>
+  <circle cx="78" cy="662" r="3.5" fill="#333333"/>
+  <text x="88" y="666" font-size="13" fill="#333333">Marketing / Communication (if applicable)</text>
+  <circle cx="410" cy="662" r="3.5" fill="#333333"/>
+  <text x="420" y="666" font-size="13" fill="#333333">Updates as needed</text>
 
   <!-- FOOTER -->
-  <text x="380" y="700" font-size="10" fill="#999999" text-anchor="middle">ZHAW Services Research Data · Interactive Data Visualisation · Posit Connect</text>
+  <text x="380" y="724" font-size="10" fill="#999999" text-anchor="middle">ZHAW Services Research Data · Interactive Data Visualisation · Posit Connect</text>
 </svg>
