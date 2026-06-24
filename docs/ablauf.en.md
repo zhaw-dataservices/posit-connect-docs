@@ -1,6 +1,6 @@
 # Process Overview
 
-This page describes the full process—from the initial consultation through app development to publication on Posit Connect.
+This page describes the full process—from the preliminary assessment through app development to publication on Posit Connect.
 
 ## Process Summary
 
@@ -10,9 +10,11 @@ Steps 1 and 2 can be completed independently and in any order.
 
 ## Detailed Description
 
-### Step 1: Initial Consultation
+### Step 1: Preliminary Assessment
 
-It all starts with initial contact: together we discuss how to proceed. You then complete a form in the Self Service Portal (SSP), which also includes a usage assessment if needed (data protection, resources, security). See [Usage Assessment](nutzungsabklaerung.md).
+It all starts with initial contact, recommended for first-time users: ideally an email to [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch) to discuss the process. You then complete a [form](#) in the Self Service Portal (SSP), which also includes a usage assessment if needed (data protection, resources, security). See [Usage Assessment](nutzungsabklaerung.md).
+
+<!-- TODO: insert SSP form link once available -->
 
 ### Step 2: Develop Your App
 
@@ -28,4 +30,4 @@ We review the code and the app—covering best practices, corporate design, data
 
 ### Step 5: Deployment
 
-After a successful review, we handle the deployment on Posit Connect. The app goes live, access rights are configured, and later updates follow as needed. See [Deployment](deployment.md).
+After a successful review, we handle the deployment on Posit Connect. The app goes live at a chosen URL following the pattern `exploredata.zhaw.ch/app-name`. Access rights are then configured, and later updates follow as needed. See [Deployment](deployment.md).

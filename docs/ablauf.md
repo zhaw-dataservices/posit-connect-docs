@@ -1,6 +1,6 @@
 # Ablauf im Überblick
 
-Diese Seite beschreibt den gesamten Prozess – vom Vorgespräch über die Entwicklung einer App bis zur Publikation auf Posit Connect.
+Diese Seite beschreibt den gesamten Prozess – von der Vorabklärung über die Entwicklung einer App bis zur Publikation auf Posit Connect.
 
 ## Prozessübersicht
 
@@ -10,9 +10,11 @@ Schritt 1 und 2 können unabhängig voneinander und in beliebiger Reihenfolge er
 
 ## Detaillierte Beschreibung der Schritte
 
-### Schritt 1: Vorgespräch
+### Schritt 1: Vorabklärung
 
-Den Anfang macht die erste Kontaktaufnahme: Gemeinsam besprechen wir das weitere Vorgehen. Danach füllst du im Self Service Portal (SSP) ein Formular aus, das bei Bedarf auch eine Nutzungsabklärung umfasst (Datenschutz, Ressourcen, Sicherheit). Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
+Den Anfang macht die erste Kontaktaufnahme, für Erstanwender:innen empfohlen: am besten per Mail an [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch), um das Vorgehen zu besprechen. Danach füllst du im Self Service Portal (SSP) ein [Formular](#) aus, das bei Bedarf auch eine Nutzungsabklärung umfasst (Datenschutz, Ressourcen, Sicherheit). Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
+
+<!-- TODO: SSP-Formular-Link einsetzen, sobald freigeschaltet -->
 
 ### Schritt 2: App entwickeln
 
@@ -28,4 +30,4 @@ Wir prüfen Code und App – unter anderem auf Best Practices, Corporate Design,
 
 ### Schritt 5: Deployment
 
-Nach erfolgreichem Review übernehmen wir das Deployment auf Posit Connect. Die App geht live, die Zugriffsrechte werden konfiguriert und bei Bedarf folgen spätere Updates. Siehe [Deployment](deployment.md).
+Nach erfolgreichem Review übernehmen wir das Deployment auf Posit Connect. Die App geht live unter einer Wunsch-URL nach dem Muster `exploredata.zhaw.ch/name-der-app`. Anschliessend werden die Zugriffsrechte konfiguriert, und bei Bedarf folgen spätere Updates. Siehe [Deployment](deployment.md).
