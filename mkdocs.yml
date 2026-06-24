@@ -73,14 +73,12 @@ plugins:
             Ablauf im Überblick: Process Overview
             Nutzungsabklärung: Usage Assessment
             App entwickeln: Develop Your App
-            Template verwenden: Using the Template
+            Übersicht & Templates: Overview & Templates
+            manifest.json erstellen: Create manifest.json
             Bestehende App einbinden: Integrate an Existing App
             Datensparsamkeit & Daten: Data Minimisation & Data
-            REDCap-Integration: REDCap Integration
-            Code teilen & Deployment vorbereiten: Share Code & Prepare Deployment
-            Repository auf github.zhaw.ch: Repository on github.zhaw.ch
-            GitHub.com als Alternative: GitHub.com as an Alternative
-            manifest.json erstellen: Create manifest.json
+            Daten aus REDCap laden: Loading Data from REDCap
+            Code teilen via GitHub: Share Code via GitHub
 
 # ---------------------------------------------------------------------------
 # Navigation — list pages explicitly so the order is predictable.
@@ -91,14 +89,17 @@ nav:
   - Ablauf im Überblick: ablauf.md
   - Nutzungsabklärung: nutzungsabklaerung.md
   - App entwickeln:
-    - Template verwenden: app-entwickeln/template.md
+    - Übersicht & Templates: app-entwickeln/template.md
+    - Shiny Basics: app-entwickeln/shiny-basics.md
+    - Streamlit Basics: app-entwickeln/streamlit-basics.md
+    - manifest.json erstellen: app-entwickeln/manifest.md
     - Bestehende App einbinden: app-entwickeln/bestehende-app.md
-    - Best Practices: app-entwickeln/best-practices.md
     - Datensparsamkeit & Daten: app-entwickeln/daten.md
-    - REDCap-Integration: app-entwickeln/redcap.md
-  - Code teilen & Deployment vorbereiten:
-    - Repository auf github.zhaw.ch: code-teilen/github-zhaw.md
-    - GitHub.com als Alternative: code-teilen/github-com.md
-    - manifest.json erstellen: code-teilen/manifest.md
-  - Deployment: deployment.md
+    - Daten aus REDCap laden: app-entwickeln/redcap.md
+  - Code teilen via GitHub:
+    - github.zhaw.ch: code-teilen/github-zhaw.md
+    - GitHub.com (Alternative): code-teilen/github-com.md
+  - Best Practices: app-entwickeln/best-practices.md
+  - Corporate Design: corporate-design.md
+  - Review & Deployment: deployment.md
   - Support & FAQ: support.md

@@ -1,4 +1,4 @@
-# Using the Template
+# Overview & Templates
 
 We provide a template in ZHAW's corporate design. It contains the basic structure and is the recommended starting point for new apps.
 

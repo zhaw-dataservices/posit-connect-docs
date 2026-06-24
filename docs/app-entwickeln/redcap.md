@@ -1,4 +1,4 @@
-# REDCap-Integration
+# Daten aus REDCap laden
 
 Apps auf Posit Connect können Daten direkt aus REDCap lesen. Diese Seite beschreibt, wie das eingerichtet wird.
 

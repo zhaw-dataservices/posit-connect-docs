@@ -1,4 +1,4 @@
-# REDCap Integration
+# Loading Data from REDCap
 
 Apps on Posit Connect can read data directly from REDCap. This page describes how to set this up.
 

@@ -18,8 +18,6 @@ This page describes our recommendations for developing Shiny and Streamlit apps 
 
 <!-- TODO: renv (R) / requirements.txt or pyproject.toml (Python) -->
 
-## Adhering to Corporate Design
+## Accessibility
 
-The template already includes ZHAW corporate design. Custom CSS changes should only be made in the designated areas of the template.
-
-<!-- TODO: Details -->
+<!-- TODO: accessibility recommendations (contrast, alt text, keyboard navigation, WCAG) -->

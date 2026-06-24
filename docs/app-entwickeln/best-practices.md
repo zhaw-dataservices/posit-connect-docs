@@ -18,8 +18,6 @@ Diese Seite beschreibt unsere Empfehlungen für die Entwicklung von Shiny- und S
 
 <!-- TODO: renv (R) / requirements.txt oder pyproject.toml (Python) -->
 
-## Corporate Design einhalten
+## Barrierefreiheit
 
-Das Template enthält bereits das ZHAW Corporate Design. Eigene CSS-Anpassungen sollten nur in den dafür vorgesehenen Bereichen des Templates vorgenommen werden.
-
-<!-- TODO: Details -->
+<!-- TODO: Empfehlungen zur Barrierefreiheit (Kontraste, Alt-Texte, Tastaturbedienung, WCAG) -->
