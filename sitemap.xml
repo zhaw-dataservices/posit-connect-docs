@@ -15,6 +15,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/ablauf/"/>
     </url>
     <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/corporate-design/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/corporate-design/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/corporate-design/"/>
+    </url>
+    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/deployment/</loc>
         <lastmod>2026-06-24</lastmod>
         <changefreq>daily</changefreq>
@@ -57,11 +64,32 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/daten/"/>
     </url>
     <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/manifest/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/manifest/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/manifest/"/>
+    </url>
+    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/redcap/</loc>
         <lastmod>2026-06-24</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/redcap/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/redcap/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/shiny-basics/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/shiny-basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/shiny-basics/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/streamlit-basics/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/streamlit-basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/streamlit-basics/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/template/</loc>
@@ -85,13 +113,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/code-teilen/github-zhaw/"/>
     </url>
     <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/code-teilen/manifest/</loc>
-        <lastmod>2026-06-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/code-teilen/manifest/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/code-teilen/manifest/"/>
-    </url>
-    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/</loc>
         <lastmod>2026-06-24</lastmod>
         <changefreq>daily</changefreq>
@@ -104,6 +125,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/ablauf/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/ablauf/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/corporate-design/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/corporate-design/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/corporate-design/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/deployment/</loc>
@@ -148,11 +176,32 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/daten/"/>
     </url>
     <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/manifest/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/manifest/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/manifest/"/>
+    </url>
+    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/redcap/</loc>
         <lastmod>2026-06-24</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/redcap/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/redcap/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/shiny-basics/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/shiny-basics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/shiny-basics/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/streamlit-basics/</loc>
+        <lastmod>2026-06-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/streamlit-basics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/streamlit-basics/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/template/</loc>
@@ -174,12 +223,5 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/code-teilen/github-zhaw/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/code-teilen/github-zhaw/"/>
-    </url>
-    <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/code-teilen/manifest/</loc>
-        <lastmod>2026-06-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/code-teilen/manifest/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/code-teilen/manifest/"/>
     </url>
 </urlset>
