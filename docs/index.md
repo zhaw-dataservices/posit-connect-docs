@@ -2,6 +2,8 @@
 
 Diese Seite dokumentiert den ZHAW-Service «Interaktive Datenvisualisierung» – die zentrale Hosting-Infrastruktur für interaktive Forschungsdatenvisualisierungen.
 
+**Hinweis**: Diese Dokumentation befindet sich noch im Aufbau und wird laufend ergänzt. Einzelne Inhalte fehlen oder können sich noch ändern.
+
 ## Über diesen Service
 
 Seit Juni 2026 betreibt die ZHAW mit Posit Connect eine Plattform für interaktive Datenvisualisierungen. Forscher:innen können damit ihre Daten interaktiv erlebbar machen – passend für ganz unterschiedliche Zielgruppen.
