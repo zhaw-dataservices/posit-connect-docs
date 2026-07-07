@@ -586,15 +586,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wo-kommen-die-rohdaten-her" class="md-nav__link">
+  <a href="#wo-liegen-die-daten" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Wo kommen die Rohdaten her?
+        Wo liegen die Daten?
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Wo kommen die Rohdaten her?">
+    <nav class="md-nav" aria-label="Wo liegen die Daten?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -985,15 +985,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wo-kommen-die-rohdaten-her" class="md-nav__link">
+  <a href="#wo-liegen-die-daten" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Wo kommen die Rohdaten her?
+        Wo liegen die Daten?
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Wo kommen die Rohdaten her?">
+    <nav class="md-nav" aria-label="Wo liegen die Daten?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1116,8 +1116,8 @@
 
 
 <h1 id="datenquellen-datenzugriff">Datenquellen &amp; Datenzugriff</h1>
-<p>Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, woher die Rohdaten für dein Dashboard kommen sollten und wie sie möglichst schonend abgerufen werden.</p>
-<h2 id="wo-kommen-die-rohdaten-her">Wo kommen die Rohdaten her?</h2>
+<p>Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, wo die Daten für dein Dashboard liegen sollten und wie sie möglichst schonend abgerufen werden.</p>
+<h2 id="wo-liegen-die-daten">Wo liegen die Daten?</h2>
 <p>Je nach Art der Daten empfehlen wir unterschiedliche Wege.</p>
 <h3 id="offentliche-forschungsdaten">Öffentliche Forschungsdaten</h3>
 <p>Ideal ist die Ablage in einem ORD-Repository (Open Research Data). Die App liest die Daten direkt von dort – Daten und Code bleiben getrennt und unabhängig versionierbar. Empfohlene Repositorien sind z. B.:</p>
@@ -1127,7 +1127,7 @@
 <li><a href="https://boris.unibe.ch">BORIS</a> – Bern Open Repository and Information System</li>
 </ul>
 <h3 id="vertrauliche-oder-sensible-daten">Vertrauliche oder sensible Daten</h3>
-<p>Für vertrauliche oder personenbezogene Daten empfehlen wir REDCap. Apps können Daten direkt aus REDCap lesen. Eine gesonderte Anleitung dazu findet sich unter <a href="../redcap/">REDCap-Integration</a>.</p>
+<p>Für vertrauliche oder personenbezogene Daten empfehlen wir <a href="https://redcap.zhaw.ch/">ZHAW-REDCap</a>. Apps können Daten direkt aus REDCap lesen. Eine gesonderte Anleitung dazu findet sich unter <a href="../redcap/">REDCap-Integration</a>.</p>
 <p>Besonders schützenswerte Personendaten (z. B. Gesundheitsdaten, Herkunft, religiöse Anschauungen) dürfen nur verarbeitet werden, wenn dies im Rahmen der <a href="../../nutzungsabklaerung/">Nutzungsabklärung</a> explizit freigegeben wurde.</p>
 <h3 id="weitere-institutionelle-quellen">Weitere institutionelle Quellen</h3>
 <div class="admonition note">
@@ -1135,7 +1135,7 @@
 <p>Interne Datenbanken und SharePoint sind als mögliche Quellen im Blick, die Anbindung an Posit Connect wurde aber noch nicht getestet. Diese und weitere institutionelle Optionen werden intern geprüft – Details folgen.</p>
 </div>
 <h3 id="ausgeschlossen-daten-direkt-im-repository">Ausgeschlossen: Daten direkt im Repository</h3>
-<p>Eine Datendatei (z. B. <code>.RData</code> oder <code>.csv</code>) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a>-Template <em>(work in progress, noch nicht öffentlich)</em> setzt das auch technisch durch: <code>.RData</code>- und <code>.csv</code>-Dateien sind dort bereits über <code>.gitignore</code> ausgeschlossen und werden gar nicht erst committet. Lies deine Rohdaten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).</p>
+<p>Eine Datendatei (z. B. <code>.RData</code> oder <code>.csv</code>) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a>-Template <em>(work in progress, noch nicht öffentlich)</em> setzt das auch technisch durch: <code>.RData</code>- und <code>.csv</code>-Dateien sind dort bereits über <code>.gitignore</code> ausgeschlossen und werden gar nicht erst committet. Lies deine Daten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).</p>
 <h2 id="grundsatz-datensparsamkeit">Grundsatz: Datensparsamkeit</h2>
 <p>Apps auf Posit Connect sollen so selten und so gezielt wie möglich auf ihre Datenquelle zugreifen – egal ob REDCap, ein ORD-Repository oder eine institutionelle Quelle. Die Quelle liegt nachgelagert von Posit Connect und sollte nicht unnötig belastet werden.</p>
 <h3 id="haufigster-fehler-daten-bei-jeder-interaktion-neu-laden">Häufigster Fehler: Daten bei jeder Interaktion neu laden</h3>
