@@ -1,10 +1,8 @@
 # Streamlit Basics
 
-Streamlit ist ein Python-Framework für interaktive Daten-Apps. Diese Seite gibt einen kurzen Einstieg – die ausführliche Anleitung liefert das offizielle Tutorial.
-
 ## Was ist Streamlit?
 
-<!-- TODO: Kurze Erläuterung (Skript-basiert, Widgets, typische Einsatzfälle) -->
+Streamlit ist ein Python-Framework für interaktive Daten-Apps, die aus einem einzigen Python-Skript entstehen. Statt UI und Server-Logik zu trennen (wie bei Shiny), schreibst du ein Skript, das von oben nach unten läuft; Widgets (Slider, Buttons, Dropdowns) fügst du einfach als Funktionsaufrufe ein. Bei jeder Interaktion führt Streamlit das Skript neu aus und aktualisiert die Anzeige. Typischer Einsatz: schnelle, einfache Visualisierung und Prototyping auf Basis von Python/pandas.
 
 ## Erste Schritte
 

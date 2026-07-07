@@ -1,8 +1,8 @@
 # Data Sources & Access
 
-Apps on Posit Connect should only use the data that is actually needed. This page shows where the raw data for your dashboard should come from and how to retrieve it as gently as possible.
+Apps on Posit Connect should only use the data that is actually needed. This page shows where the data for your dashboard should live and how to retrieve it as gently as possible.
 
-## Where Does the Raw Data Come From?
+## Where Is the Data?
 
 The recommended path depends on the type of data.
 
@@ -16,7 +16,7 @@ Ideally, store the data in an ORD repository (Open Research Data). The app reads
 
 ### Confidential or Sensitive Data
 
-For confidential or personal data, we recommend REDCap. Apps can read data directly from REDCap. See [REDCap Integration](redcap.md) for a dedicated guide.
+For confidential or personal data, we recommend [ZHAW-REDCap](https://redcap.zhaw.ch/). Apps can read data directly from REDCap. See [REDCap Integration](redcap.md) for a dedicated guide.
 
 Special categories of personal data (e.g. health data, ethnicity, religious beliefs) may only be processed if this has been explicitly approved as part of the [Usage Assessment](../nutzungsabklaerung.md).
 
@@ -27,7 +27,7 @@ Special categories of personal data (e.g. health data, ethnicity, religious beli
 
 ### Excluded: Data Bundled in the Repository
 
-Placing a data file (e.g. `.RData` or `.csv`) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) template *(work in progress, not yet public)* enforces this technically too: it already excludes `.RData` and `.csv` files via `.gitignore`, so they're never committed in the first place. Load your raw data from one of the sources listed above instead (ORD repository, REDCap, institutional source).
+Placing a data file (e.g. `.RData` or `.csv`) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) template *(work in progress, not yet public)* enforces this technically too: it already excludes `.RData` and `.csv` files via `.gitignore`, so they're never committed in the first place. Load your data from one of the sources listed above instead (ORD repository, REDCap, institutional source).
 
 ## Principle: Data Minimisation
 

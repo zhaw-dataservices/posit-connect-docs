@@ -1,8 +1,8 @@
 # Datenquellen & Datenzugriff
 
-Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, woher die Rohdaten für dein Dashboard kommen sollten und wie sie möglichst schonend abgerufen werden.
+Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, wo die Daten für dein Dashboard liegen sollten und wie sie möglichst schonend abgerufen werden.
 
-## Wo kommen die Rohdaten her?
+## Wo liegen die Daten?
 
 Je nach Art der Daten empfehlen wir unterschiedliche Wege.
 
@@ -16,7 +16,7 @@ Ideal ist die Ablage in einem ORD-Repository (Open Research Data). Die App liest
 
 ### Vertrauliche oder sensible Daten
 
-Für vertrauliche oder personenbezogene Daten empfehlen wir REDCap. Apps können Daten direkt aus REDCap lesen. Eine gesonderte Anleitung dazu findet sich unter [REDCap-Integration](redcap.md).
+Für vertrauliche oder personenbezogene Daten empfehlen wir [ZHAW-REDCap](https://redcap.zhaw.ch/). Apps können Daten direkt aus REDCap lesen. Eine gesonderte Anleitung dazu findet sich unter [REDCap-Integration](redcap.md).
 
 Besonders schützenswerte Personendaten (z. B. Gesundheitsdaten, Herkunft, religiöse Anschauungen) dürfen nur verarbeitet werden, wenn dies im Rahmen der [Nutzungsabklärung](../nutzungsabklaerung.md) explizit freigegeben wurde.
 
@@ -27,7 +27,7 @@ Besonders schützenswerte Personendaten (z. B. Gesundheitsdaten, Herkunft, relig
 
 ### Ausgeschlossen: Daten direkt im Repository
 
-Eine Datendatei (z. B. `.RData` oder `.csv`) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base)-Template *(work in progress, noch nicht öffentlich)* setzt das auch technisch durch: `.RData`- und `.csv`-Dateien sind dort bereits über `.gitignore` ausgeschlossen und werden gar nicht erst committet. Lies deine Rohdaten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).
+Eine Datendatei (z. B. `.RData` oder `.csv`) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base)-Template *(work in progress, noch nicht öffentlich)* setzt das auch technisch durch: `.RData`- und `.csv`-Dateien sind dort bereits über `.gitignore` ausgeschlossen und werden gar nicht erst committet. Lies deine Daten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).
 
 ## Grundsatz: Datensparsamkeit
 

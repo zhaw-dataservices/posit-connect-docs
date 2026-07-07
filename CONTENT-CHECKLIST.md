@@ -44,7 +44,7 @@ wenn **beide** Sprachen fertig sind.
 
 ### Datenquellen & Datenzugriff (`app-entwickeln/daten`)
 
-- [x] Wo kommen die Rohdaten her? (öffentlich, vertraulich/REDCap, institutionell, Ausschluss Repo-Bundling)
+- [x] Wo liegen die Daten? (öffentlich, vertraulich/REDCap, institutionell, Ausschluss Repo-Bundling)
 - [x] Empfohlene ORD-Datenquellen (Zenodo, OSF, BORIS)
 - [x] Grundsatz Datensparsamkeit (Lade-Muster, gezielte Abfragen, Checkliste)
 

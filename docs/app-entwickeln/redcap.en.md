@@ -1,6 +1,6 @@
 # Loading Data from REDCap
 
-Apps on Posit Connect can read data directly from REDCap. This page describes how to set this up.
+Apps on Posit Connect can read data directly from [ZHAW-REDCap](https://redcap.zhaw.ch/). This page describes how to set this up.
 
 ## Example Repositories
 
@@ -9,7 +9,7 @@ We provide two example repositories showing how to pull records via the REDCap A
 - [redcap-api-r](https://github.zhaw.ch/service-research-data/redcap-api-r)—for R
 - [redcap-api-py](https://github.zhaw.ch/service-research-data/redcap-api-py)—for Python
 
-Both are primarily meant as a guide for working locally (e.g. in RStudio or Jupyter), but they double as a template for loading raw data for a dashboard that will later be deployed to Posit Connect—see [Working Locally & Posit Connect](#working-locally-posit-connect) below.
+Both are primarily meant as a guide for working locally (e.g. in RStudio or Jupyter), but they double as a template for loading data for a dashboard that will later be deployed to Posit Connect—see [Working Locally & Posit Connect](#working-locally-posit-connect) below.
 
 ## Prerequisites
 
