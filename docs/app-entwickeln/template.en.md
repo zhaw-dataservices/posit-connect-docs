@@ -3,7 +3,7 @@
 We provide a template in ZHAW's corporate design. It contains the basic structure and is the recommended starting point for new apps.
 
 !!! note "Not Yet Published"
-    The templates are no longer available on github.com. The Shiny template is currently being rebuilt on github.zhaw.ch. Access there requires institutional login (SSO)—this is intentional, since the repository is no longer meant to be public. The link will follow once the template is ready. A Streamlit template is not available for now; the focus is initially on Shiny (R).
+    The templates are no longer available on github.com. The Shiny template is currently being rebuilt on github.zhaw.ch. The link will follow once the template is ready. A Streamlit template is not available for now; the focus is initially on Shiny (R).
 
 ## Why Use the Template?
 

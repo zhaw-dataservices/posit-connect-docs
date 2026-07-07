@@ -42,12 +42,11 @@ wenn **beide** Sprachen fertig sind.
 - [ ] Abhängigkeiten verwalten (renv / requirements.txt / pyproject.toml)
 - [ ] Corporate Design einhalten
 
-### Datensparsamkeit & Daten (`app-entwickeln/daten`)
+### Datenquellen & Datenzugriff (`app-entwickeln/daten`)
 
-- [ ] Grundsatz Datensparsamkeit
-- [ ] Empfohlene ORD-Datenquellen (Zenodo, OSF, BORIS)
-- [ ] Daten in der App einbinden
-- [ ] Was nicht auf den Server gehört
+- [x] Wo kommen die Rohdaten her? (öffentlich, vertraulich/REDCap, institutionell, Ausschluss Repo-Bundling)
+- [x] Empfohlene ORD-Datenquellen (Zenodo, OSF, BORIS)
+- [x] Grundsatz Datensparsamkeit (Lade-Muster, gezielte Abfragen, Checkliste)
 
 ### REDCap-Integration (`app-entwickeln/redcap`)
 

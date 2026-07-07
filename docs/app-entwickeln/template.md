@@ -3,7 +3,7 @@
 Wir stellen ein Template im Corporate Design der ZHAW zur Verfügung. Es enthält die grundlegende Struktur und ist der empfohlene Ausgangspunkt für neue Apps.
 
 !!! note "Noch nicht veröffentlicht"
-    Die Templates sind nicht mehr auf github.com verfügbar. Das Shiny-Template wird derzeit auf github.zhaw.ch neu aufgebaut. Der Zugriff erfolgt dort über institutionelles Login (SSO) – das ist beabsichtigt, da das Repository nicht mehr öffentlich sein soll. Der Link folgt, sobald das Template bereit ist. Ein Streamlit-Template gibt es vorerst nicht, der Fokus liegt zunächst auf Shiny (R).
+    Die Templates sind nicht mehr auf github.com verfügbar. Das Shiny-Template wird derzeit auf github.zhaw.ch neu aufgebaut. Der Link folgt, sobald das Template bereit ist. Ein Streamlit-Template gibt es vorerst nicht, der Fokus liegt zunächst auf Shiny (R).
 
 ## Warum das Template?
 

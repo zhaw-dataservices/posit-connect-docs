@@ -28,6 +28,13 @@ theme:
     - navigation.top      # back-to-top button
 
 # ---------------------------------------------------------------------------
+# Markdown extensions
+# admonition enables the "!!! note "..."" boxes used e.g. in template.md.
+# ---------------------------------------------------------------------------
+markdown_extensions:
+  - admonition
+
+# ---------------------------------------------------------------------------
 # Custom CSS
 # ---------------------------------------------------------------------------
 extra_css:
@@ -77,7 +84,7 @@ plugins:
             Übersicht & Templates: Overview & Templates
             manifest.json erstellen: Create manifest.json
             Bestehende App einbinden: Integrate an Existing App
-            Datensparsamkeit & Daten: Data Minimisation & Data
+            Datenquellen & Datenzugriff: Data Sources & Access
             Daten aus REDCap laden: Loading Data from REDCap
             Code teilen via GitHub: Share Code via GitHub
 
@@ -95,7 +102,7 @@ nav:
     - Streamlit Basics: app-entwickeln/streamlit-basics.md
     - manifest.json erstellen: app-entwickeln/manifest.md
     - Bestehende App einbinden: app-entwickeln/bestehende-app.md
-    - Datensparsamkeit & Daten: app-entwickeln/daten.md
+    - Datenquellen & Datenzugriff: app-entwickeln/daten.md
     - Daten aus REDCap laden: app-entwickeln/redcap.md
   - Code teilen via GitHub:
     - github.zhaw.ch: code-teilen/github-zhaw.md
