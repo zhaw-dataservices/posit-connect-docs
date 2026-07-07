@@ -31,7 +31,7 @@
     
     
       
-        <title>Datensparsamkeit & Daten - Posit Connect – Dokumentation</title>
+        <title>Datenquellen & Datenzugriff - Posit Connect – Dokumentation</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#datensparsamkeit-daten" class="md-skip">
+        <a href="#datenquellen-datenzugriff" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Datensparsamkeit & Daten
+              Datenquellen & Datenzugriff
             
           </span>
         </div>
@@ -542,7 +542,7 @@
   <span class="md-ellipsis">
     
   
-    Datensparsamkeit & Daten
+    Datenquellen & Datenzugriff
   
 
     
@@ -560,7 +560,7 @@
   <span class="md-ellipsis">
     
   
-    Datensparsamkeit & Daten
+    Datenquellen & Datenzugriff
   
 
     
@@ -631,10 +631,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#nicht-empfohlen-daten-direkt-im-repository" class="md-nav__link">
+  <a href="#ausgeschlossen-daten-direkt-im-repository" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Nicht empfohlen: Daten direkt im Repository
+        Ausgeschlossen: Daten direkt im Repository
       
     </span>
   </a>
@@ -655,27 +655,44 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#daten-in-der-app-einbinden" class="md-nav__link">
+    <nav class="md-nav" aria-label="Grundsatz: Datensparsamkeit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#haufigster-fehler-daten-bei-jeder-interaktion-neu-laden" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Daten in der App einbinden
+        Häufigster Fehler: Daten bei jeder Interaktion neu laden
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#was-nicht-auf-den-server-gehort" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#nur-die-benotigten-daten-abrufen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Was nicht auf den Server gehört
+        Nur die benötigten Daten abrufen
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkliste-vor-dem-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checkliste vor dem Deployment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1013,10 +1030,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#nicht-empfohlen-daten-direkt-im-repository" class="md-nav__link">
+  <a href="#ausgeschlossen-daten-direkt-im-repository" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Nicht empfohlen: Daten direkt im Repository
+        Ausgeschlossen: Daten direkt im Repository
       
     </span>
   </a>
@@ -1037,27 +1054,44 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#daten-in-der-app-einbinden" class="md-nav__link">
+    <nav class="md-nav" aria-label="Grundsatz: Datensparsamkeit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#haufigster-fehler-daten-bei-jeder-interaktion-neu-laden" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Daten in der App einbinden
+        Häufigster Fehler: Daten bei jeder Interaktion neu laden
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#was-nicht-auf-den-server-gehort" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#nur-die-benotigten-daten-abrufen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Was nicht auf den Server gehört
+        Nur die benötigten Daten abrufen
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkliste-vor-dem-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checkliste vor dem Deployment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1081,29 +1115,49 @@
   
 
 
-<h1 id="datensparsamkeit-daten">Datensparsamkeit &amp; Daten</h1>
-<p>Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, woher die Rohdaten für dein Dashboard kommen sollten und was zu vermeiden ist.</p>
+<h1 id="datenquellen-datenzugriff">Datenquellen &amp; Datenzugriff</h1>
+<p>Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, woher die Rohdaten für dein Dashboard kommen sollten und wie sie möglichst schonend abgerufen werden.</p>
 <h2 id="wo-kommen-die-rohdaten-her">Wo kommen die Rohdaten her?</h2>
 <p>Je nach Art der Daten empfehlen wir unterschiedliche Wege.</p>
 <h3 id="offentliche-forschungsdaten">Öffentliche Forschungsdaten</h3>
-<p>Ideal ist die Ablage in einem ORD-Repository (Open Research Data). Die App liest die Daten direkt von dort – Daten und Code bleiben getrennt und unabhängig versionierbar.</p>
-<!-- TODO: Empfohlene ORD-Repositories nennen (z. B. Zenodo, OSF, BORIS) -->
-
+<p>Ideal ist die Ablage in einem ORD-Repository (Open Research Data). Die App liest die Daten direkt von dort – Daten und Code bleiben getrennt und unabhängig versionierbar. Empfohlene Repositorien sind z. B.:</p>
+<ul>
+<li><a href="https://zenodo.org">Zenodo</a> – generisches Repositorium (CERN), vergibt DOIs, für praktisch jeden Dateityp geeignet</li>
+<li><a href="https://osf.io">OSF</a> – Open Science Framework, Projekt- und Datenverwaltung inklusive Versionierung</li>
+<li><a href="https://boris.unibe.ch">BORIS</a> – Bern Open Repository and Information System</li>
+</ul>
 <h3 id="vertrauliche-oder-sensible-daten">Vertrauliche oder sensible Daten</h3>
 <p>Für vertrauliche oder personenbezogene Daten empfehlen wir REDCap. Apps können Daten direkt aus REDCap lesen. Eine gesonderte Anleitung dazu findet sich unter <a href="../redcap/">REDCap-Integration</a>.</p>
+<p>Besonders schützenswerte Personendaten (z. B. Gesundheitsdaten, Herkunft, religiöse Anschauungen) dürfen nur verarbeitet werden, wenn dies im Rahmen der <a href="../../nutzungsabklaerung/">Nutzungsabklärung</a> explizit freigegeben wurde.</p>
 <h3 id="weitere-institutionelle-quellen">Weitere institutionelle Quellen</h3>
-<p>!!! note "In Prüfung"
-    Interne Datenbanken und SharePoint sind als mögliche Quellen im Blick, die Anbindung an Posit Connect wurde aber noch nicht getestet. Diese und weitere institutionelle Optionen werden intern geprüft – Details folgen.</p>
-<h3 id="nicht-empfohlen-daten-direkt-im-repository">Nicht empfohlen: Daten direkt im Repository</h3>
-<p>Eine Datendatei (z. B. <code>.RData</code> oder <code>.csv</code>) direkt im Code-Repository abzulegen ist technisch möglich, aber kein empfohlenes Muster: Die Daten sind nicht unabhängig vom Code versioniert, jede Aktualisierung erfordert ein Redeploy, und es besteht das Risiko, versehentlich sensible Daten einzuchecken. Falls doch nötig, dann nur für sehr kleine, statische und unkritische Datensätze als letzte Option.</p>
+<div class="admonition note">
+<p class="admonition-title">In Prüfung</p>
+<p>Interne Datenbanken und SharePoint sind als mögliche Quellen im Blick, die Anbindung an Posit Connect wurde aber noch nicht getestet. Diese und weitere institutionelle Optionen werden intern geprüft – Details folgen.</p>
+</div>
+<h3 id="ausgeschlossen-daten-direkt-im-repository">Ausgeschlossen: Daten direkt im Repository</h3>
+<p>Eine Datendatei (z. B. <code>.RData</code> oder <code>.csv</code>) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a>-Template <em>(work in progress, noch nicht öffentlich)</em> setzt das auch technisch durch: <code>.RData</code>- und <code>.csv</code>-Dateien sind dort bereits über <code>.gitignore</code> ausgeschlossen und werden gar nicht erst committet. Lies deine Rohdaten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).</p>
 <h2 id="grundsatz-datensparsamkeit">Grundsatz: Datensparsamkeit</h2>
-<!-- TODO: Prinzip erklären, warum es wichtig ist -->
+<p>Apps auf Posit Connect sollen so selten und so gezielt wie möglich auf ihre Datenquelle zugreifen – egal ob REDCap, ein ORD-Repository oder eine institutionelle Quelle. Die Quelle liegt nachgelagert von Posit Connect und sollte nicht unnötig belastet werden.</p>
+<h3 id="haufigster-fehler-daten-bei-jeder-interaktion-neu-laden">Häufigster Fehler: Daten bei jeder Interaktion neu laden</h3>
+<p>Steht der Datenabruf innerhalb einer reaktiven Funktion (z. B. <code>observeEvent()</code>), löst jede Nutzerinteraktion eine neue Anfrage an die Quelle aus – auch wenn sich dort gar nichts verändert hat. Bei vielen gleichzeitigen Nutzer:innen sind das schnell unnötig viele Anfragen.</p>
+<p>Besser: Daten einmal beim App-Start laden, ausserhalb der Server-Logik. Alle weiteren Interaktionen arbeiten dann mit dem bereits geladenen Objekt im Speicher – ohne weitere Anfrage an die Quelle:</p>
+<pre><code class="language-r">raw &lt;- load_data()  # einmal beim App-Start
 
-<h2 id="daten-in-der-app-einbinden">Daten in der App einbinden</h2>
-<!-- TODO: Wie werden Daten geladen? Direkt aus ORD-Repository, lokale Datei etc. -->
-
-<h2 id="was-nicht-auf-den-server-gehort">Was nicht auf den Server gehört</h2>
-<!-- TODO: Sensitive Daten, personenbezogene Daten, was ist nicht erlaubt -->
+server &lt;- function(input, output, session) {
+  observeEvent(input$lookup_btn, {
+    data &lt;- raw |&gt; filter(...)  # keine erneute Anfrage
+  })
+}
+</code></pre>
+<p>Nutzer:innen sehen dabei den Datenstand zum Zeitpunkt des App-Starts – für die meisten Forschungs-Dashboards reicht das völlig aus. Bei sehr grossem Nutzer:innenkreis oder Daten, die häufiger aktualisiert werden müssen, gibt es weitergehende Caching-Optionen; meldet euch dazu einfach beim ZHAW Services Forschungsdaten Team.</p>
+<h3 id="nur-die-benotigten-daten-abrufen">Nur die benötigten Daten abrufen</h3>
+<p>Statt eines Vollexports lohnt es sich, die Abfrage gezielt zu konfigurieren – z. B. nur bestimmte Felder oder Datensätze laden, statt alles herunterzuladen und erst in der App zu filtern. Für REDCap siehe <a href="../redcap/">REDCap-Integration</a>.</p>
+<h3 id="checkliste-vor-dem-deployment">Checkliste vor dem Deployment</h3>
+<ul>
+<li>Werden die Daten ausserhalb der Server-Funktion geladen (einmal beim App-Start)?</li>
+<li>Wird nur ein Teilausschnitt der Quelle abgerufen, statt eines Vollexports?</li>
+<li>Sind Zugangsdaten (API-Tokens etc.) nur als Umgebungsvariable hinterlegt – nie im Code oder in einer committeten Datei?</li>
+</ul>
 
 
 
