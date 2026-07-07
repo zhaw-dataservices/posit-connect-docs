@@ -12,13 +12,14 @@ repo_name: zhaw-dataservices/posit-connect-docs
 
 # ---------------------------------------------------------------------------
 # Theme — Material for MkDocs
-# font: false disables the Google Fonts request so we can use Arial via CSS.
+# font: false disables Material's own Google Fonts request; the corporate
+# font (Inter) is loaded and set via extra_css instead.
 # ---------------------------------------------------------------------------
 theme:
   name: material
   logo: assets/zhaw-logo.svg
   favicon: assets/zhaw-logo.svg
-  font: false             # disable Google Fonts; Arial is set via extra_css
+  font: false             # disable Material's font handling; Inter is set via extra_css
   palette:
     scheme: default
     primary: custom       # resolved via extra_css to #0064a6

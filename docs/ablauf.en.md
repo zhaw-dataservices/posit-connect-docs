@@ -12,13 +12,11 @@ Steps 1 and 2 can be completed independently and in any order.
 
 ### Step 1: Preliminary Assessment
 
-It all starts with initial contact, recommended for first-time users: ideally an email to [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch) to discuss the process. You then complete a [form](#) in the Self Service Portal (SSP), which also includes a usage assessment if needed (data protection, resources, security). See [Usage Assessment](nutzungsabklaerung.md).
-
-<!-- TODO: insert SSP form link once available -->
+It all starts with initial contact, recommended for first-time users: ideally an email to [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch) to discuss the process. You then complete a [form](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) in the Self Service Portal (SSP), which also includes a usage assessment if needed (data protection, resources, security). See [Usage Assessment](nutzungsabklaerung.md).
 
 ### Step 2: Develop Your App
 
-You develop your app either using our template or by integrating an existing one. We primarily support Shiny, Streamlit, and Quarto; this includes best practices, corporate design, and generating the `manifest.json`. See [Develop Your App](app-entwickeln/template.md).
+You develop your app either using our templates (linked here once available) or by integrating an existing one. We primarily support Shiny, Streamlit, and Quarto; this includes best practices, corporate design, and generating the `manifest.json`. See [Develop Your App](app-entwickeln/template.md) *(templates currently in progress)*. Important info, tips & tricks are under [Best Practices](app-entwickeln/best-practices.md).
 
 ### Step 3: Share Your Code
 
