@@ -8,11 +8,14 @@
 }
 
 /* ── Typography ─────────────────────────────────────────────────────────── */
+/* Bruno (pran): new font is Inter! */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 body,
 .md-typeset,
 .md-nav,
 .md-search__input {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: #333333;
 }
 

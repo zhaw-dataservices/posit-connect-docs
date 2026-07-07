@@ -614,6 +614,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#beispiel-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beispiel-Repositories
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voraussetzungen" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -640,6 +651,17 @@
     <span class="md-ellipsis">
       
         Verbindung herstellen (Python)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lokal-arbeiten-posit-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lokal arbeiten &amp; Posit Connect
       
     </span>
   </a>
@@ -929,6 +951,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#beispiel-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beispiel-Repositories
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voraussetzungen" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -955,6 +988,17 @@
     <span class="md-ellipsis">
       
         Verbindung herstellen (Python)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lokal-arbeiten-posit-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lokal arbeiten &amp; Posit Connect
       
     </span>
   </a>
@@ -1005,18 +1049,23 @@
 
 <h1 id="daten-aus-redcap-laden">Daten aus REDCap laden</h1>
 <p>Apps auf Posit Connect können Daten direkt aus REDCap lesen. Diese Seite beschreibt, wie das eingerichtet wird.</p>
+<h2 id="beispiel-repositories">Beispiel-Repositories</h2>
+<p>Wir stellen zwei Beispiel-Repositories bereit, die zeigen, wie man Records über die REDCap-API abruft und als Data Frame weiterverwendet:</p>
+<ul>
+<li><a href="https://github.zhaw.ch/service-research-data/redcap-api-r">redcap-api-r</a> – für R</li>
+<li><a href="https://github.zhaw.ch/service-research-data/redcap-api-py">redcap-api-py</a> – für Python</li>
+</ul>
+<p>Beide sind primär als Anleitung fürs lokale Arbeiten gedacht (z. B. in RStudio oder Jupyter), eignen sich aber genauso als Vorlage, um Rohdaten für ein Dashboard zu laden, das später auf Posit Connect deployt wird – siehe <a href="#lokal-arbeiten-posit-connect">Lokal arbeiten &amp; Posit Connect</a> unten.</p>
 <h2 id="voraussetzungen">Voraussetzungen</h2>
-<!-- TODO: REDCap-Zugang, API-Token, Berechtigungen -->
-
+<p>Du benötigst einen REDCap-API-Token für dein Projekt. Diesen findest du in REDCap unter <strong>Applications &gt; API</strong>; falls noch keiner existiert, bei einer REDCap-Admin-Person anfragen.</p>
 <h2 id="verbindung-herstellen-r">Verbindung herstellen (R)</h2>
-<!-- TODO: Beispielcode mit REDCapR oder httr -->
-
+<p>Siehe <a href="https://github.zhaw.ch/service-research-data/redcap-api-r">redcap-api-r</a>: ein minimales R-Skript mit der Funktion <code>get_redcap_data()</code>, das Records aus REDCap als Data Frame liefert – inklusive Anleitung, wie der Export bei Änderungen im REDCap-Projekt über den API Playground aktualisiert wird.</p>
 <h2 id="verbindung-herstellen-python">Verbindung herstellen (Python)</h2>
-<!-- TODO: Beispielcode mit requests oder PyCap -->
-
+<p>Siehe <a href="https://github.zhaw.ch/service-research-data/redcap-api-py">redcap-api-py</a>: dieselbe Vorgehensweise für Python (<code>get_redcap_data()</code>, liefert ein pandas-DataFrame), inklusive Jupyter-Notebook zur Dateninspektion.</p>
+<h2 id="lokal-arbeiten-posit-connect">Lokal arbeiten &amp; Posit Connect</h2>
+<p>Beide Repositories sind in erster Linie dafür gedacht, Daten lokal auf deinem Gerät abzurufen und weiterzuverarbeiten – über eine lokale <code>secrets.yml</code>, die nie committet wird. Dasselbe Muster empfehlen wir auch für Dashboards, die später auf Posit Connect deployt werden: <code>get_redcap_data()</code> liest die Credentials dort automatisch aus Umgebungsvariablen (Tab <strong>Vars</strong> der App auf Posit Connect) statt aus der Datei, der Code bleibt dabei unverändert.</p>
 <h2 id="api-token-sicher-speichern">API-Token sicher speichern</h2>
-<!-- TODO: Keine Tokens im Code! Umgebungsvariablen / .Renviron / Secrets auf Posit Connect -->
-
+<p>Tokens gehören nie in den Code oder ins Repository. Lokal in <code>config/secrets.yml</code> (gitignored), auf Posit Connect als Umgebungsvariable im Tab <strong>Vars</strong>. Details dazu in den READMEs der beiden Repositories oben.</p>
 <h2 id="hinweise-zum-datenschutz">Hinweise zum Datenschutz</h2>
 <!-- TODO: Was ist bei REDCap-Daten besonders zu beachten? -->
 

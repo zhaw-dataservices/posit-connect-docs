@@ -586,24 +586,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#principle-data-minimisation" class="md-nav__link">
+  <a href="#where-does-the-raw-data-come-from" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Principle: Data Minimisation
+        Where Does the Raw Data Come From?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Where Does the Raw Data Come From?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Research Data
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#recommended-data-sources" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#confidential-or-sensitive-data" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Recommended Data Sources
+        Confidential or Sensitive Data
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-institutional-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Institutional Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not-recommended-data-bundled-in-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Not Recommended: Data Bundled in the Repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -623,17 +662,6 @@
     <span class="md-ellipsis">
       
         What Should Not Be on the Server
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#redcap-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        REDCap Data
       
     </span>
   </a>
@@ -929,24 +957,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#principle-data-minimisation" class="md-nav__link">
+  <a href="#where-does-the-raw-data-come-from" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Principle: Data Minimisation
+        Where Does the Raw Data Come From?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Where Does the Raw Data Come From?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Research Data
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#recommended-data-sources" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#confidential-or-sensitive-data" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Recommended Data Sources
+        Confidential or Sensitive Data
       
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-institutional-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Institutional Sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#not-recommended-data-bundled-in-the-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Not Recommended: Data Bundled in the Repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -966,17 +1033,6 @@
     <span class="md-ellipsis">
       
         What Should Not Be on the Server
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#redcap-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        REDCap Data
       
     </span>
   </a>
@@ -1004,26 +1060,31 @@
 
 
 <h1 id="data-minimisation-data-sources">Data Minimisation &amp; Data Sources</h1>
-<p>Apps on Posit Connect should only use the data that is actually needed. This page describes our requirements for handling research data.</p>
-<h2 id="principle-data-minimisation">Principle: Data Minimisation</h2>
-<!-- TODO: Explain the principle and why it matters -->
-
-<h2 id="recommended-data-sources">Recommended Data Sources</h2>
-<p>Data should ideally:</p>
-<ul>
-<li>be publicly available research data</li>
-<li>be stored in an ORD repository (Open Research Data)</li>
-</ul>
+<p>Apps on Posit Connect should only use the data that is actually needed. This page shows where the raw data for your dashboard should come from and what to avoid.</p>
+<h2 id="where-does-the-raw-data-come-from">Where Does the Raw Data Come From?</h2>
+<p>The recommended path depends on the type of data.</p>
+<h3 id="public-research-data">Public Research Data</h3>
+<p>Ideally, store the data in an ORD repository (Open Research Data). The app reads the data directly from there—data and code stay separate and independently versioned.</p>
 <!-- TODO: List recommended ORD repositories (e.g. Zenodo, OSF, BORIS) -->
+
+<h3 id="confidential-or-sensitive-data">Confidential or Sensitive Data</h3>
+<p>For confidential or personal data, we recommend REDCap. Apps can read data directly from REDCap. See <a href="../redcap/">REDCap Integration</a> for a dedicated guide.</p>
+<h3 id="other-institutional-sources">Other Institutional Sources</h3>
+<p>!!! note "Under Review"
+    Internal databases and SharePoint are being considered as possible sources, but the connection to Posit Connect hasn't been tested yet. These and other institutional options are under internal review—details to follow.</p>
+<h3 id="not-recommended-data-bundled-in-the-repository">Not Recommended: Data Bundled in the Repository</h3>
+<p>Placing a data file (e.g. <code>.RData</code> or <code>.csv</code>) directly in the code repository is technically possible but not a recommended pattern: the data isn't versioned independently from the code, every update requires a redeploy, and there's a risk of accidentally committing sensitive data. If unavoidable, use this only as a last resort for very small, static, non-sensitive datasets.</p>
+<!-- TODO: Write that it will be ignored and it's not safe practice anyways>
+
+## Principle: Data Minimisation
+
+<!-- TODO: Explain the principle and why it matters -->
 
 <h2 id="loading-data-in-your-app">Loading Data in Your App</h2>
 <!-- TODO: How to load data—directly from ORD repository, local file, etc. -->
 
 <h2 id="what-should-not-be-on-the-server">What Should Not Be on the Server</h2>
 <!-- TODO: Sensitive data, personal data, what is not permitted -->
-
-<h2 id="redcap-data">REDCap Data</h2>
-<p>Apps can read data directly from REDCap. See <a href="../redcap/">REDCap Integration</a> for separate instructions.</p>
 
 
 
