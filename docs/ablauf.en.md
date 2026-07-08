@@ -4,7 +4,9 @@ This page describes the full process—from the preliminary assessment through a
 
 ## Process Summary
 
-![Process Overview](assets/ablauf.en.svg)
+<object type="image/svg+xml" data="assets/ablauf.svg" class="process-diagram" role="img" aria-label="Process Overview">
+  Process Overview (SVG cannot be displayed)
+</object>
 
 Steps 1 and 2 can be completed independently and in any order.
 
@@ -16,7 +18,7 @@ It all starts with initial contact, recommended for first-time users: ideally an
 
 ### Step 2: Develop Your App
 
-You develop your app either using our templates (linked here once available) or by integrating an existing one. We primarily support Shiny, Streamlit, and Quarto; this includes best practices, corporate design, and generating the `manifest.json`. See [Develop Your App](app-entwickeln/template.md) *(templates currently in progress)*. Important info, tips & tricks are under [Best Practices](app-entwickeln/best-practices.md).
+You develop your app either using our templates or by integrating an existing one. We primarily support Shiny, Streamlit, and Quarto; this includes best practices, corporate design, and generating the `manifest.json`. See [Develop Your App](app-entwickeln/template.md). Important info, tips & tricks are under [Best Practices](app-entwickeln/best-practices.md).
 
 ### Step 3: Share Your Code
 

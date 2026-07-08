@@ -4,7 +4,9 @@ Diese Seite beschreibt den gesamten Prozess – von der Vorabklärung über die 
 
 ## Prozessübersicht
 
-![Ablauf im Überblick](assets/ablauf.svg)
+<object type="image/svg+xml" data="assets/ablauf.svg" class="process-diagram" role="img" aria-label="Ablauf im Überblick">
+  Ablauf im Überblick (SVG kann nicht angezeigt werden)
+</object>
 
 Schritt 1 und 2 können unabhängig voneinander und in beliebiger Reihenfolge erfolgen.
 
@@ -16,7 +18,7 @@ Den Anfang macht die erste Kontaktaufnahme, für Erstanwender:innen empfohlen: a
 
 ### Schritt 2: App entwickeln
 
-Du entwickelst deine App entweder mit unseren Templates (falls vorhanden, werden hier verlinkt) oder durch Einbinden einer bestehenden App. Unterstützt werden primär Shiny, Streamlit und Quarto; dazu gehören Best Practices, Corporate Design und das Generieren der `manifest.json`. Siehe [App entwickeln](app-entwickeln/template.md) *(Templates aktuell in Arbeit)*. Wichtige Infos, Tipps & Tricks findest du unter [Best Practices](app-entwickeln/best-practices.md).
+Du entwickelst deine App entweder mit unseren Templates oder durch Einbinden einer bestehenden App. Unterstützt werden primär Shiny, Streamlit und Quarto; dazu gehören Best Practices, Corporate Design und das Generieren der `manifest.json`. Siehe [App entwickeln](app-entwickeln/template.md). Wichtige Infos, Tipps & Tricks findest du unter [Best Practices](app-entwickeln/best-practices.md).
 
 ### Schritt 3: Code teilen
 

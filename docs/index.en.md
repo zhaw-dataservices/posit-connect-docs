@@ -16,7 +16,9 @@ Posit Connect can publish much more in principle; for a full overview, see the [
 
 Getting from an idea to a published app takes four steps. The diagram below shows the process at a glance:
 
-![Process Overview](assets/ablauf.en.svg)
+<object type="image/svg+xml" data="assets/ablauf.svg" class="process-diagram" role="img" aria-label="Process Overview">
+  Process Overview (SVG cannot be displayed)
+</object>
 
 For a detailed explanation of each step, see the [Process Overview](ablauf.md) page.
 

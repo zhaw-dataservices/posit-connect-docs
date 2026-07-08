@@ -64,3 +64,13 @@ body,
   height: 40px;
   width: auto;
 }
+
+/* ── Process diagram (ablauf.svg / ablauf.en.svg) ──────────────────────────*/
+/* Embedded via <object> rather than an <img> so that the SSP link inside the
+   SVG stays clickable (links inside <img>-referenced SVGs are inert). */
+.process-diagram {
+  width: 100%;
+  max-width: 620px;
+  display: block;
+  margin: 0 auto;
+}

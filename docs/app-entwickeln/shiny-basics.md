@@ -6,6 +6,6 @@ Shiny ist ein R-Paket, mit dem sich interaktive Web-Apps direkt aus R-Code bauen
 
 ## Erste Schritte
 
-Der beste Einstieg ist das offizielle Tutorial: [Shiny – Getting Started](https://shiny.posit.co/r/getting-started/).
+Der beste Einstieg ist das offizielle Tutorial: [Shiny – Getting Started](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/).
 
 <!-- TODO: Minimalbeispiel und Hinweise, die für unser Hosting auf Posit Connect relevant sind -->

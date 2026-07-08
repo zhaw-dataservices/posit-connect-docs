@@ -6,6 +6,6 @@ Shiny is an R package for building interactive web apps directly from R code—n
 
 ## Getting Started
 
-The best starting point is the official tutorial: [Shiny—Getting Started](https://shiny.posit.co/r/getting-started/).
+The best starting point is the official tutorial: [Shiny—Getting Started](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/).
 
 <!-- TODO: minimal example and notes relevant to our hosting on Posit Connect -->

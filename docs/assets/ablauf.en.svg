@@ -1,20 +1,24 @@
-<svg viewBox="0 0 760 780" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Arial, sans-serif">
+<svg viewBox="0 0 620 823" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, Arial, sans-serif">
   <title>Posit Connect—Process Overview</title>
   <desc>Process from the preliminary assessment through app development to deployment on Posit Connect.</desc>
 
   <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: "Inter", Arial, sans-serif; }
+    </style>
     <marker id="a" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
       <polygon points="0 0,10 3.5,0 7" fill="#333333"/>
-    </marker>
-    <marker id="ar" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0,9 3,0 6" fill="#666666"/>
     </marker>
     <marker id="ag" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0,9 3,0 6" fill="#00795d"/>
     </marker>
+    <marker id="ar" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0,9 3,0 6" fill="#666666"/>
+    </marker>
   </defs>
 
-  <rect width="760" height="780" fill="#ffffff"/>
+  <rect width="620" height="823" fill="#ffffff"/>
 
   <!-- HEADER: ZHAW (left) + Posit Connect (right) logos -->
   <g transform="translate(28,12) scale(0.15625)" role="img"><title>ZHAW</title><rect width="256" height="256" fill="none"></rect><path fill="#333333" stroke="#333333" d="M208,156.1s-.4,1.6-.4,1.6l-.6,2.4s-9.2,40.7-10.6,47.2c-.4-1.7-9.2-42.3-9.2-42.3-.4-1.7-.9-4-1.6-6.1l-.6-1.7c-2.6-6.2-8.5-10.1-15.2-10.1s-12.2,3.7-14.9,9.5c-.5,1.2-.9,2.6-1.3,4.1-.4,1.5-.7,3-1,4.3,0,0-7.8,36.5-9.1,42.5-.4-1.6-11.4-47.4-11.4-47.4l-.5-1.9c-.3-1.2-.6-2.1-.9-3-2.1-4.9-6.9-8.1-12.3-8.1-3.9,0-7.6,1.7-10.2,4.6-1.9,2.2-3,4.9-3.2,7.7,0,0,0,.6,0,.6,0,.8,0,1.6.1,2.4.3,2.8,1,5,1.6,7.1l17.9,58.1.4,1.2.9,2.7c2.7,6.3,9,10.4,15.8,10.4h.1c7.1,0,13.4-4.3,16.1-11,0,0,.8-2.9.8-2.9h0s.1-.6.1-.6c0,0,10.2-40.5,10.5-41.9.4,1.5,10.7,42.5,10.7,42.5l.8,2.7c2.5,6.7,9,11.2,16.2,11.2h.1c6.7,0,12.9-4,15.7-10.1.4-1,.7-2,1.1-3.2l.3-1,17.9-58.1c.7-2.1,1.4-4.4,1.6-7.1,0-.8.1-1.6.1-2.4v-.6c-.2-2.9-1.4-5.6-3.2-7.7-2.6-2.9-6.3-4.6-10.2-4.6-5.7,0-10.8,3.7-12.6,9Z"></path><path fill="#333333" stroke="#333333" d="M147.8,26v100.2c0,7.7,6.3,14,14,14s13.9-6.2,14-13.8v-40.5c0-10.8,8.7-17.4,16.8-17.4,11.8,0,13.6,9.5,13.6,15.1v42.8c.1,7.6,6.4,13.7,14,13.8,7.7,0,14-6.3,14-14v-47.4c0-21.2-12.2-33.9-32.5-33.9s-19.2,3.6-25.8,10.3v-29.5c-.1-7.6-6.4-13.7-14-13.7-7.7,0-14,6.3-14,14Z"></path><path fill="#333333" stroke="#333333" d="M102.3,226.4c-.7-2.5-1.6-5.6-1.6-11.7v-40.9c0-17.1-14.6-26.4-41-26.4s-40.1,11.8-40.1,23,5.1,11.3,11.3,11.3,5.2-1,7.2-2.6c1.2-.9,2.4-2,3.6-3.2,3.8-3.7,8-7.8,17.9-7.8s14,2.3,14,8.6-3.1,6.9-9.3,7.6l-14.9,1.7c-17.5,2-35.3,7.1-35.3,29.5s14.7,26.3,29,26.3,23.7-4,32.4-12.6c1.4,8.1,6.7,12.6,15.4,12.6s12.4-4.7,12.4-10.7-.4-3-.9-4.6ZM74.9,206.7c0,9-8.2,17.7-21.6,17.7s-13.5-4.5-13.5-10,5.5-10.5,15.7-12l8.9-1.3c2.8-.5,7.9-1.3,10.5-3.8v9.5Z"></path><path fill="#333333" stroke="#333333" d="M71.3,49.3c-1.3,0-2.6.2-3.8.5-4.7,1.5-7.8,5.9-7.8,10.8,0,4.9,3.1,9.3,7.8,10.8,1.2.4,2.5.5,3.8.5h31.2c-1.2,1.3-43.2,47-43.2,47-2.4,2.6-3.6,6-3.6,10.1v.5c.3,4.9,4.1,10.4,11.9,10.8h.8s62.2,0,62.2,0c1.3,0,2.6-.2,3.9-.6,4.7-1.5,7.8-5.9,7.8-10.8s-3.1-9.2-7.8-10.8h0c-1.2-.4-2.5-.6-3.9-.6h-36c1.2-1.3,42.4-46.5,42.4-46.5,2.7-2.9,4.3-6.4,4.3-9.4v-1.2c-.2-2.1-.6-3.9-1.5-5.5-1.3-2.5-3.4-4.3-6.1-5.2-1.3-.4-2.7-.6-4.3-.6h-58Z"></path></g>
@@ -90,111 +94,111 @@
   <g transform="translate(0,68)">
 
   <!-- PARALLEL BAND -->
-  <rect x="16" y="16" width="728" height="215" rx="8" fill="#f7f7f7" stroke="#cccccc" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="380" y="37" font-size="11" fill="#666666" text-anchor="middle" font-style="italic">Steps 1 and 2 can be completed independently and in any order</text>
+  <rect x="20" y="16" width="580" height="214" rx="8" fill="#f7f7f7" stroke="#cccccc" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="310" y="37" font-size="11" fill="#666666" text-anchor="middle" font-style="italic">Steps 1 and 2 can be completed independently and in any order</text>
 
   <!-- STEP 1 -->
-  <rect x="28" y="46" width="340" height="160" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="28" y="46" width="4" height="160" rx="2" fill="#333333"/>
-  <rect x="38" y="55" width="22" height="18" rx="3" fill="#333333"/>
-  <text x="49" y="68" font-size="11" fill="white" font-weight="bold" text-anchor="middle">1</text>
-  <text x="68" y="68" font-size="15" fill="#333333" font-weight="bold">Preliminary Assessment</text>
-  <line x1="32" y1="80" x2="362" y2="80" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
-  <circle cx="46" cy="100" r="3.5" fill="#333333"/>
-  <text x="56" y="104" font-size="13" fill="#333333">Initial contact</text>
-  <text x="56" y="118" font-size="11" fill="#666666">Email researchdata@zhaw.ch to discuss the process</text>
-  <text x="56" y="132" font-size="11" fill="#666666" font-style="italic">recommended for first-time users</text>
-  <circle cx="46" cy="156" r="3.5" fill="#333333"/>
-  <text x="56" y="160" font-size="13" fill="#333333">Complete the form in the Self Service Portal (SSP)</text>
-  <a href="https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513"><title>Open the form in the Self Service Portal</title><text x="56" y="174" font-size="11" fill="#0064a6" text-decoration="underline">Open the SSP form</text></a>
+  <rect x="32" y="46" width="261" height="166" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="32" y="46" width="4" height="166" rx="2" fill="#333333"/>
+  <rect x="42" y="55" width="22" height="18" rx="3" fill="#333333"/>
+  <text x="53" y="68" font-size="11" fill="white" font-weight="bold" text-anchor="middle">1</text>
+  <text x="72" y="68" font-size="15" fill="#333333" font-weight="bold">Preliminary Assessment</text>
+  <line x1="36" y1="80" x2="287" y2="80" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
+  <circle cx="50" cy="100" r="3.5" fill="#333333"/>
+  <text x="60" y="104" font-size="13" fill="#333333">Initial contact</text>
+  <text x="60" y="118" font-size="11" fill="#666666">Email <a href="mailto:researchdata@zhaw.ch"><title>Email researchdata@zhaw.ch</title><tspan fill="#0064a6" text-decoration="underline">researchdata@zhaw.ch</tspan></a></text>
+  <text x="60" y="132" font-size="11" fill="#666666">to discuss the process</text>
+  <text x="60" y="146" font-size="11" fill="#666666" font-style="italic">recommended for first-time users</text>
+  <circle cx="50" cy="162" r="3.5" fill="#333333"/>
+  <text x="60" y="166" font-size="13" fill="#333333">Complete the form in the</text>
+  <text x="60" y="182" font-size="13" fill="#333333">Self Service Portal (SSP)</text>
+  <a href="https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513"><title>Open the form in the Self Service Portal</title><text x="60" y="196" font-size="11" fill="#0064a6" text-decoration="underline">Open the SSP form</text></a>
 
   <!-- STEP 2 -->
-  <rect x="382" y="46" width="350" height="160" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="382" y="46" width="4" height="160" rx="2" fill="#333333"/>
-  <rect x="392" y="55" width="22" height="18" rx="3" fill="#333333"/>
-  <text x="403" y="68" font-size="11" fill="white" font-weight="bold" text-anchor="middle">2</text>
-  <text x="422" y="68" font-size="15" fill="#333333" font-weight="bold">Develop App</text>
-  <line x1="386" y1="80" x2="726" y2="80" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
-  <circle cx="398" cy="100" r="3.5" fill="#333333"/>
-  <text x="408" y="104" font-size="13" fill="#333333">Use template</text>
-  <text x="408" y="118" font-size="11" fill="#666666">Shiny (R) · Streamlit (Python) · Quarto</text>
-  <circle cx="398" cy="134" r="3.5" fill="#333333"/>
-  <text x="408" y="138" font-size="13" fill="#333333">Best Practices &amp; Corporate Design</text>
-  <circle cx="398" cy="154" r="3.5" fill="#333333"/>
-  <text x="408" y="158" font-size="13" fill="#333333">Generate manifest.json</text>
-  <text x="408" y="172" font-size="11" fill="#666666">write_manifest.R · write_manifest.py</text>
+  <rect x="307" y="46" width="261" height="166" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="307" y="46" width="4" height="166" rx="2" fill="#333333"/>
+  <rect x="317" y="55" width="22" height="18" rx="3" fill="#333333"/>
+  <text x="328" y="68" font-size="11" fill="white" font-weight="bold" text-anchor="middle">2</text>
+  <text x="347" y="68" font-size="15" fill="#333333" font-weight="bold">Develop App</text>
+  <line x1="311" y1="80" x2="562" y2="80" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
+  <circle cx="325" cy="100" r="3.5" fill="#333333"/>
+  <text x="335" y="104" font-size="13" fill="#333333">Use template</text>
+  <circle cx="325" cy="120" r="3.5" fill="#333333"/>
+  <text x="335" y="124" font-size="13" fill="#333333">Best Practices &amp;</text>
+  <text x="335" y="140" font-size="13" fill="#333333">Corporate Design</text>
 
   <!-- CONVERGING PATHS -->
-  <line x1="198" y1="206" x2="198" y2="244" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
-  <line x1="198" y1="248" x2="377" y2="248" stroke="#333333" stroke-width="1.8"/>
-  <line x1="557" y1="206" x2="557" y2="244" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
-  <line x1="557" y1="248" x2="383" y2="248" stroke="#333333" stroke-width="1.8"/>
-  <circle cx="380" cy="248" r="3" fill="#333333"/>
-  <line x1="380" y1="248" x2="380" y2="276" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
+  <line x1="162" y1="212" x2="162" y2="250" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
+  <line x1="162" y1="254" x2="307" y2="254" stroke="#333333" stroke-width="1.8"/>
+  <line x1="437" y1="212" x2="437" y2="250" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
+  <line x1="437" y1="254" x2="313" y2="254" stroke="#333333" stroke-width="1.8"/>
+  <circle cx="310" cy="254" r="3" fill="#333333"/>
+  <line x1="310" y1="254" x2="310" y2="282" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
 
   <!-- STEP 3 -->
-  <rect x="60" y="278" width="640" height="112" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="60" y="278" width="4" height="112" rx="2" fill="#333333"/>
-  <rect x="70" y="288" width="22" height="18" rx="3" fill="#333333"/>
-  <text x="81" y="301" font-size="11" fill="white" font-weight="bold" text-anchor="middle">3</text>
-  <text x="100" y="301" font-size="15" fill="#333333" font-weight="bold">Share Code</text>
-  <line x1="64" y1="312" x2="694" y2="312" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
-  <circle cx="78" cy="331" r="3.5" fill="#333333"/>
-  <text x="88" y="335" font-size="13" fill="#333333">github.zhaw.ch</text>
-  <text x="88" y="349" font-size="11" fill="#666666">Standard case—ZHAW GitHub Enterprise</text>
-  <circle cx="410" cy="331" r="3.5" fill="#999999"/>
-  <text x="420" y="335" font-size="13" fill="#666666">GitHub.com</text>
-  <text x="420" y="349" font-size="11" fill="#999999">Exception depending on data context</text>
-  <circle cx="78" cy="369" r="3.5" fill="#333333"/>
-  <text x="88" y="373" font-size="13" fill="#333333">Collaboration with other researchers via Git possible</text>
+  <rect x="60" y="286" width="500" height="112" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="60" y="286" width="4" height="112" rx="2" fill="#333333"/>
+  <rect x="70" y="295" width="22" height="18" rx="3" fill="#333333"/>
+  <text x="81" y="308" font-size="11" fill="white" font-weight="bold" text-anchor="middle">3</text>
+  <text x="100" y="308" font-size="15" fill="#333333" font-weight="bold">Share Code</text>
+  <line x1="64" y1="320" x2="554" y2="320" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
+  <g transform="translate(526,294) scale(1.25)" opacity="0.85"><path fill-rule="evenodd" clip-rule="evenodd" fill="#333333" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></g>
+  <circle cx="78" cy="339" r="3.5" fill="#333333"/>
+  <text x="88" y="343" font-size="13" fill="#333333">github.zhaw.ch</text>
+  <text x="88" y="357" font-size="11" fill="#666666">Standard case—ZHAW GitHub Enterprise</text>
+  <circle cx="328" cy="339" r="3.5" fill="#999999"/>
+  <text x="338" y="343" font-size="13" fill="#666666">GitHub.com</text>
+  <text x="338" y="357" font-size="11" fill="#999999">Exception depending on data context</text>
+  <circle cx="78" cy="377" r="3.5" fill="#333333"/>
+  <text x="88" y="381" font-size="13" fill="#333333">Collaboration with other researchers via Git possible</text>
 
   <!-- ARROW TO STEP 4 -->
-  <line x1="380" y1="390" x2="380" y2="419" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
+  <line x1="310" y1="398" x2="310" y2="423" stroke="#333333" stroke-width="1.8" marker-end="url(#a)"/>
 
   <!-- STEP 4 -->
-  <rect x="60" y="422" width="640" height="116" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="60" y="422" width="4" height="116" rx="2" fill="#333333"/>
-  <rect x="70" y="432" width="22" height="18" rx="3" fill="#333333"/>
-  <text x="81" y="445" font-size="11" fill="white" font-weight="bold" text-anchor="middle">4</text>
-  <text x="100" y="445" font-size="15" fill="#333333" font-weight="bold">Review by ZHAW Services Research Data</text>
-  <line x1="64" y1="456" x2="694" y2="456" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
-  <circle cx="78" cy="474" r="3.5" fill="#333333"/>
-  <text x="88" y="478" font-size="13" fill="#333333">Best Practices</text>
-  <circle cx="78" cy="494" r="3.5" fill="#333333"/>
-  <text x="88" y="498" font-size="13" fill="#333333">Corporate Design</text>
-  <circle cx="78" cy="518" r="3.5" fill="#333333"/>
-  <text x="88" y="522" font-size="13" fill="#333333">Data Protection &amp; Minimisation</text>
-  <circle cx="410" cy="474" r="3.5" fill="#333333"/>
-  <text x="420" y="478" font-size="13" fill="#333333">Metadata &amp; Project Assignment</text>
-  <circle cx="410" cy="494" r="3.5" fill="#333333"/>
-  <text x="420" y="498" font-size="13" fill="#333333">Access Rights</text>
-  <circle cx="410" cy="518" r="3.5" fill="#333333"/>
-  <text x="420" y="522" font-size="13" fill="#333333">End of Life</text>
+  <rect x="60" y="427" width="500" height="116" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="60" y="427" width="4" height="116" rx="2" fill="#333333"/>
+  <rect x="70" y="436" width="22" height="18" rx="3" fill="#333333"/>
+  <text x="81" y="449" font-size="11" fill="white" font-weight="bold" text-anchor="middle">4</text>
+  <text x="100" y="449" font-size="15" fill="#333333" font-weight="bold">Review by ZHAW Services Research Data</text>
+  <line x1="64" y1="461" x2="554" y2="461" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
+  <circle cx="78" cy="479" r="3.5" fill="#333333"/>
+  <text x="88" y="483" font-size="13" fill="#333333">Best Practices</text>
+  <circle cx="78" cy="499" r="3.5" fill="#333333"/>
+  <text x="88" y="503" font-size="13" fill="#333333">Corporate Design</text>
+  <circle cx="78" cy="523" r="3.5" fill="#333333"/>
+  <text x="88" y="527" font-size="13" fill="#333333">Data Protection &amp; Minimisation</text>
+  <circle cx="328" cy="479" r="3.5" fill="#333333"/>
+  <text x="338" y="483" font-size="13" fill="#333333">Metadata &amp; Project Assignment</text>
+  <circle cx="328" cy="499" r="3.5" fill="#333333"/>
+  <text x="338" y="503" font-size="13" fill="#333333">Access Rights</text>
+  <circle cx="328" cy="523" r="3.5" fill="#333333"/>
+  <text x="338" y="527" font-size="13" fill="#333333">End of Life</text>
 
-  <!-- REWORK LOOP – grey, arrow back to step 3, vertical label -->
-  <path d="M 700,480 C 746,480 746,322 716,322 L 700,322" stroke="#666666" stroke-width="1.8" fill="none" marker-end="url(#ar)"/>
-  <text x="753" y="401" font-size="11" fill="#666666" font-weight="bold" text-anchor="middle" transform="rotate(-90 753 401)">Rework</text>
+  <!-- REWORK LOOP -->
+  <path d="M 560,485 C 606,485 606,330 576,330 L 560,330" stroke="#666666" stroke-width="1.8" fill="none" marker-end="url(#ar)"/>
+  <text x="613" y="408" font-size="11" fill="#666666" font-weight="bold" text-anchor="middle" transform="rotate(-90 613 408)">Rework</text>
 
   <!-- OK LINE -->
-  <line x1="380" y1="538" x2="380" y2="582" stroke="#00795d" stroke-width="1.8" marker-end="url(#ag)"/>
-  <rect x="360" y="544" width="40" height="18" rx="3" fill="#00795d"/>
-  <text x="380" y="557" font-size="11" fill="white" font-weight="bold" text-anchor="middle">OK</text>
+  <line x1="310" y1="543" x2="310" y2="587" stroke="#00795d" stroke-width="1.8" marker-end="url(#ag)"/>
+  <rect x="290" y="549" width="40" height="18" rx="3" fill="#00795d"/>
+  <text x="310" y="562" font-size="11" fill="white" font-weight="bold" text-anchor="middle">OK</text>
 
   <!-- STEP 5 -->
-  <rect x="60" y="586" width="640" height="108" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
-  <rect x="60" y="586" width="4" height="108" rx="2" fill="#333333"/>
-  <rect x="70" y="596" width="22" height="18" rx="3" fill="#333333"/>
-  <text x="81" y="609" font-size="11" fill="white" font-weight="bold" text-anchor="middle">5</text>
-  <text x="100" y="609" font-size="15" fill="#333333" font-weight="bold">Deployment on Posit Connect</text>
-  <line x1="64" y1="620" x2="694" y2="620" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
-  <circle cx="78" cy="638" r="3.5" fill="#333333"/>
-  <text x="88" y="642" font-size="13" fill="#333333">App goes live</text>
-  <text x="88" y="656" font-size="11" fill="#666666">at your chosen URL: exploredata.zhaw.ch/app-name</text>
-  <circle cx="410" cy="638" r="3.5" fill="#333333"/>
-  <text x="420" y="642" font-size="13" fill="#333333">Access rights configured</text>
-  <circle cx="78" cy="676" r="3.5" fill="#333333"/>
-  <text x="88" y="680" font-size="13" fill="#333333">Marketing / Communication (if applicable)</text>
-  <circle cx="410" cy="676" r="3.5" fill="#333333"/>
-  <text x="420" y="680" font-size="13" fill="#333333">Updates as needed</text>
+  <rect x="60" y="591" width="500" height="140" rx="6" fill="white" stroke="#333333" stroke-width="1.5"/>
+  <rect x="60" y="591" width="4" height="140" rx="2" fill="#333333"/>
+  <rect x="70" y="600" width="22" height="18" rx="3" fill="#333333"/>
+  <text x="81" y="613" font-size="11" fill="white" font-weight="bold" text-anchor="middle">5</text>
+  <text x="100" y="613" font-size="15" fill="#333333" font-weight="bold">Deployment on Posit Connect</text>
+  <line x1="64" y1="625" x2="554" y2="625" stroke="#333333" stroke-width="0.7" opacity="0.3"/>
+  <circle cx="78" cy="643" r="3.5" fill="#333333"/>
+  <text x="88" y="647" font-size="13" fill="#333333">App goes live</text>
+  <text x="88" y="661" font-size="11" fill="#666666">at your chosen URL: exploredata.zhaw.ch/app-name</text>
+  <circle cx="328" cy="643" r="3.5" fill="#333333"/>
+  <text x="338" y="647" font-size="13" fill="#333333">Access rights configured</text>
+  <circle cx="78" cy="681" r="3.5" fill="#333333"/>
+  <text x="88" y="685" font-size="13" fill="#333333">Marketing / Communication (if applicable)</text>
+  <circle cx="78" cy="707" r="3.5" fill="#333333"/>
+  <text x="88" y="711" font-size="13" fill="#333333">Updates as needed</text>
   </g>
 </svg>
