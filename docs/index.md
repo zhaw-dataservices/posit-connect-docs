@@ -17,7 +17,9 @@ Posit Connect kann grundsätzlich noch mehr veröffentlichen; einen vollständig
 
 Von der Idee bis zur publizierten App führen vier Schritte. Die folgende Grafik zeigt den Ablauf im Überblick:
 
+<div class="process-diagram-wrapper">
 --8<-- "assets/ablauf.svg"
+</div>
 
 Eine ausführliche Erklärung der einzelnen Schritte findet sich auf der Seite [Ablauf im Überblick](ablauf.md).
 

@@ -4,7 +4,9 @@ Diese Seite beschreibt den gesamten Prozess – von der Vorabklärung über die 
 
 ## Prozessübersicht
 
+<div class="process-diagram-wrapper">
 --8<-- "assets/ablauf.svg"
+</div>
 
 Schritt 1 und 2 können unabhängig voneinander und in beliebiger Reihenfolge erfolgen.
 

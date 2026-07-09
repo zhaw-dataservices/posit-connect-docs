@@ -4,7 +4,9 @@ This page describes the full process—from the preliminary assessment through a
 
 ## Process Summary
 
+<div class="process-diagram-wrapper">
 --8<-- "assets/ablauf.en.svg"
+</div>
 
 Steps 1 and 2 can be completed independently and in any order.
 
