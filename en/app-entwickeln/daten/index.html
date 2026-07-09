@@ -746,53 +746,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Share Code via GitHub
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Share Code via GitHub
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="../../code-teilen/github-zhaw/" class="md-nav__link">
         
@@ -801,7 +754,7 @@
   <span class="md-ellipsis">
     
   
-    github.zhaw.ch
+    Share Code via GitHub
   
 
     
@@ -810,42 +763,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../code-teilen/github-com/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GitHub.com (Alternative)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1135,7 +1052,7 @@
 <p>Internal databases and SharePoint are being considered as possible sources, but the connection to Posit Connect hasn't been tested yet. These and other institutional options are under internal review—details to follow.</p>
 </div>
 <h3 id="excluded-data-bundled-in-the-repository">Excluded: Data Bundled in the Repository</h3>
-<p>Placing a data file (e.g. <code>.RData</code> or <code>.csv</code>) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a> template <em>(work in progress, not yet public)</em> enforces this technically too: it already excludes <code>.RData</code> and <code>.csv</code> files via <code>.gitignore</code>, so they're never committed in the first place. Load your data from one of the sources listed above instead (ORD repository, REDCap, institutional source).</p>
+<p>Placing a data file (e.g. <code>.RData</code> or <code>.csv</code>) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a> template enforces this technically too: it already excludes <code>.RData</code> and <code>.csv</code> files via <code>.gitignore</code>, so they're never committed in the first place. Load your data from one of the sources listed above instead (ORD repository, REDCap, institutional source).</p>
 <h2 id="principle-data-minimisation">Principle: Data Minimisation</h2>
 <p>Apps on Posit Connect should access their data source as rarely and as narrowly as possible—whether that's REDCap, an ORD repository, or an institutional source. The source sits downstream of Posit Connect and shouldn't be burdened unnecessarily.</p>
 <h3 id="the-most-common-mistake-reloading-data-on-every-interaction">The Most Common Mistake: Reloading Data on Every Interaction</h3>

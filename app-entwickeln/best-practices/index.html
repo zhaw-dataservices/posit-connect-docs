@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices/">
       
       
-        <link rel="prev" href="../../code-teilen/github-com/">
+        <link rel="prev" href="../../code-teilen/github-zhaw/">
       
       
         <link rel="next" href="../../corporate-design/">
@@ -586,53 +586,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Code teilen via GitHub
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Code teilen via GitHub
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="../../code-teilen/github-zhaw/" class="md-nav__link">
         
@@ -641,7 +594,7 @@
   <span class="md-ellipsis">
     
   
-    github.zhaw.ch
+    Code teilen via GitHub
   
 
     
@@ -650,42 +603,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../code-teilen/github-com/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GitHub.com (Alternative)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -797,6 +714,23 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Abhängigkeiten verwalten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unterstutzte-versionen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterstützte Versionen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -968,6 +902,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Abhängigkeiten verwalten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unterstutzte-versionen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterstützte Versionen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1013,6 +964,32 @@
 <!-- TODO: Streamlit-spezifische Best Practices -->
 
 <h2 id="abhangigkeiten-verwalten">Abhängigkeiten verwalten</h2>
+<h3 id="unterstutzte-versionen">Unterstützte Versionen</h3>
+<p>Damit deine App zuverlässig läuft, sollte deine lokale R-, Python- oder Quarto-Version mit einer der auf unserem Posit-Connect-Server unterstützten Versionen übereinstimmen.</p>
+<!-- Stand: 2026-07-09, Posit Connect 2026.02.0 (unterstützt bis 31. August 2027). Bei einem Server-Update hier aktualisieren. -->
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Unterstützte Versionen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R</td>
+<td>4.4.3, 4.5.3</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>3.14.3, 3.14.4</td>
+</tr>
+<tr>
+<td>Quarto</td>
+<td>1.9.37</td>
+</tr>
+</tbody>
+</table>
 <!-- TODO: renv (R) / requirements.txt oder pyproject.toml (Python) -->
 
 <h2 id="barrierefreiheit">Barrierefreiheit</h2>

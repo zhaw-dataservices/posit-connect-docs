@@ -746,53 +746,6 @@
   
   
   
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Code teilen via GitHub
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Code teilen via GitHub
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
     <li class="md-nav__item">
       <a href="../../code-teilen/github-zhaw/" class="md-nav__link">
         
@@ -801,7 +754,7 @@
   <span class="md-ellipsis">
     
   
-    github.zhaw.ch
+    Code teilen via GitHub
   
 
     
@@ -810,42 +763,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../code-teilen/github-com/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GitHub.com (Alternative)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1135,7 +1052,7 @@
 <p>Interne Datenbanken und SharePoint sind als mögliche Quellen im Blick, die Anbindung an Posit Connect wurde aber noch nicht getestet. Diese und weitere institutionelle Optionen werden intern geprüft – Details folgen.</p>
 </div>
 <h3 id="ausgeschlossen-daten-direkt-im-repository">Ausgeschlossen: Daten direkt im Repository</h3>
-<p>Eine Datendatei (z. B. <code>.RData</code> oder <code>.csv</code>) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a>-Template <em>(work in progress, noch nicht öffentlich)</em> setzt das auch technisch durch: <code>.RData</code>- und <code>.csv</code>-Dateien sind dort bereits über <code>.gitignore</code> ausgeschlossen und werden gar nicht erst committet. Lies deine Daten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).</p>
+<p>Eine Datendatei (z. B. <code>.RData</code> oder <code>.csv</code>) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a>-Template setzt das auch technisch durch: <code>.RData</code>- und <code>.csv</code>-Dateien sind dort bereits über <code>.gitignore</code> ausgeschlossen und werden gar nicht erst committet. Lies deine Daten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).</p>
 <h2 id="grundsatz-datensparsamkeit">Grundsatz: Datensparsamkeit</h2>
 <p>Apps auf Posit Connect sollen so selten und so gezielt wie möglich auf ihre Datenquelle zugreifen – egal ob REDCap, ein ORD-Repository oder eine institutionelle Quelle. Die Quelle liegt nachgelagert von Posit Connect und sollte nicht unnötig belastet werden.</p>
 <h3 id="haufigster-fehler-daten-bei-jeder-interaktion-neu-laden">Häufigster Fehler: Daten bei jeder Interaktion neu laden</h3>
