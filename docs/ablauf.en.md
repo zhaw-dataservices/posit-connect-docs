@@ -4,9 +4,7 @@ This page describes the full process—from the preliminary assessment through a
 
 ## Process Summary
 
-<object type="image/svg+xml" data="assets/ablauf.svg" class="process-diagram" role="img" aria-label="Process Overview">
-  Process Overview (SVG cannot be displayed)
-</object>
+--8<-- "assets/ablauf.en.svg"
 
 Steps 1 and 2 can be completed independently and in any order.
 
@@ -14,7 +12,7 @@ Steps 1 and 2 can be completed independently and in any order.
 
 ### Step 1: Preliminary Assessment
 
-It all starts with initial contact, recommended for first-time users: ideally an email to [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch) to discuss the process. You then complete a [form](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) in the Self Service Portal (SSP), which also includes a usage assessment if needed (data protection, resources, security). See [Usage Assessment](nutzungsabklaerung.md).
+It all starts with initial contact, recommended for first-time users: ideally an email to [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch) to discuss the process. You then complete the [SSP form](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) in the Self Service Portal (SSP), which also includes a usage assessment if needed (data protection, resources, security). See [Usage Assessment](nutzungsabklaerung.md).
 
 ### Step 2: Develop Your App
 

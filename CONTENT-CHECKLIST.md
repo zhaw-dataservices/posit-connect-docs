@@ -58,19 +58,16 @@ wenn **beide** Sprachen fertig sind.
 
 ## Code teilen & Deployment vorbereiten
 
-### Repository auf github.zhaw.ch (`code-teilen/github-zhaw`)
+### Code teilen via GitHub (`code-teilen/github-zhaw`)
+
+Eine Seite für beide Fälle (github.zhaw.ch als Normalfall, GitHub.com als Ausnahme) – die frühere Aufteilung in zwei Unterseiten wurde am 2026-07-08 rückgängig gemacht.
 
 - [ ] Voraussetzungen
 - [ ] Repository anlegen
 - [ ] Code hochladen
 - [ ] Uns Zugriff geben
 - [ ] 🔒 Branch-Konventionen – noch mit der ICT zu definieren
-
-### GitHub.com als Alternative (`code-teilen/github-com`)
-
-- [ ] Wann ist GitHub.com möglich?
-- [ ] Vorgehen
-- [ ] Hinweise (Öffentlichkeit, Lizenz)
+- [ ] Wann ist GitHub.com als Alternative möglich? Vorgehen, Hinweise (Öffentlichkeit, Lizenz)
 
 ### manifest.json erstellen (`code-teilen/manifest`)
 

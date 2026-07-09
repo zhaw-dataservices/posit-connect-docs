@@ -4,9 +4,7 @@ Diese Seite beschreibt den gesamten Prozess – von der Vorabklärung über die 
 
 ## Prozessübersicht
 
-<object type="image/svg+xml" data="assets/ablauf.svg" class="process-diagram" role="img" aria-label="Ablauf im Überblick">
-  Ablauf im Überblick (SVG kann nicht angezeigt werden)
-</object>
+--8<-- "assets/ablauf.svg"
 
 Schritt 1 und 2 können unabhängig voneinander und in beliebiger Reihenfolge erfolgen.
 
@@ -14,7 +12,7 @@ Schritt 1 und 2 können unabhängig voneinander und in beliebiger Reihenfolge er
 
 ### Schritt 1: Vorabklärung
 
-Den Anfang macht die erste Kontaktaufnahme, für Erstanwender:innen empfohlen: am besten per Mail an [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch), um das Vorgehen zu besprechen. Danach füllst du im Self Service Portal (SSP) ein [Formular](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) aus, das bei Bedarf auch eine Nutzungsabklärung umfasst (Datenschutz, Ressourcen, Sicherheit). Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
+Den Anfang macht die erste Kontaktaufnahme, für Erstanwender:innen empfohlen: am besten per Mail an [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch), um das Vorgehen zu besprechen. Danach füllst du im Self Service Portal (SSP) das [SSP-Formular](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) aus, das bei Bedarf auch eine Nutzungsabklärung umfasst (Datenschutz, Ressourcen, Sicherheit). Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
 
 ### Schritt 2: App entwickeln
 

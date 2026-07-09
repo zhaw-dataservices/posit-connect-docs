@@ -30,9 +30,20 @@ theme:
 # ---------------------------------------------------------------------------
 # Markdown extensions
 # admonition enables the "!!! note "..."" boxes used e.g. in template.md.
+# pymdownx.snippets inlines the ablauf.svg/.en.svg diagrams directly into the
+# page HTML (via "--8<--" includes). This is deliberate: MkDocs only rewrites
+# relative paths on <a href> and <img src> (see mkdocs/structure/pages.py,
+# _RelativePathTreeprocessor) -- it does NOT touch <object data="...">, so an
+# object-embedded SVG 404s on any page other than the site root once
+# use_directory_urls nests pages under their own folder (e.g. /ablauf/).
+# Inlining sidesteps the problem entirely: no separate request, no path to
+# get wrong, and the <a href="mailto:...">/<a href="https://servicedesk...">
+# links inside the SVG become real, clickable DOM anchors.
 # ---------------------------------------------------------------------------
 markdown_extensions:
   - admonition
+  - pymdownx.snippets:
+      base_path: ["docs"]
 
 # ---------------------------------------------------------------------------
 # Custom CSS
@@ -104,9 +115,7 @@ nav:
     - Bestehende App einbinden: app-entwickeln/bestehende-app.md
     - Datenquellen & Datenzugriff: app-entwickeln/daten.md
     - Daten aus REDCap laden: app-entwickeln/redcap.md
-  - Code teilen via GitHub:
-    - github.zhaw.ch: code-teilen/github-zhaw.md
-    - GitHub.com (Alternative): code-teilen/github-com.md
+  - Code teilen via GitHub: code-teilen/github-zhaw.md
   - Best Practices: app-entwickeln/best-practices.md
   - Corporate Design: corporate-design.md
   - Review & Deployment: deployment.md

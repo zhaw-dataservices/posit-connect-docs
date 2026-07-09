@@ -27,7 +27,7 @@ Special categories of personal data (e.g. health data, ethnicity, religious beli
 
 ### Excluded: Data Bundled in the Repository
 
-Placing a data file (e.g. `.RData` or `.csv`) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) template *(work in progress, not yet public)* enforces this technically too: it already excludes `.RData` and `.csv` files via `.gitignore`, so they're never committed in the first place. Load your data from one of the sources listed above instead (ORD repository, REDCap, institutional source).
+Placing a data file (e.g. `.RData` or `.csv`) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) template enforces this technically too: it already excludes `.RData` and `.csv` files via `.gitignore`, so they're never committed in the first place. Load your data from one of the sources listed above instead (ORD repository, REDCap, institutional source).
 
 ## Principle: Data Minimisation
 

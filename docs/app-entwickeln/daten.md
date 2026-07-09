@@ -27,7 +27,7 @@ Besonders schützenswerte Personendaten (z. B. Gesundheitsdaten, Herkunft, relig
 
 ### Ausgeschlossen: Daten direkt im Repository
 
-Eine Datendatei (z. B. `.RData` oder `.csv`) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base)-Template *(work in progress, noch nicht öffentlich)* setzt das auch technisch durch: `.RData`- und `.csv`-Dateien sind dort bereits über `.gitignore` ausgeschlossen und werden gar nicht erst committet. Lies deine Daten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).
+Eine Datendatei (z. B. `.RData` oder `.csv`) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base)-Template setzt das auch technisch durch: `.RData`- und `.csv`-Dateien sind dort bereits über `.gitignore` ausgeschlossen und werden gar nicht erst committet. Lies deine Daten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).
 
 ## Grundsatz: Datensparsamkeit
 

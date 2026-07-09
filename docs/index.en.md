@@ -2,7 +2,8 @@
 
 This page documents the ZHAW service “Interactive Data Visualisation”—the central hosting infrastructure for interactive research data visualisations.
 
-**Note**: This documentation is still under construction and is being updated on an ongoing basis. Some content may be missing or subject to change.
+!!! note "Note"
+    This documentation is still under construction and is being updated on an ongoing basis. Some content may be missing or subject to change.
 
 ## About This Service
 
@@ -16,9 +17,7 @@ Posit Connect can publish much more in principle; for a full overview, see the [
 
 Getting from an idea to a published app takes four steps. The diagram below shows the process at a glance:
 
-<object type="image/svg+xml" data="assets/ablauf.svg" class="process-diagram" role="img" aria-label="Process Overview">
-  Process Overview (SVG cannot be displayed)
-</object>
+--8<-- "assets/ablauf.en.svg"
 
 For a detailed explanation of each step, see the [Process Overview](ablauf.md) page.
 
