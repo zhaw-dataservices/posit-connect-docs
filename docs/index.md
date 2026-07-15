@@ -3,7 +3,7 @@
 Diese Seite dokumentiert den ZHAW-Service «Interaktive Datenvisualisierung» – die zentrale Hosting-Infrastruktur für interaktive Forschungsdatenvisualisierungen.
 
 !!! note "Hinweis"
-    Diese Dokumentation befindet sich noch im Aufbau und wird laufend ergänzt. Einzelne Inhalte fehlen oder können sich noch ändern.
+    Diese Dokumentation befindet sich noch im Aufbau und wird laufend ergänzt. Einzelne Inhalte fehlen oder können sich noch ändern. Andi könnte diese Doku zusammen mit Tatjana weiterentwickeln.
 
 ## Über diesen Service
 
