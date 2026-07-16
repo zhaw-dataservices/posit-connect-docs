@@ -9,7 +9,7 @@ Wir stellen zwei Beispiel-Repositories bereit, die zeigen, wie man Records über
 - [redcap-api-r](https://github.zhaw.ch/service-research-data/redcap-api-r) – für R
 - [redcap-api-py](https://github.zhaw.ch/service-research-data/redcap-api-py) – für Python
 
-Beide sind primär als Anleitung fürs lokale Arbeiten gedacht (z. B. in RStudio oder Jupyter), eignen sich aber genauso als Vorlage, um Daten für ein Dashboard zu laden, das später auf Posit Connect deployt wird – siehe [Lokal arbeiten & Posit Connect](#lokal-arbeiten-posit-connect) unten.
+Beide sind primär als Anleitung fürs lokale Arbeiten gedacht (z. B. in RStudio oder Jupyter), eignen sich aber genauso als Vorlage, um Daten für ein Dashboard zu laden, das später auf Posit Connect veröffentlicht wird – siehe [Lokal arbeiten & Posit Connect](#lokal-arbeiten-posit-connect) unten.
 
 ## Voraussetzungen
 

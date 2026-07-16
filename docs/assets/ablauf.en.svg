@@ -1,6 +1,6 @@
-<svg viewBox="0 0 620 823" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Process diagram: 5 steps from preliminary assessment to deployment on Posit Connect" class="process-diagram" font-family="Inter, Arial, sans-serif">
-  <title>Posit Connect—Process Overview</title>
-  <desc>Process from the preliminary assessment through app development to deployment on Posit Connect.</desc>
+<svg viewBox="0 0 620 823" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Process diagram: 5 steps from preliminary assessment to publishing on Posit Connect" class="process-diagram" font-family="Inter, Arial, sans-serif">
+  <title>Posit Connect—Process</title>
+  <desc>Process from the preliminary assessment through app development to publishing on Posit Connect.</desc>
   <defs>
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');

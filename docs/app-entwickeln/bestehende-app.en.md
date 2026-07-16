@@ -14,6 +14,3 @@ If you already have a finished Shiny or Streamlit app, you can integrate it into
 
 <!-- TODO: Typical changes needed when integrating an existing app -->
 
-## Adding manifest.json Afterwards
-
-If the app does not yet contain a `manifest.json`, it must be generated. See [Using the Template → Generating manifest.json](template.md).

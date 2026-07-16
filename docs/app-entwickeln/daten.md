@@ -25,7 +25,7 @@ In den Datensatz gehören nur die Variablen, die für die Visualisierung tatsäc
 
 Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit `read.csv()` bereits spürbar lange lädt, ist er wahrscheinlich zu gross für das App-Bundle – meldet euch in dem Fall beim ZSF-Team.
 
-*Einschränkung:* Bei jeder Datenaktualisierung muss die App neu deployed werden. Wenn sich die Daten deutlich häufiger ändern als der Code, melde dich beim ZSF-Team – wir prüfen gemeinsam, ob ein anderer Ansatz sinnvoller ist.
+*Einschränkung:* Bei jeder Datenaktualisierung muss die App neu veröffentlicht werden. Wenn sich die Daten deutlich häufiger ändern als der Code, melde dich beim ZSF-Team – wir prüfen gemeinsam, ob ein anderer Ansatz sinnvoller ist.
 
 ### Vertrauliche oder besonders schützenswerte Daten
 
@@ -59,7 +59,7 @@ server <- function(input, output, session) {
 
 Nutzer:innen sehen dabei den Datenstand zum Zeitpunkt des App-Starts – für die meisten Forschungs-Dashboards reicht das völlig aus. Bei sehr grossem Nutzer:innenkreis oder Daten, die häufiger aktualisiert werden müssen, gibt es weitergehende Caching-Optionen; meldet euch dazu einfach beim ZHAW Services Forschungsdaten Team.
 
-### Checkliste vor dem Deployment
+### Checkliste vor der Veröffentlichung
 
 - Werden die Daten ausserhalb der Server-Funktion geladen (einmal beim App-Start)?
 - Sind Zugangsdaten (API-Tokens etc.) nur als Umgebungsvariable hinterlegt – nie im Code oder in einer committeten Datei?

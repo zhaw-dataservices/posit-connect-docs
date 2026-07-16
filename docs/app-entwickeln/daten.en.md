@@ -25,7 +25,7 @@ The dataset should contain only the variables actually needed for the visualizat
 
 There is no fixed threshold. If the dataset already takes noticeably long to load with `read.csv()` in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.
 
-*Limitation:* Every data update requires a redeploy of the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.
+*Limitation:* Every data update requires republishing the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.
 
 ### Confidential or Sensitive Data
 
@@ -59,7 +59,7 @@ server <- function(input, output, session) {
 
 Users then see the data as of app start—which is entirely sufficient for most research dashboards. For a very large user base, or data that needs to be refreshed more frequently, more advanced caching options exist; just reach out to the ZHAW Services Research Data team.
 
-### Checklist Before Deployment
+### Checklist Before Publishing
 
 - Is the data loaded outside the server function (once, at app start)?
 - Are credentials (API tokens, etc.) stored only as environment variables—never in code or in a committed file?

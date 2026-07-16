@@ -13,7 +13,7 @@ Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutze
 
 Posit Connect kann grundsätzlich noch mehr veröffentlichen; einen vollständigen Überblick bietet die [Produktseite von Posit Connect](https://posit.co/products/enterprise/connect). Unsere Best Practices und unser Support sind zunächst auf Shiny und Streamlit ausgerichtet.
 
-## Ablauf auf einen Blick
+## Ablauf
 
 Von der Idee bis zur publizierten App führen fünf Schritte:
 
@@ -25,23 +25,33 @@ Schritt 1 und 2 können unabhängig voneinander und in beliebiger Reihenfolge er
 
 ### Schritt 1: Vorabklärung
 
-Den Anfang macht die erste Kontaktaufnahme, für Erstanwender:innen empfohlen: am besten per Mail an [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch), um das Vorgehen zu besprechen. Danach füllst du im Self Service Portal (SSP) das [SSP-Formular](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) aus, das bei Bedarf auch eine Nutzungsabklärung umfasst (Datenschutz, Ressourcen, Sicherheit). Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
+Den Anfang macht die erste Kontaktaufnahme, für Erstanwender:innen empfohlen: am besten per Mail an [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch), um das Konzept und das Vorgehen zu besprechen. Für das Gespräch hilfreich sind Antworten zu folgenden Fragen:
+
+- Was ist das Ziel und das Konzept der Datenvisualisierung?
+- Über welche Funktionalitäten soll die Visualisierung verfügen?
+- Mit welcher Programmiersprache und welchen Bibliotheken soll sie umgesetzt werden?
+- Wie sehen die Daten aus, und wie sind sie bezüglich Vertraulichkeit klassifiziert?
+- Wo werden die Daten abgelegt?
+
+Wir besprechen ausserdem Code-Entwicklung und Kollaboration, die App-Registrierung und eine allfällige Nutzungsabklärung sowie das weitere Vorgehen und den Zeitplan.
+
+Danach füllst du im Self Service Portal das [SSP-Formular](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) aus, das bei Bedarf auch eine Nutzungsabklärung umfasst. Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
 
 ### Schritt 2: App entwickeln
 
-Du entwickelst deine App entweder mit unseren Templates oder durch Einbinden einer bestehenden App. Unterstützt werden primär Shiny, Streamlit und Quarto; dazu gehören Best Practices, Corporate Design und das Generieren der `manifest.json`. Siehe [App entwickeln](app-entwickeln/template.md). Wichtige Infos, Tipps & Tricks findest du unter [Best Practices](app-entwickeln/best-practices.md).
+Du entwickelst deine App, idealerweise mit unseren Templates, die du unter [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data) findest. Unterstützt werden primär Shiny, Streamlit und Quarto. Siehe [App entwickeln](app-entwickeln/template.md). Wichtige Infos, Tipps & Tricks findest du unter [Best Practices](app-entwickeln/best-practices.md). Wir empfehlen besonders, Git zu nutzen, idealerweise über [github.zhaw.ch](https://github.zhaw.ch) – Über Git ist auch die Kollaboration mit anderen Forscher:innen möglich.
 
 ### Schritt 3: Code teilen
 
-Der Source Code wird in einem Repository auf github.zhaw.ch bereitgestellt, damit Posit Connect die App direkt von dort lesen kann (GitHub.com nur als Ausnahme je nach Datenlage). Über Git ist auch die Kollaboration mit anderen Forschenden möglich. Siehe [Code teilen](code-teilen/github-zhaw.md).
+Sobald du bereit bist, deine App zu veröffentlichen, wird der finale Source Code auf [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data) bereitgestellt, damit Posit Connect die App direkt von dort lesen kann (GitHub.com nur als Ausnahme je nach Datenlage). Siehe [Code teilen](code-teilen/github-zhaw.md).
 
 ### Schritt 4: Review
 
-Wir prüfen Code und App – unter anderem auf Best Practices, Corporate Design, Datenschutz und Datensparsamkeit, Metadaten und Projektzuordnung, Zugriffsrechte sowie End of Life. Sind Anpassungen nötig, geht die App zur Überarbeitung zurück; andernfalls folgt das Deployment. Siehe [Deployment](deployment.md).
+Wir prüfen Code und App – unter anderem auf Best Practices, Corporate Design, Datenschutz und Datensparsamkeit, Metadaten und Projektzuordnung, Zugriffsrechte sowie End of Life. Sind Anpassungen nötig, geht die App zur Überarbeitung zurück; andernfalls folgt die Veröffentlichung. Siehe [Veröffentlichung](deployment.md).
 
-### Schritt 5: Deployment
+### Schritt 5: Veröffentlichung
 
-Nach erfolgreichem Review übernehmen wir das Deployment auf Posit Connect. Die App geht live unter einer Wunsch-URL nach dem Muster `exploredata.zhaw.ch/name-der-app`. Anschliessend werden die Zugriffsrechte konfiguriert, und bei Bedarf folgen spätere Updates. Siehe [Deployment](deployment.md).
+Nach erfolgreichem Review übernehmen wir die Veröffentlichung auf Posit Connect. Die App geht live unter einer Wunsch-URL nach dem Muster `exploredata.zhaw.ch/name-der-app`. Anschliessend werden die Zugriffsrechte konfiguriert, und bei Bedarf folgen spätere Updates. Siehe [Veröffentlichung](deployment.md).
 
 ## Kontakt
 

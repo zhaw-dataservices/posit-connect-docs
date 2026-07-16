@@ -89,10 +89,10 @@ plugins:
           # Translate the nav labels (which come from mkdocs.yml, not the pages).
           # Maps each German nav label to its English equivalent.
           nav_translations:
+            Review & Veröffentlichung: Review & Publishing
             Nutzungsabklärung: Usage Assessment
             App entwickeln: Develop Your App
             Übersicht & Templates: Overview & Templates
-            manifest.json erstellen: Create manifest.json
             Bestehende App einbinden: Integrate an Existing App
             Datenquellen & Datenzugriff: Data Sources & Access
             Daten aus REDCap laden: Loading Data from REDCap
@@ -109,12 +109,11 @@ nav:
     - Übersicht & Templates: app-entwickeln/template.md
     - Shiny Basics: app-entwickeln/shiny-basics.md
     - Streamlit Basics: app-entwickeln/streamlit-basics.md
-    - manifest.json erstellen: app-entwickeln/manifest.md
     - Bestehende App einbinden: app-entwickeln/bestehende-app.md
     - Datenquellen & Datenzugriff: app-entwickeln/daten.md
     - Daten aus REDCap laden: app-entwickeln/redcap.md
   - Code teilen via GitHub: code-teilen/github-zhaw.md
   - Best Practices: app-entwickeln/best-practices.md
   - Corporate Design: corporate-design.md
-  - Review & Deployment: deployment.md
+  - Review & Veröffentlichung: deployment.md
   - Support & FAQ: support.md

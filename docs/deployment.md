@@ -1,16 +1,16 @@
-# Deployment
+# Veröffentlichung
 
-Sobald der Code auf GitHub bereitsteht und alle Voraussetzungen erfüllt sind, übernehmen wir das Deployment auf Posit Connect.
+Sobald der Code auf GitHub bereitsteht und alle Voraussetzungen erfüllt sind, übernehmen wir das Veröffentlichung auf Posit Connect.
 
 ## Was wir prüfen
 
-<!-- TODO: Checkliste – was wird vor dem Deployment geprüft? (manifest.json, Abhängigkeiten, Datenschutz etc.) -->
+<!-- TODO: Checkliste – was wird vor dem Veröffentlichung geprüft? (Abhängigkeiten, Datenschutz etc.) -->
 
 ## Ablauf nach der Übergabe
 
 <!-- TODO: Wie lange dauert es? Wie wird kommuniziert? -->
 
-## Nach dem Deployment
+## Nach dem Veröffentlichung
 
 <!-- TODO: URL der App, Zugriffsrechte, wie werden Updates eingespielt? -->
 

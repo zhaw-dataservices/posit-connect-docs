@@ -18,11 +18,11 @@ Shiny (R), Streamlit (Python), and Quarto are primarily supported. Posit Connect
 
 <!-- TODO: Formulate answer -->
 
-### How long does deployment take?
+### How long does publishing take?
 
 <!-- TODO: Formulate answer -->
 
-### Can I change my app after deployment?
+### Can I change my app after publishing?
 
 <!-- TODO: Formulate answer—branch workflow TBD -->
 
