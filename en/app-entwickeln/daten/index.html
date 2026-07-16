@@ -283,33 +283,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ablauf/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Process Overview
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../nutzungsabklaerung/" class="md-nav__link">
         
   
@@ -347,10 +320,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -368,8 +341,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1052,8 +1025,6 @@
 The dataset should contain only the variables actually needed for the visualization. Sensitive variables—even ones that aren't displayed directly—should not be included.</p>
 <h4 id="structure">Structure</h4>
 <p><a href="https://r4ds.had.co.nz/tidy-data.html">Tidy format</a> (one observation per row, one variable per column) makes it easier to work with most R visualization packages. Using correct data types (e.g. <code>Date</code> instead of <code>character</code> for dates) saves memory and simplifies the code.</p>
-<h4 id="size">Size</h4>
-<p>There is no fixed threshold. If the dataset already takes noticeably long to load with <code>read.csv()</code> in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.</p>
 <table>
 <thead>
 <tr>
@@ -1096,6 +1067,8 @@ The dataset should contain only the variables actually needed for the visualizat
 </tr>
 </tbody>
 </table>
+<h4 id="size">Size</h4>
+<p>There is no fixed threshold. If the dataset already takes noticeably long to load with <code>read.csv()</code> in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.</p>
 <p><em>Limitation:</em> Every data update requires a redeploy of the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.</p>
 <h3 id="confidential-or-sensitive-data">Confidential or Sensitive Data</h3>
 <p>For confidential or personal data, we recommend <a href="https://redcap.zhaw.ch/">ZHAW-REDCap</a>. See <a href="../redcap/">REDCap Integration</a> for a step-by-step guide.</p>

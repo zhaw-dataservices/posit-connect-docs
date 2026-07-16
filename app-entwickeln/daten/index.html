@@ -283,33 +283,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ablauf/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Ablauf im Überblick
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../nutzungsabklaerung/" class="md-nav__link">
         
   
@@ -347,10 +320,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -368,8 +341,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -1052,8 +1025,6 @@
 In den Datensatz gehören nur die Variablen, die für die Visualisierung tatsächlich benötigt werden. Sensible Variablen – auch solche, die nicht direkt angezeigt werden – sollten nicht enthalten sein.</p>
 <h4 id="struktur">Struktur</h4>
 <p><a href="https://r4ds.had.co.nz/tidy-data.html">Tidy-Format</a> (eine Beobachtung pro Zeile, eine Variable pro Spalte) erleichtert die Arbeit mit den meisten R-Visualisierungs-Packages. Korrekte Datentypen (z. B. <code>Date</code> statt <code>character</code> für Datumsangaben) sparen Speicher und vereinfachen den Code.</p>
-<h4 id="grosse">Grösse</h4>
-<p>Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit <code>read.csv()</code> bereits spürbar lange lädt, ist er wahrscheinlich zu gross für das App-Bundle – meldet euch in dem Fall beim ZSF-Team.</p>
 <table>
 <thead>
 <tr>
@@ -1096,6 +1067,8 @@ In den Datensatz gehören nur die Variablen, die für die Visualisierung tatsäc
 </tr>
 </tbody>
 </table>
+<h4 id="grosse">Grösse</h4>
+<p>Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit <code>read.csv()</code> bereits spürbar lange lädt, ist er wahrscheinlich zu gross für das App-Bundle – meldet euch in dem Fall beim ZSF-Team.</p>
 <p><em>Einschränkung:</em> Bei jeder Datenaktualisierung muss die App neu deployed werden. Wenn sich die Daten deutlich häufiger ändern als der Code, melde dich beim ZSF-Team – wir prüfen gemeinsam, ob ein anderer Ansatz sinnvoller ist.</p>
 <h3 id="vertrauliche-oder-besonders-schutzenswerte-daten">Vertrauliche oder besonders schützenswerte Daten</h3>
 <p>Sind die Daten vertraulich oder personenbezogen, empfehlen wir <a href="https://redcap.zhaw.ch/">ZHAW-REDCap</a>. Eine Schritt-für-Schritt-Anleitung zur Anbindung findet sich unter <a href="../redcap/">REDCap-Integration</a>.</p>

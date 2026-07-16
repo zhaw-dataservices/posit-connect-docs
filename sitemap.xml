@@ -8,13 +8,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/"/>
     </url>
     <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/ablauf/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/ablauf/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/ablauf/"/>
-    </url>
-    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/corporate-design/</loc>
         <lastmod>2026-07-16</lastmod>
         <changefreq>daily</changefreq>
@@ -111,13 +104,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/"/>
-    </url>
-    <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/ablauf/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/ablauf/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/ablauf/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/corporate-design/</loc>
