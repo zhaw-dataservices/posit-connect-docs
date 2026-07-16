@@ -4,30 +4,38 @@ Apps on Posit Connect should only use the data that is actually needed. This pag
 
 ## Where Is the Data?
 
-The recommended path depends on the type of data.
+### Dataset in the App Bundle (recommended)
 
-### Public Research Data
+For most research dashboards, we recommend—in line with [Posit's best practice](https://solutions.posit.co/connections/deploying-data/)—bundling the dataset directly as part of the app repository, for example as a `.csv` file in the `data/` folder.
+The dataset should contain only the variables actually needed for the visualization. Sensitive variables—even ones that aren't displayed directly—should not be included.
 
-Ideally, store the data in an ORD repository (Open Research Data). The app reads the data directly from there—data and code stay separate and independently versioned. Recommended repositories are, e.g.:
+#### Structure
 
-- [Zenodo](https://zenodo.org)—general-purpose repository (CERN), issues DOIs, suitable for almost any file type
-- [OSF](https://osf.io)—Open Science Framework, project and data management including versioning
-- [BORIS](https://boris.unibe.ch)—Bern Open Repository and Information System
+[Tidy format](https://r4ds.had.co.nz/tidy-data.html) (one observation per row, one variable per column) makes it easier to work with most R visualization packages. Using correct data types (e.g. `Date` instead of `character` for dates) saves memory and simplifies the code.
+
+#### Size
+
+There is no fixed threshold. If the dataset already takes noticeably long to load with `read.csv()` in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.
+
+| species          | region       | count | year |
+|------------------|--------------|-------|------|
+| Quercus robur    | Zurich       | 42    | 2023 |
+| Fagus sylvatica  | Bern         | 17    | 2023 |
+| Pinus sylvestris | Graubünden   | 89    | 2023 |
+| Acer platanoides | Zurich       | 31    | 2022 |
+| Betula pendula   | St. Gallen   | 24    | 2022 |
+
+*Limitation:* Every data update requires a redeploy of the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.
 
 ### Confidential or Sensitive Data
 
-For confidential or personal data, we recommend [ZHAW-REDCap](https://redcap.zhaw.ch/). Apps can read data directly from REDCap. See [REDCap Integration](redcap.md) for a dedicated guide.
+For confidential or personal data, we recommend [ZHAW-REDCap](https://redcap.zhaw.ch/). See [REDCap Integration](redcap.md) for a step-by-step guide.
 
-Special categories of personal data (e.g. health data, ethnicity, religious beliefs) may only be processed if this has been explicitly approved as part of the [Usage Assessment](../nutzungsabklaerung.md).
+Special categories of personal data may only be processed if this has been explicitly approved as part of the [Usage Assessment](../nutzungsabklaerung.md).
 
-### Other Institutional Sources
+### Other Data Sources
 
-!!! note "Under Review"
-    Internal databases and SharePoint are being considered as possible sources, but the connection to Posit Connect hasn't been tested yet. These and other institutional options are under internal review—details to follow.
-
-### Excluded: Data Bundled in the Repository
-
-Placing a data file (e.g. `.RData` or `.csv`) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) template enforces this technically too: it already excludes `.RData` and `.csv` files via `.gitignore`, so they're never committed in the first place. Load your data from one of the sources listed above instead (ORD repository, REDCap, institutional source).
+If you want to pull data from a database or another external system, reach out to the ZSF team—we'll work through the options together on a case-by-case basis.
 
 ## Principle: Data Minimisation
 
@@ -51,12 +59,7 @@ server <- function(input, output, session) {
 
 Users then see the data as of app start—which is entirely sufficient for most research dashboards. For a very large user base, or data that needs to be refreshed more frequently, more advanced caching options exist; just reach out to the ZHAW Services Research Data team.
 
-### Fetch Only What You Need
-
-Rather than a full export, it's worth configuring the request narrowly—e.g. loading only specific fields or records instead of downloading everything and filtering within the app. For REDCap, see [REDCap Integration](redcap.md).
-
 ### Checklist Before Deployment
 
 - Is the data loaded outside the server function (once, at app start)?
-- Is only a subset of the source retrieved, rather than a full export?
 - Are credentials (API tokens, etc.) stored only as environment variables—never in code or in a committed file?

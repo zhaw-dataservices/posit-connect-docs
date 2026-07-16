@@ -4,30 +4,38 @@ Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötig
 
 ## Wo liegen die Daten?
 
-Je nach Art der Daten empfehlen wir unterschiedliche Wege.
+### Datensatz im App-Bundle (empfohlen)
 
-### Öffentliche Forschungsdaten
+Für die meisten Forschungs-Dashboards empfehlen wir – in Übereinstimmung mit [Posits Best Practice](https://solutions.posit.co/connections/deploying-data/) – den Datensatz direkt als Teil des App-Repositoriums bereitzustellen, z. B. als `.csv`-Datei im `data/`-Ordner.
+In den Datensatz gehören nur die Variablen, die für die Visualisierung tatsächlich benötigt werden. Sensible Variablen – auch solche, die nicht direkt angezeigt werden – sollten nicht enthalten sein.
 
-Ideal ist die Ablage in einem ORD-Repository (Open Research Data). Die App liest die Daten direkt von dort – Daten und Code bleiben getrennt und unabhängig versionierbar. Empfohlene Repositorien sind z. B.:
+#### Struktur
 
-- [Zenodo](https://zenodo.org) – generisches Repositorium (CERN), vergibt DOIs, für praktisch jeden Dateityp geeignet
-- [OSF](https://osf.io) – Open Science Framework, Projekt- und Datenverwaltung inklusive Versionierung
-- [BORIS](https://boris.unibe.ch) – Bern Open Repository and Information System
+[Tidy-Format](https://r4ds.had.co.nz/tidy-data.html) (eine Beobachtung pro Zeile, eine Variable pro Spalte) erleichtert die Arbeit mit den meisten R-Visualisierungs-Packages. Korrekte Datentypen (z. B. `Date` statt `character` für Datumsangaben) sparen Speicher und vereinfachen den Code.
 
-### Vertrauliche oder sensible Daten
+#### Grösse
 
-Für vertrauliche oder personenbezogene Daten empfehlen wir [ZHAW-REDCap](https://redcap.zhaw.ch/). Apps können Daten direkt aus REDCap lesen. Eine gesonderte Anleitung dazu findet sich unter [REDCap-Integration](redcap.md).
+Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit `read.csv()` bereits spürbar lange lädt, ist er wahrscheinlich zu gross für das App-Bundle – meldet euch in dem Fall beim ZSF-Team.
 
-Besonders schützenswerte Personendaten (z. B. Gesundheitsdaten, Herkunft, religiöse Anschauungen) dürfen nur verarbeitet werden, wenn dies im Rahmen der [Nutzungsabklärung](../nutzungsabklaerung.md) explizit freigegeben wurde.
+| art              | region       | anzahl | jahr |
+|------------------|--------------|--------|------|
+| Quercus robur    | Zürich       | 42     | 2023 |
+| Fagus sylvatica  | Bern         | 17     | 2023 |
+| Pinus sylvestris | Graubünden   | 89     | 2023 |
+| Acer platanoides | Zürich       | 31     | 2022 |
+| Betula pendula   | St. Gallen   | 24     | 2022 |
 
-### Weitere institutionelle Quellen
+*Einschränkung:* Bei jeder Datenaktualisierung muss die App neu deployed werden. Wenn sich die Daten deutlich häufiger ändern als der Code, melde dich beim ZSF-Team – wir prüfen gemeinsam, ob ein anderer Ansatz sinnvoller ist.
 
-!!! note "In Prüfung"
-    Interne Datenbanken und SharePoint sind als mögliche Quellen im Blick, die Anbindung an Posit Connect wurde aber noch nicht getestet. Diese und weitere institutionelle Optionen werden intern geprüft – Details folgen.
+### Vertrauliche oder besonders schützenswerte Daten
 
-### Ausgeschlossen: Daten direkt im Repository
+Sind die Daten vertraulich oder personenbezogen, empfehlen wir [ZHAW-REDCap](https://redcap.zhaw.ch/). Eine Schritt-für-Schritt-Anleitung zur Anbindung findet sich unter [REDCap-Integration](redcap.md).
 
-Eine Datendatei (z. B. `.RData` oder `.csv`) im Code-Repository abzulegen widerspricht mehreren Best Practices: Die Daten wären nicht unabhängig vom Code versioniert, jede Aktualisierung würde ein Redeploy erfordern, und es bestünde das Risiko, versehentlich sensible Daten einzuchecken. Das [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base)-Template setzt das auch technisch durch: `.RData`- und `.csv`-Dateien sind dort bereits über `.gitignore` ausgeschlossen und werden gar nicht erst committet. Lies deine Daten stattdessen über eine der oben genannten Quellen ein (ORD-Repository, REDCap, institutionelle Quelle).
+Besonders schützenswerte Personendaten dürfen nur verarbeitet werden, wenn dies im Rahmen der [Nutzungsabklärung](../nutzungsabklaerung.md) explizit freigegeben wurde.
+
+### Andere Datenquellen
+
+Wer Daten aus einer eigenen Datenbank oder einer anderen externen Quelle beziehen möchte, ist eingeladen, sich beim ZSF-Team zu melden – wir prüfen die Anbindung je nach Fall gemeinsam.
 
 ## Grundsatz: Datensparsamkeit
 
@@ -51,12 +59,7 @@ server <- function(input, output, session) {
 
 Nutzer:innen sehen dabei den Datenstand zum Zeitpunkt des App-Starts – für die meisten Forschungs-Dashboards reicht das völlig aus. Bei sehr grossem Nutzer:innenkreis oder Daten, die häufiger aktualisiert werden müssen, gibt es weitergehende Caching-Optionen; meldet euch dazu einfach beim ZHAW Services Forschungsdaten Team.
 
-### Nur die benötigten Daten abrufen
-
-Statt eines Vollexports lohnt es sich, die Abfrage gezielt zu konfigurieren – z. B. nur bestimmte Felder oder Datensätze laden, statt alles herunterzuladen und erst in der App zu filtern. Für REDCap siehe [REDCap-Integration](redcap.md).
-
 ### Checkliste vor dem Deployment
 
 - Werden die Daten ausserhalb der Server-Funktion geladen (einmal beim App-Start)?
-- Wird nur ein Teilausschnitt der Quelle abgerufen, statt eines Vollexports?
 - Sind Zugangsdaten (API-Tokens etc.) nur als Umgebungsvariable hinterlegt – nie im Code oder in einer committeten Datei?

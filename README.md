@@ -20,15 +20,6 @@ mkdocs.yml
 .github/workflows/deploy.yml
 ```
 
-## Local development
-
-```bash
-pip install mkdocs mkdocs-material mkdocs-static-i18n
-mkdocs serve
-```
-
-The site is then available at `http://localhost:8000`.
-
 ## Deployment
 
 Pushing to `main` triggers a GitHub Actions workflow that builds the site and deploys it to the `gh-pages` branch automatically.
