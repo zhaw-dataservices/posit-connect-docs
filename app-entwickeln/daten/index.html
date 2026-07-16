@@ -443,34 +443,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../manifest/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    manifest.json erstellen
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../bestehende-app/" class="md-nav__link">
         
   
@@ -660,10 +632,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#checkliste-vor-dem-deployment" class="md-nav__link">
+  <a href="#checkliste-vor-der-veroffentlichung" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Checkliste vor dem Deployment
+        Checkliste vor der Veröffentlichung
       
     </span>
   </a>
@@ -814,7 +786,7 @@
   <span class="md-ellipsis">
     
   
-    Review & Deployment
+    Review & Veröffentlichung
   
 
     
@@ -982,10 +954,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#checkliste-vor-dem-deployment" class="md-nav__link">
+  <a href="#checkliste-vor-der-veroffentlichung" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Checkliste vor dem Deployment
+        Checkliste vor der Veröffentlichung
       
     </span>
   </a>
@@ -1069,7 +1041,7 @@ In den Datensatz gehören nur die Variablen, die für die Visualisierung tatsäc
 </table>
 <h4 id="grosse">Grösse</h4>
 <p>Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit <code>read.csv()</code> bereits spürbar lange lädt, ist er wahrscheinlich zu gross für das App-Bundle – meldet euch in dem Fall beim ZSF-Team.</p>
-<p><em>Einschränkung:</em> Bei jeder Datenaktualisierung muss die App neu deployed werden. Wenn sich die Daten deutlich häufiger ändern als der Code, melde dich beim ZSF-Team – wir prüfen gemeinsam, ob ein anderer Ansatz sinnvoller ist.</p>
+<p><em>Einschränkung:</em> Bei jeder Datenaktualisierung muss die App neu veröffentlicht werden. Wenn sich die Daten deutlich häufiger ändern als der Code, melde dich beim ZSF-Team – wir prüfen gemeinsam, ob ein anderer Ansatz sinnvoller ist.</p>
 <h3 id="vertrauliche-oder-besonders-schutzenswerte-daten">Vertrauliche oder besonders schützenswerte Daten</h3>
 <p>Sind die Daten vertraulich oder personenbezogen, empfehlen wir <a href="https://redcap.zhaw.ch/">ZHAW-REDCap</a>. Eine Schritt-für-Schritt-Anleitung zur Anbindung findet sich unter <a href="../redcap/">REDCap-Integration</a>.</p>
 <p>Besonders schützenswerte Personendaten dürfen nur verarbeitet werden, wenn dies im Rahmen der <a href="../../nutzungsabklaerung/">Nutzungsabklärung</a> explizit freigegeben wurde.</p>
@@ -1089,7 +1061,7 @@ server &lt;- function(input, output, session) {
 }
 </code></pre>
 <p>Nutzer:innen sehen dabei den Datenstand zum Zeitpunkt des App-Starts – für die meisten Forschungs-Dashboards reicht das völlig aus. Bei sehr grossem Nutzer:innenkreis oder Daten, die häufiger aktualisiert werden müssen, gibt es weitergehende Caching-Optionen; meldet euch dazu einfach beim ZHAW Services Forschungsdaten Team.</p>
-<h3 id="checkliste-vor-dem-deployment">Checkliste vor dem Deployment</h3>
+<h3 id="checkliste-vor-der-veroffentlichung">Checkliste vor der Veröffentlichung</h3>
 <ul>
 <li>Werden die Daten ausserhalb der Server-Funktion geladen (einmal beim App-Start)?</li>
 <li>Sind Zugangsdaten (API-Tokens etc.) nur als Umgebungsvariable hinterlegt – nie im Code oder in einer committeten Datei?</li>

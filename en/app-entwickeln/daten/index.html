@@ -443,34 +443,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../manifest/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Create manifest.json
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../bestehende-app/" class="md-nav__link">
         
   
@@ -660,10 +632,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#checklist-before-deployment" class="md-nav__link">
+  <a href="#checklist-before-publishing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Checklist Before Deployment
+        Checklist Before Publishing
       
     </span>
   </a>
@@ -814,7 +786,7 @@
   <span class="md-ellipsis">
     
   
-    Review & Deployment
+    Review & Publishing
   
 
     
@@ -982,10 +954,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#checklist-before-deployment" class="md-nav__link">
+  <a href="#checklist-before-publishing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Checklist Before Deployment
+        Checklist Before Publishing
       
     </span>
   </a>
@@ -1069,7 +1041,7 @@ The dataset should contain only the variables actually needed for the visualizat
 </table>
 <h4 id="size">Size</h4>
 <p>There is no fixed threshold. If the dataset already takes noticeably long to load with <code>read.csv()</code> in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.</p>
-<p><em>Limitation:</em> Every data update requires a redeploy of the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.</p>
+<p><em>Limitation:</em> Every data update requires republishing the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.</p>
 <h3 id="confidential-or-sensitive-data">Confidential or Sensitive Data</h3>
 <p>For confidential or personal data, we recommend <a href="https://redcap.zhaw.ch/">ZHAW-REDCap</a>. See <a href="../redcap/">REDCap Integration</a> for a step-by-step guide.</p>
 <p>Special categories of personal data may only be processed if this has been explicitly approved as part of the <a href="../../nutzungsabklaerung/">Usage Assessment</a>.</p>
@@ -1089,7 +1061,7 @@ server &lt;- function(input, output, session) {
 }
 </code></pre>
 <p>Users then see the data as of app start—which is entirely sufficient for most research dashboards. For a very large user base, or data that needs to be refreshed more frequently, more advanced caching options exist; just reach out to the ZHAW Services Research Data team.</p>
-<h3 id="checklist-before-deployment">Checklist Before Deployment</h3>
+<h3 id="checklist-before-publishing">Checklist Before Publishing</h3>
 <ul>
 <li>Is the data loaded outside the server function (once, at app start)?</li>
 <li>Are credentials (API tokens, etc.) stored only as environment variables—never in code or in a committed file?</li>

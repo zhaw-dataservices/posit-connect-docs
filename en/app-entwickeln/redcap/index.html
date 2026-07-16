@@ -443,34 +443,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../manifest/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Create manifest.json
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../bestehende-app/" class="md-nav__link">
         
   
@@ -774,7 +746,7 @@
   <span class="md-ellipsis">
     
   
-    Review & Deployment
+    Review & Publishing
   
 
     
@@ -945,7 +917,7 @@
 <li><a href="https://github.zhaw.ch/service-research-data/redcap-api-r">redcap-api-r</a>—for R</li>
 <li><a href="https://github.zhaw.ch/service-research-data/redcap-api-py">redcap-api-py</a>—for Python</li>
 </ul>
-<p>Both are primarily meant as a guide for working locally (e.g. in RStudio or Jupyter), but they double as a template for loading data for a dashboard that will later be deployed to Posit Connect—see <a href="#working-locally-posit-connect">Working Locally &amp; Posit Connect</a> below.</p>
+<p>Both are primarily meant as a guide for working locally (e.g. in RStudio or Jupyter), but they double as a template for loading data for a dashboard that will later be published to Posit Connect—see <a href="#working-locally-posit-connect">Working Locally &amp; Posit Connect</a> below.</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <p>You need a REDCap API token for your project. Find it in REDCap under <strong>Applications &gt; API</strong>; if none exists yet, request one from a REDCap admin.</p>
 <h2 id="connecting-from-r">Connecting from R</h2>
@@ -953,7 +925,7 @@
 <h2 id="connecting-from-python">Connecting from Python</h2>
 <p>See <a href="https://github.zhaw.ch/service-research-data/redcap-api-py">redcap-api-py</a>: the same approach for Python (<code>get_redcap_data()</code>, returning a pandas DataFrame), including a Jupyter notebook for inspecting the data.</p>
 <h2 id="working-locally-posit-connect">Working Locally &amp; Posit Connect</h2>
-<p>Both repositories are primarily meant for pulling and working with data locally on your own device—via a local <code>secrets.yml</code> that is never committed. We recommend the same pattern for dashboards that will later be deployed to Posit Connect: there, <code>get_redcap_data()</code> automatically reads credentials from environment variables (the app's <strong>Vars</strong> tab on Posit Connect) instead of the file, with no code changes required.</p>
+<p>Both repositories are primarily meant for pulling and working with data locally on your own device—via a local <code>secrets.yml</code> that is never committed. We recommend the same pattern for dashboards that will later be published to Posit Connect: there, <code>get_redcap_data()</code> automatically reads credentials from environment variables (the app's <strong>Vars</strong> tab on Posit Connect) instead of the file, with no code changes required.</p>
 <h2 id="storing-api-tokens-securely">Storing API Tokens Securely</h2>
 <p>Tokens never belong in code or in the repository. Locally: <code>config/secrets.yml</code> (gitignored). On Posit Connect: an environment variable under the <strong>Vars</strong> tab. See the READMEs of both repositories above for details.</p>
 <h2 id="data-protection-notes">Data Protection Notes</h2>

@@ -325,15 +325,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#process-at-a-glance" class="md-nav__link">
+  <a href="#process" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Process at a Glance
+        Process
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Process at a Glance">
+    <nav class="md-nav" aria-label="Process">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -381,10 +381,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-5-deployment" class="md-nav__link">
+  <a href="#step-5-publishing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 5: Deployment
+        Step 5: Publishing
       
     </span>
   </a>
@@ -560,34 +560,6 @@
     
   
     Streamlit Basics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="app-entwickeln/manifest/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Create manifest.json
   
 
     
@@ -787,7 +759,7 @@
   <span class="md-ellipsis">
     
   
-    Review & Deployment
+    Review & Publishing
   
 
     
@@ -865,15 +837,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#process-at-a-glance" class="md-nav__link">
+  <a href="#process" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Process at a Glance
+        Process
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Process at a Glance">
+    <nav class="md-nav" aria-label="Process">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -921,10 +893,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#step-5-deployment" class="md-nav__link">
+  <a href="#step-5-publishing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 5: Deployment
+        Step 5: Publishing
       
     </span>
   </a>
@@ -977,12 +949,12 @@
 <p>Since June 2026, ZHAW has been running a platform for interactive data visualisations based on Posit Connect. It lets researchers make their data interactively explorable—tailored to a wide range of audiences.</p>
 <p>At its core are interactive dashboards: small web applications in which users can explore, filter, and visualise the data themselves in charts, without installing anything. Such dashboards are usually built with Shiny (for R) or Streamlit (for Python). We are also happy to host interactive reports and websites created with Quarto (R / Python).</p>
 <p>Posit Connect can publish much more in principle; for a full overview, see the <a href="https://posit.co/products/enterprise/connect">Posit Connect product page</a>. Our best practices and support are initially focused on Shiny and Streamlit.</p>
-<h2 id="process-at-a-glance">Process at a Glance</h2>
+<h2 id="process">Process</h2>
 <p>Getting from an idea to a published app takes five steps:</p>
 <div class="process-diagram-wrapper">
-<svg viewBox="0 0 620 823" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Process diagram: 5 steps from preliminary assessment to deployment on Posit Connect" class="process-diagram" font-family="Inter, Arial, sans-serif">
-  <title>Posit Connect—Process Overview</title>
-  <desc>Process from the preliminary assessment through app development to deployment on Posit Connect.</desc>
+<svg viewBox="0 0 620 823" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Process diagram: 5 steps from preliminary assessment to publishing on Posit Connect" class="process-diagram" font-family="Inter, Arial, sans-serif">
+  <title>Posit Connect—Process</title>
+  <desc>Process from the preliminary assessment through app development to publishing on Posit Connect.</desc>
   <defs>
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -1174,15 +1146,24 @@
 
 <p>Steps 1 and 2 can be completed independently and in any order.</p>
 <h3 id="step-1-preliminary-assessment">Step 1: Preliminary Assessment</h3>
-<p>It all starts with initial contact, recommended for first-time users: ideally an email to <a href="mailto:researchdata@zhaw.ch">researchdata@zhaw.ch</a> to discuss the process. You then complete the <a href="https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513">SSP form</a> in the Self Service Portal (SSP), which also includes a usage assessment if needed (data protection, resources, security). See <a href="nutzungsabklaerung/">Usage Assessment</a>.</p>
+<p>It all starts with initial contact, recommended for first-time users: ideally an email to <a href="mailto:researchdata@zhaw.ch">researchdata@zhaw.ch</a> to discuss the concept and process. It helps to come prepared with answers to the following questions:</p>
+<ul>
+<li>What is the goal and concept of the data visualisation?</li>
+<li>What functionality should the visualisation have?</li>
+<li>Which programming language and libraries should be used?</li>
+<li>What does the data look like, and how is it classified in terms of confidentiality?</li>
+<li>Where will the data be stored?</li>
+</ul>
+<p>We will also cover code development and collaboration, app registration, any required usage assessment, and agree on the next steps and timeline.</p>
+<p>You then complete the <a href="https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513">SSP form</a> in the Self Service Portal, which includes a usage assessment if needed. See <a href="nutzungsabklaerung/">Usage Assessment</a>.</p>
 <h3 id="step-2-develop-your-app">Step 2: Develop Your App</h3>
-<p>You develop your app either using our templates or by integrating an existing one. We primarily support Shiny, Streamlit, and Quarto; this includes best practices, corporate design, and generating the <code>manifest.json</code>. See <a href="app-entwickeln/template/">Develop Your App</a>. Important info, tips &amp; tricks are under <a href="app-entwickeln/best-practices/">Best Practices</a>.</p>
+<p>You develop your app, ideally using our templates, available at <a href="https://github.zhaw.ch/service-research-data">github.zhaw.ch/service-research-data</a>. We primarily support Shiny, Streamlit, and Quarto. See <a href="app-entwickeln/template/">Develop Your App</a>. Important info, tips &amp; tricks are under <a href="app-entwickeln/best-practices/">Best Practices</a>. We especially recommend using Git, ideally via <a href="https://github.zhaw.ch">github.zhaw.ch</a>—it also enables collaboration with other researchers.</p>
 <h3 id="step-3-share-your-code">Step 3: Share Your Code</h3>
-<p>Your source code is published in a repository on github.zhaw.ch so that Posit Connect can read the app directly from there (GitHub.com only as an exception, depending on the data context). Git also makes collaboration with other researchers possible. See <a href="code-teilen/github-zhaw/">Share Your Code</a>.</p>
+<p>Once you are ready to publish your app, the final source code is made available on <a href="https://github.zhaw.ch/service-research-data">github.zhaw.ch/service-research-data</a> so that Posit Connect can read the app directly from there (GitHub.com only as an exception, depending on the data context). See <a href="code-teilen/github-zhaw/">Share Your Code</a>.</p>
 <h3 id="step-4-review">Step 4: Review</h3>
-<p>We review the code and the app—covering best practices, corporate design, data protection and minimisation, metadata and project assignment, access rights, and end of life. If changes are needed, the app goes back for rework; otherwise, deployment follows. See <a href="deployment/">Deployment</a>.</p>
-<h3 id="step-5-deployment">Step 5: Deployment</h3>
-<p>After a successful review, we handle the deployment on Posit Connect. The app goes live at a chosen URL following the pattern <code>exploredata.zhaw.ch/app-name</code>. Access rights are then configured, and later updates follow as needed. See <a href="deployment/">Deployment</a>.</p>
+<p>We review the code and the app—covering best practices, corporate design, data protection and minimisation, metadata and project assignment, access rights, and end of life. If changes are needed, the app goes back for rework; otherwise, publishing follows. See <a href="deployment/">Publishing</a>.</p>
+<h3 id="step-5-publishing">Step 5: Publishing</h3>
+<p>After a successful review, we handle the publishing to Posit Connect. The app goes live at a chosen URL following the pattern <code>exploredata.zhaw.ch/app-name</code>. Access rights are then configured, and later updates follow as needed. See <a href="deployment/">Publishing</a>.</p>
 <h2 id="contact">Contact</h2>
 <p>This service is operated by ZHAW Services Research Data.</p>
 <p><strong>Contact:</strong> <a href="mailto:researchdata@zhaw.ch">researchdata@zhaw.ch</a></p>
