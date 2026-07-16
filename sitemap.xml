@@ -8,25 +8,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/"/>
     </url>
     <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/corporate-design/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/corporate-design/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/corporate-design/"/>
-    </url>
-    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/deployment/</loc>
         <lastmod>2026-07-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/deployment/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/deployment/"/>
-    </url>
-    <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/nutzungsabklaerung/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/nutzungsabklaerung/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/nutzungsabklaerung/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/support/</loc>
@@ -41,13 +27,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices/"/>
-    </url>
-    <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/bestehende-app/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/bestehende-app/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/bestehende-app/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/daten/</loc>
@@ -99,25 +78,11 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/"/>
     </url>
     <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/corporate-design/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/corporate-design/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/corporate-design/"/>
-    </url>
-    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/deployment/</loc>
         <lastmod>2026-07-16</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/deployment/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/deployment/"/>
-    </url>
-    <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/nutzungsabklaerung/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/nutzungsabklaerung/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/nutzungsabklaerung/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/support/</loc>
@@ -132,13 +97,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices/"/>
-    </url>
-    <url>
-        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/bestehende-app/</loc>
-        <lastmod>2026-07-16</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/bestehende-app/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/bestehende-app/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/daten/</loc>
