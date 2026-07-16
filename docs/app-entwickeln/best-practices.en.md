@@ -1,18 +1,6 @@
 # Best Practices
 
-This page describes our recommendations for developing Shiny and Streamlit apps hosted on Posit Connect.
-
-## General
-
-<!-- TODO: General recommendations (code structure, readability, reproducibility) -->
-
-## Shiny (R)
-
-<!-- TODO: Shiny-specific best practices -->
-
-## Streamlit (Python)
-
-<!-- TODO: Streamlit-specific best practices -->
+This page describes our recommendations for developing apps hosted on Posit Connect.
 
 ## Managing Dependencies
 
@@ -32,4 +20,4 @@ For your app to run reliably, your local R, Python, or Quarto version should mat
 
 ## Accessibility
 
-<!-- TODO: accessibility recommendations (contrast, alt text, keyboard navigation, WCAG) -->
+<!-- TODO: Accessibility recommendations (contrast, alt text, keyboard navigation, WCAG) -->

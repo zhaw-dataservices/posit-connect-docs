@@ -30,7 +30,3 @@ Beide Repositories sind in erster Linie dafür gedacht, Daten lokal auf deinem G
 ## API-Token sicher speichern
 
 Tokens gehören nie in den Code oder ins Repository. Lokal in `config/secrets.yml` (gitignored), auf Posit Connect als Umgebungsvariable im Tab **Vars**. Details dazu in den READMEs der beiden Repositories oben.
-
-## Hinweise zum Datenschutz
-
-<!-- TODO: Was ist bei REDCap-Daten besonders zu beachten? -->

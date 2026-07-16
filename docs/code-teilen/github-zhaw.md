@@ -1,8 +1,12 @@
 # Code teilen via GitHub
 
-Der Code wird in einem Repository auf github.zhaw.ch (GitHub Enterprise Server der ZHAW) bereitgestellt – das ist der Normalfall. GitHub.com ist nur als Ausnahme vorgesehen, abhängig vom Kontext der Daten und der gewünschten Öffentlichkeit.
+Wir empfehlen, den App-Code von Anfang an auf [github.zhaw.ch](https://github.zhaw.ch) zu versionieren — so lässt sich der Code nachverfolgen, mit anderen Forscher:innen teilen und gemeinsam weiterentwickeln. Für den Zugang reicht der ZHAW-Login.
 
-<!-- TODO: Voraussetzungen, Repository anlegen, Code hochladen, Zugriff geben -->
+Neu bei Git oder GitHub? Hier ein paar Einstiegspunkte:
 
-!!! note "In Arbeit"
-    Der genaue Branch-Workflow (z. B. `main` für produktiven Code, Feature-Branches für Entwicklung) wird noch mit der ICT definiert. Diese Seite wird aktualisiert, sobald der Prozess feststeht.
+- [Git – offizielle Dokumentation](https://git-scm.com/doc)
+- [GitHub Docs](https://docs.github.com)
+
+Sobald du bereit bist, deine App zu veröffentlichen, erstellen wir gemeinsam ein Repository unter [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data) — der GitHub-Organisation von Services Forschungsdaten. Von dort wird die App auf Posit Connect veröffentlicht.
+
+<!-- TODO: Branch-Workflow noch definieren -->

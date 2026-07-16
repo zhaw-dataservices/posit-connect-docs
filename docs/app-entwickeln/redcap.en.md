@@ -30,7 +30,3 @@ Both repositories are primarily meant for pulling and working with data locally 
 ## Storing API Tokens Securely
 
 Tokens never belong in code or in the repository. Locally: `config/secrets.yml` (gitignored). On Posit Connect: an environment variable under the **Vars** tab. See the READMEs of both repositories above for details.
-
-## Data Protection Notes
-
-<!-- TODO: What to consider specifically for REDCap data -->
