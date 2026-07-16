@@ -89,7 +89,6 @@ plugins:
           # Translate the nav labels (which come from mkdocs.yml, not the pages).
           # Maps each German nav label to its English equivalent.
           nav_translations:
-            Ablauf im Überblick: Process Overview
             Nutzungsabklärung: Usage Assessment
             App entwickeln: Develop Your App
             Übersicht & Templates: Overview & Templates
@@ -105,7 +104,6 @@ plugins:
 # ---------------------------------------------------------------------------
 nav:
   - Home: index.md
-  - Ablauf im Überblick: ablauf.md
   - Nutzungsabklärung: nutzungsabklaerung.md
   - App entwickeln:
     - Übersicht & Templates: app-entwickeln/template.md

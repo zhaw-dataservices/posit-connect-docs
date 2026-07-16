@@ -13,10 +13,6 @@ The dataset should contain only the variables actually needed for the visualizat
 
 [Tidy format](https://r4ds.had.co.nz/tidy-data.html) (one observation per row, one variable per column) makes it easier to work with most R visualization packages. Using correct data types (e.g. `Date` instead of `character` for dates) saves memory and simplifies the code.
 
-#### Size
-
-There is no fixed threshold. If the dataset already takes noticeably long to load with `read.csv()` in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.
-
 | species          | region       | count | year |
 |------------------|--------------|-------|------|
 | Quercus robur    | Zurich       | 42    | 2023 |
@@ -24,6 +20,10 @@ There is no fixed threshold. If the dataset already takes noticeably long to loa
 | Pinus sylvestris | Graubünden   | 89    | 2023 |
 | Acer platanoides | Zurich       | 31    | 2022 |
 | Betula pendula   | St. Gallen   | 24    | 2022 |
+
+#### Size
+
+There is no fixed threshold. If the dataset already takes noticeably long to load with `read.csv()` in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.
 
 *Limitation:* Every data update requires a redeploy of the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.
 

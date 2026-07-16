@@ -13,10 +13,6 @@ In den Datensatz gehören nur die Variablen, die für die Visualisierung tatsäc
 
 [Tidy-Format](https://r4ds.had.co.nz/tidy-data.html) (eine Beobachtung pro Zeile, eine Variable pro Spalte) erleichtert die Arbeit mit den meisten R-Visualisierungs-Packages. Korrekte Datentypen (z. B. `Date` statt `character` für Datumsangaben) sparen Speicher und vereinfachen den Code.
 
-#### Grösse
-
-Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit `read.csv()` bereits spürbar lange lädt, ist er wahrscheinlich zu gross für das App-Bundle – meldet euch in dem Fall beim ZSF-Team.
-
 | art              | region       | anzahl | jahr |
 |------------------|--------------|--------|------|
 | Quercus robur    | Zürich       | 42     | 2023 |
@@ -24,6 +20,10 @@ Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit `read
 | Pinus sylvestris | Graubünden   | 89     | 2023 |
 | Acer platanoides | Zürich       | 31     | 2022 |
 | Betula pendula   | St. Gallen   | 24     | 2022 |
+
+#### Grösse
+
+Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit `read.csv()` bereits spürbar lange lädt, ist er wahrscheinlich zu gross für das App-Bundle – meldet euch in dem Fall beim ZSF-Team.
 
 *Einschränkung:* Bei jeder Datenaktualisierung muss die App neu deployed werden. Wenn sich die Daten deutlich häufiger ändern als der Code, melde dich beim ZSF-Team – wir prüfen gemeinsam, ob ein anderer Ansatz sinnvoller ist.
 
