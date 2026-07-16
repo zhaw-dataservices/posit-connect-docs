@@ -16,7 +16,7 @@
         <link rel="prev" href="../../code-teilen/github-zhaw/">
       
       
-        <link rel="next" href="../../deployment/">
+        <link rel="next" href="../best-practices-shiny/">
       
       
         
@@ -31,7 +31,7 @@
     
     
       
-        <title>Best Practices - Posit Connect – Dokumentation</title>
+        <title>Allgemein - Posit Connect – Dokumentation</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Best Practices
+              Allgemein
             
           </span>
         </div>
@@ -337,7 +337,7 @@
   <span class="md-ellipsis">
     
   
-    Übersicht & Templates
+    Templates
   
 
     
@@ -505,6 +505,55 @@
   
   
   
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Best Practices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Best Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -520,7 +569,7 @@
   <span class="md-ellipsis">
     
   
-    Best Practices
+    Allgemein
   
 
     
@@ -538,7 +587,7 @@
   <span class="md-ellipsis">
     
   
-    Best Practices
+    Allgemein
   
 
     
@@ -562,39 +611,6 @@
       Inhaltsverzeichnis
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#allgemein" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Allgemein
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#shiny-r" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Shiny (R)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#streamlit-python" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Streamlit (Python)
-      
-    </span>
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#abhangigkeiten-verwalten" class="md-nav__link">
@@ -638,6 +654,98 @@
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices-shiny/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shiny (R)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices-streamlit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Streamlit (Python)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices-quarto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quarto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -724,39 +832,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#allgemein" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Allgemein
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#shiny-r" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Shiny (R)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#streamlit-python" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Streamlit (Python)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#abhangigkeiten-verwalten" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -816,16 +891,7 @@
 
 
 <h1 id="best-practices">Best Practices</h1>
-<p>Diese Seite beschreibt unsere Empfehlungen für die Entwicklung von Shiny- und Streamlit-Apps, die auf Posit Connect gehostet werden.</p>
-<h2 id="allgemein">Allgemein</h2>
-<!-- TODO: Allgemeine Empfehlungen (Codestruktur, Lesbarkeit, Reproducibility) -->
-
-<h2 id="shiny-r">Shiny (R)</h2>
-<!-- TODO: Shiny-spezifische Best Practices -->
-
-<h2 id="streamlit-python">Streamlit (Python)</h2>
-<!-- TODO: Streamlit-spezifische Best Practices -->
-
+<p>Diese Seite beschreibt unsere Empfehlungen für die Entwicklung von Apps, die auf Posit Connect gehostet werden.</p>
 <h2 id="abhangigkeiten-verwalten">Abhängigkeiten verwalten</h2>
 <h3 id="unterstutzte-versionen">Unterstützte Versionen</h3>
 <p>Damit deine App zuverlässig läuft, sollte deine lokale R-, Python- oder Quarto-Version mit einer der auf unserem Posit-Connect-Server unterstützten Versionen übereinstimmen.</p>

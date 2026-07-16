@@ -337,7 +337,7 @@
   <span class="md-ellipsis">
     
   
-    Overview & Templates
+    Templates
   
 
     
@@ -513,9 +513,20 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../app-entwickeln/best-practices/" class="md-nav__link">
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -529,7 +540,135 @@
   
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Best Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../app-entwickeln/best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../app-entwickeln/best-practices-shiny/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shiny (R)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../app-entwickeln/best-practices-streamlit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Streamlit (Python)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../app-entwickeln/best-practices-quarto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quarto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -627,13 +766,14 @@
 
 
 <h1 id="share-code-via-github">Share Code via GitHub</h1>
-<p>Your code is published in a repository on github.zhaw.ch (ZHAW's GitHub Enterprise server)—this is the standard case. GitHub.com is only used as an exception, depending on the data context and desired visibility.</p>
-<!-- TODO: Prerequisites, creating a repository, uploading code, granting access -->
-
-<div class="admonition note">
-<p class="admonition-title">Work in Progress</p>
-<p>The exact branch workflow (e.g. <code>main</code> for production code, feature branches for development) is still being defined with ICT. This page will be updated once the process is finalised.</p>
-</div>
+<p>We recommend versioning your app code on <a href="https://github.zhaw.ch">github.zhaw.ch</a> from the start—this makes it easy to track changes, share code with other researchers, and collaborate. Your ZHAW login is all you need to get started.</p>
+<p>New to Git or GitHub? Here are a few starting points:</p>
+<ul>
+<li><a href="https://git-scm.com/doc">Git—official documentation</a></li>
+<li><a href="https://docs.github.com">GitHub Docs</a></li>
+</ul>
+<p>Once you are ready to publish your app, we will set up a repository together under <a href="https://github.zhaw.ch/service-research-data">github.zhaw.ch/service-research-data</a>—the GitHub organisation of Services Forschungsdaten. From there, the app is published to Posit Connect.</p>
+<!-- TODO: Define branch workflow -->
 
 
 

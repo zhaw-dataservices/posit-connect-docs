@@ -22,6 +22,27 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/support/"/>
     </url>
     <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-quarto/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-quarto/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-quarto/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-shiny/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-shiny/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-shiny/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-streamlit/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-streamlit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-streamlit/"/>
+    </url>
+    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices/</loc>
         <lastmod>2026-07-16</lastmod>
         <changefreq>daily</changefreq>
@@ -90,6 +111,27 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/support/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/support/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-quarto/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-quarto/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-quarto/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-shiny/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-shiny/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-shiny/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-streamlit/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-streamlit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-streamlit/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices/</loc>

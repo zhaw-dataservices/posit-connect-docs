@@ -339,7 +339,7 @@
   <span class="md-ellipsis">
     
   
-    Overview & Templates
+    Templates
   
 
     
@@ -569,17 +569,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#data-protection-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data Protection Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -629,9 +618,20 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../best-practices/" class="md-nav__link">
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -645,7 +645,135 @@
   
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Best Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices-shiny/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shiny (R)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices-streamlit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Streamlit (Python)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best-practices-quarto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quarto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -796,17 +924,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#data-protection-notes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data Protection Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -846,8 +963,6 @@
 <p>Both repositories are primarily meant for pulling and working with data locally on your own device—via a local <code>secrets.yml</code> that is never committed. We recommend the same pattern for dashboards that will later be published to Posit Connect: there, <code>get_redcap_data()</code> automatically reads credentials from environment variables (the app's <strong>Vars</strong> tab on Posit Connect) instead of the file, with no code changes required.</p>
 <h2 id="storing-api-tokens-securely">Storing API Tokens Securely</h2>
 <p>Tokens never belong in code or in the repository. Locally: <code>config/secrets.yml</code> (gitignored). On Posit Connect: an environment variable under the <strong>Vars</strong> tab. See the READMEs of both repositories above for details.</p>
-<h2 id="data-protection-notes">Data Protection Notes</h2>
-<!-- TODO: What to consider specifically for REDCap data -->
 
 
 
