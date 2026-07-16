@@ -598,13 +598,41 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#public-research-data" class="md-nav__link">
+  <a href="#dataset-in-the-app-bundle-recommended" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Public Research Data
+        Dataset in the App Bundle (recommended)
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Dataset in the App Bundle (recommended)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -620,21 +648,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#other-institutional-sources" class="md-nav__link">
+  <a href="#other-data-sources" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Other Institutional Sources
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#excluded-data-bundled-in-the-repository" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Excluded: Data Bundled in the Repository
+        Other Data Sources
       
     </span>
   </a>
@@ -663,17 +680,6 @@
     <span class="md-ellipsis">
       
         The Most Common Mistake: Reloading Data on Every Interaction
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fetch-only-what-you-need" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Fetch Only What You Need
       
     </span>
   </a>
@@ -914,13 +920,41 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#public-research-data" class="md-nav__link">
+  <a href="#dataset-in-the-app-bundle-recommended" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Public Research Data
+        Dataset in the App Bundle (recommended)
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Dataset in the App Bundle (recommended)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Size
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -936,21 +970,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#other-institutional-sources" class="md-nav__link">
+  <a href="#other-data-sources" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Other Institutional Sources
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#excluded-data-bundled-in-the-repository" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Excluded: Data Bundled in the Repository
+        Other Data Sources
       
     </span>
   </a>
@@ -979,17 +1002,6 @@
     <span class="md-ellipsis">
       
         The Most Common Mistake: Reloading Data on Every Interaction
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fetch-only-what-you-need" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Fetch Only What You Need
       
     </span>
   </a>
@@ -1035,24 +1047,61 @@
 <h1 id="data-sources-access">Data Sources &amp; Access</h1>
 <p>Apps on Posit Connect should only use the data that is actually needed. This page shows where the data for your dashboard should live and how to retrieve it as gently as possible.</p>
 <h2 id="where-is-the-data">Where Is the Data?</h2>
-<p>The recommended path depends on the type of data.</p>
-<h3 id="public-research-data">Public Research Data</h3>
-<p>Ideally, store the data in an ORD repository (Open Research Data). The app reads the data directly from there—data and code stay separate and independently versioned. Recommended repositories are, e.g.:</p>
-<ul>
-<li><a href="https://zenodo.org">Zenodo</a>—general-purpose repository (CERN), issues DOIs, suitable for almost any file type</li>
-<li><a href="https://osf.io">OSF</a>—Open Science Framework, project and data management including versioning</li>
-<li><a href="https://boris.unibe.ch">BORIS</a>—Bern Open Repository and Information System</li>
-</ul>
+<h3 id="dataset-in-the-app-bundle-recommended">Dataset in the App Bundle (recommended)</h3>
+<p>For most research dashboards, we recommend—in line with <a href="https://solutions.posit.co/connections/deploying-data/">Posit's best practice</a>—bundling the dataset directly as part of the app repository, for example as a <code>.csv</code> file in the <code>data/</code> folder.
+The dataset should contain only the variables actually needed for the visualization. Sensitive variables—even ones that aren't displayed directly—should not be included.</p>
+<h4 id="structure">Structure</h4>
+<p><a href="https://r4ds.had.co.nz/tidy-data.html">Tidy format</a> (one observation per row, one variable per column) makes it easier to work with most R visualization packages. Using correct data types (e.g. <code>Date</code> instead of <code>character</code> for dates) saves memory and simplifies the code.</p>
+<h4 id="size">Size</h4>
+<p>There is no fixed threshold. If the dataset already takes noticeably long to load with <code>read.csv()</code> in local testing, it's probably too large for the app bundle—reach out to the ZSF team in that case.</p>
+<table>
+<thead>
+<tr>
+<th>species</th>
+<th>region</th>
+<th>count</th>
+<th>year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quercus robur</td>
+<td>Zurich</td>
+<td>42</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Fagus sylvatica</td>
+<td>Bern</td>
+<td>17</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Pinus sylvestris</td>
+<td>Graubünden</td>
+<td>89</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Acer platanoides</td>
+<td>Zurich</td>
+<td>31</td>
+<td>2022</td>
+</tr>
+<tr>
+<td>Betula pendula</td>
+<td>St. Gallen</td>
+<td>24</td>
+<td>2022</td>
+</tr>
+</tbody>
+</table>
+<p><em>Limitation:</em> Every data update requires a redeploy of the app. If the data changes much more frequently than the code, reach out to the ZSF team—we'll work out together whether a different approach makes more sense.</p>
 <h3 id="confidential-or-sensitive-data">Confidential or Sensitive Data</h3>
-<p>For confidential or personal data, we recommend <a href="https://redcap.zhaw.ch/">ZHAW-REDCap</a>. Apps can read data directly from REDCap. See <a href="../redcap/">REDCap Integration</a> for a dedicated guide.</p>
-<p>Special categories of personal data (e.g. health data, ethnicity, religious beliefs) may only be processed if this has been explicitly approved as part of the <a href="../../nutzungsabklaerung/">Usage Assessment</a>.</p>
-<h3 id="other-institutional-sources">Other Institutional Sources</h3>
-<div class="admonition note">
-<p class="admonition-title">Under Review</p>
-<p>Internal databases and SharePoint are being considered as possible sources, but the connection to Posit Connect hasn't been tested yet. These and other institutional options are under internal review—details to follow.</p>
-</div>
-<h3 id="excluded-data-bundled-in-the-repository">Excluded: Data Bundled in the Repository</h3>
-<p>Placing a data file (e.g. <code>.RData</code> or <code>.csv</code>) in the code repository goes against several best practices: the data wouldn't be versioned independently from the code, every update would require a redeploy, and there'd be a risk of accidentally committing sensitive data. The <a href="https://github.zhaw.ch/service-research-data/shiny-base">shiny-base</a> template enforces this technically too: it already excludes <code>.RData</code> and <code>.csv</code> files via <code>.gitignore</code>, so they're never committed in the first place. Load your data from one of the sources listed above instead (ORD repository, REDCap, institutional source).</p>
+<p>For confidential or personal data, we recommend <a href="https://redcap.zhaw.ch/">ZHAW-REDCap</a>. See <a href="../redcap/">REDCap Integration</a> for a step-by-step guide.</p>
+<p>Special categories of personal data may only be processed if this has been explicitly approved as part of the <a href="../../nutzungsabklaerung/">Usage Assessment</a>.</p>
+<h3 id="other-data-sources">Other Data Sources</h3>
+<p>If you want to pull data from a database or another external system, reach out to the ZSF team—we'll work through the options together on a case-by-case basis.</p>
 <h2 id="principle-data-minimisation">Principle: Data Minimisation</h2>
 <p>Apps on Posit Connect should access their data source as rarely and as narrowly as possible—whether that's REDCap, an ORD repository, or an institutional source. The source sits downstream of Posit Connect and shouldn't be burdened unnecessarily.</p>
 <h3 id="the-most-common-mistake-reloading-data-on-every-interaction">The Most Common Mistake: Reloading Data on Every Interaction</h3>
@@ -1067,12 +1116,9 @@ server &lt;- function(input, output, session) {
 }
 </code></pre>
 <p>Users then see the data as of app start—which is entirely sufficient for most research dashboards. For a very large user base, or data that needs to be refreshed more frequently, more advanced caching options exist; just reach out to the ZHAW Services Research Data team.</p>
-<h3 id="fetch-only-what-you-need">Fetch Only What You Need</h3>
-<p>Rather than a full export, it's worth configuring the request narrowly—e.g. loading only specific fields or records instead of downloading everything and filtering within the app. For REDCap, see <a href="../redcap/">REDCap Integration</a>.</p>
 <h3 id="checklist-before-deployment">Checklist Before Deployment</h3>
 <ul>
 <li>Is the data loaded outside the server function (once, at app start)?</li>
-<li>Is only a subset of the source retrieved, rather than a full export?</li>
 <li>Are credentials (API tokens, etc.) stored only as environment variables—never in code or in a committed file?</li>
 </ul>
 
