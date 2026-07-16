@@ -22,6 +22,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/support/"/>
     </url>
     <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-barrierefreiheit/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-barrierefreiheit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-barrierefreiheit/"/>
+    </url>
+    <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-quarto/</loc>
         <lastmod>2026-07-16</lastmod>
         <changefreq>daily</changefreq>
@@ -111,6 +118,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/support/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/support/"/>
+    </url>
+    <url>
+        <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-barrierefreiheit/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-barrierefreiheit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://zhaw-dataservices.github.io/posit-connect-docs/app-entwickeln/best-practices-barrierefreiheit/"/>
     </url>
     <url>
         <loc>https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices-quarto/</loc>

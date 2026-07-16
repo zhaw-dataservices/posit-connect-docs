@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/deployment/">
       
       
-        <link rel="prev" href="../app-entwickeln/best-practices-quarto/">
+        <link rel="prev" href="../app-entwickeln/best-practices-barrierefreiheit/">
       
       
         <link rel="next" href="../support/">
@@ -551,34 +551,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../app-entwickeln/best-practices/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Allgemein
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../app-entwickeln/best-practices-shiny/" class="md-nav__link">
         
   
@@ -643,6 +615,34 @@
     
   
     Quarto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app-entwickeln/best-practices-barrierefreiheit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Barrierefreiheit
   
 
     
@@ -730,10 +730,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#was-wir-prufen" class="md-nav__link">
+  <a href="#review" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Was wir prüfen
+        Review
       
     </span>
   </a>
@@ -741,10 +741,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ablauf-nach-der-ubergabe" class="md-nav__link">
+  <a href="#nach-der-veroffentlichung" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ablauf nach der Übergabe
+        Nach der Veröffentlichung
       
     </span>
   </a>
@@ -752,21 +752,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#nach-dem-veroffentlichung" class="md-nav__link">
+  <a href="#updates" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Nach dem Veröffentlichung
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#updates-anderungen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Updates &amp; Änderungen
+        Updates
       
     </span>
   </a>
@@ -835,10 +824,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#was-wir-prufen" class="md-nav__link">
+  <a href="#review" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Was wir prüfen
+        Review
       
     </span>
   </a>
@@ -846,10 +835,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ablauf-nach-der-ubergabe" class="md-nav__link">
+  <a href="#nach-der-veroffentlichung" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ablauf nach der Übergabe
+        Nach der Veröffentlichung
       
     </span>
   </a>
@@ -857,21 +846,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#nach-dem-veroffentlichung" class="md-nav__link">
+  <a href="#updates" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Nach dem Veröffentlichung
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#updates-anderungen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Updates &amp; Änderungen
+        Updates
       
     </span>
   </a>
@@ -899,22 +877,23 @@
 
 
 <h1 id="veroffentlichung">Veröffentlichung</h1>
-<p>Sobald der Code auf GitHub bereitsteht und alle Voraussetzungen erfüllt sind, übernehmen wir das Veröffentlichung auf Posit Connect.</p>
-<h2 id="was-wir-prufen">Was wir prüfen</h2>
-<!-- TODO: Checkliste – was wird vor dem Veröffentlichung geprüft? (Abhängigkeiten, Datenschutz etc.) -->
-
-<h2 id="ablauf-nach-der-ubergabe">Ablauf nach der Übergabe</h2>
-<!-- TODO: Wie lange dauert es? Wie wird kommuniziert? -->
-
-<h2 id="nach-dem-veroffentlichung">Nach dem Veröffentlichung</h2>
-<!-- TODO: URL der App, Zugriffsrechte, wie werden Updates eingespielt? -->
-
-<h2 id="updates-anderungen">Updates &amp; Änderungen</h2>
-<!-- TODO: Wie meldet man Änderungen? Wer darf was ändern? Branch-Workflow TBD -->
-
+<p>Sobald der Code auf GitHub bereitsteht, übernehmen wir die Veröffentlichung auf Posit Connect.</p>
+<h2 id="review">Review</h2>
+<p>Vor der Veröffentlichung schauen wir uns den Source Code an und testen die App. Dabei prüfen wir unter anderem:</p>
+<ul>
+<li>Codequalität und Lesbarkeit</li>
+<li>Einhaltung unserer <a href="../app-entwickeln/best-practices-shiny/">Best Practices</a></li>
+<li>Datenschutz und Datensparsamkeit</li>
+<li>ggf. Metadaten und Projektzuordnung</li>
+<li>ggf. Zugriffsrechte</li>
+</ul>
+<p>Sind Anpassungen nötig, melden wir uns direkt. Andernfalls folgt die Veröffentlichung.</p>
+<h2 id="nach-der-veroffentlichung">Nach der Veröffentlichung</h2>
+<p>Nach der Veröffentlichung erhältst du den Link zur App sowie die Informationen zu den Zugriffsrechten.</p>
+<h2 id="updates">Updates</h2>
 <div class="admonition note">
-<p class="admonition-title">In Arbeit</p>
-<p>Der Prozess für Updates und Branch-Management wird noch mit der ICT definiert.</p>
+<p class="admonition-title">In Planung</p>
+<p>Der Prozess für Updates (Branch-Workflow, wer was ändern darf) wird noch definiert. Diese Seite wird aktualisiert, sobald das geklärt ist.</p>
 </div>
 
 
