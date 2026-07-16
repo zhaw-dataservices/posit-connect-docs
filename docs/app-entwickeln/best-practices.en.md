@@ -17,7 +17,3 @@ For your app to run reliably, your local R, Python, or Quarto version should mat
 | Quarto | 1.9.37 |
 
 <!-- TODO: renv (R) / requirements.txt or pyproject.toml (Python) -->
-
-## Accessibility
-
-<!-- TODO: Accessibility recommendations (contrast, alt text, keyboard navigation, WCAG) -->

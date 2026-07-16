@@ -1,22 +1,24 @@
 # Veröffentlichung
 
-Sobald der Code auf GitHub bereitsteht und alle Voraussetzungen erfüllt sind, übernehmen wir das Veröffentlichung auf Posit Connect.
+Sobald der Code auf GitHub bereitsteht, übernehmen wir die Veröffentlichung auf Posit Connect.
 
-## Was wir prüfen
+## Review
 
-<!-- TODO: Checkliste – was wird vor dem Veröffentlichung geprüft? (Abhängigkeiten, Datenschutz etc.) -->
+Vor der Veröffentlichung schauen wir uns den Source Code an und testen die App. Dabei prüfen wir unter anderem:
 
-## Ablauf nach der Übergabe
+- Codequalität und Lesbarkeit
+- Einhaltung unserer [Best Practices](app-entwickeln/best-practices-shiny.md)
+- Datenschutz und Datensparsamkeit
+- ggf. Metadaten und Projektzuordnung
+- ggf. Zugriffsrechte
 
-<!-- TODO: Wie lange dauert es? Wie wird kommuniziert? -->
+Sind Anpassungen nötig, melden wir uns direkt. Andernfalls folgt die Veröffentlichung.
 
-## Nach dem Veröffentlichung
+## Nach der Veröffentlichung
 
-<!-- TODO: URL der App, Zugriffsrechte, wie werden Updates eingespielt? -->
+Nach der Veröffentlichung erhältst du den Link zur App sowie die Informationen zu den Zugriffsrechten.
 
-## Updates & Änderungen
+## Updates
 
-<!-- TODO: Wie meldet man Änderungen? Wer darf was ändern? Branch-Workflow TBD -->
-
-!!! note "In Arbeit"
-    Der Prozess für Updates und Branch-Management wird noch mit der ICT definiert.
+!!! note "In Planung"
+    Der Prozess für Updates (Branch-Workflow, wer was ändern darf) wird noch definiert. Diese Seite wird aktualisiert, sobald das geklärt ist.

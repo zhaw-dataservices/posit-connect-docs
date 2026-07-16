@@ -92,7 +92,7 @@ plugins:
             Review & Veröffentlichung: Review & Publishing
             App entwickeln: Develop Your App
             Templates: Templates
-            Allgemein: General
+            Barrierefreiheit: Accessibility
             Datenquellen & Datenzugriff: Data Sources & Access
             Daten aus REDCap laden: Loading Data from REDCap
             Code teilen via GitHub: Share Code via GitHub
@@ -111,9 +111,9 @@ nav:
     - Daten aus REDCap laden: app-entwickeln/redcap.md
   - Code teilen via GitHub: code-teilen/github-zhaw.md
   - Best Practices:
-    - Allgemein: app-entwickeln/best-practices.md
     - Shiny (R): app-entwickeln/best-practices-shiny.md
     - Streamlit (Python): app-entwickeln/best-practices-streamlit.md
     - Quarto: app-entwickeln/best-practices-quarto.md
+    - Barrierefreiheit: app-entwickeln/best-practices-barrierefreiheit.md
   - Review & Veröffentlichung: deployment.md
   - FAQ: support.md

@@ -9,7 +9,7 @@ Diese Seite dokumentiert den ZHAW-Service «Interaktive Datenvisualisierung» �
 
 Seit Juni 2026 betreibt die ZHAW mit Posit Connect eine Plattform für interaktive Datenvisualisierungen. Forscher:innen können damit ihre Daten interaktiv erlebbar machen – passend für ganz unterschiedliche Zielgruppen.
 
-Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können, ganz ohne eigene Installation. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Ebenso hosten wir gerne interaktive Berichte und Webseiten, die mit Quarto (R / Python) erstellt wurden.
+Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können, ganz ohne eigene Installation. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Ebenso veröffentlichen wir gerne interaktive Berichte und Webseiten, die mit Quarto (R / Python) erstellt wurden.
 
 Posit Connect kann grundsätzlich noch mehr veröffentlichen; einen vollständigen Überblick bietet die [Produktseite von Posit Connect](https://posit.co/products/enterprise/connect). Unsere Best Practices und unser Support sind zunächst auf Shiny und Streamlit ausgerichtet.
 

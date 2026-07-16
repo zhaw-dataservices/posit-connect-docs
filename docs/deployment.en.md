@@ -1,22 +1,24 @@
 # Publishing
 
-Once the code is available on GitHub and all prerequisites are met, we handle the publishing to Posit Connect.
+Once the code is available on GitHub, we handle the publishing to Posit Connect.
 
-## What We Check
+## Review
 
-<!-- TODO: Checklist—what is reviewed before deployment? (dependencies, data protection, etc.) -->
+Before publishing, we review the source code and test the app. This includes checking:
 
-## Process After Handover
+- Code quality and readability
+- Adherence to our [Best Practices](app-entwickeln/best-practices-shiny.md)
+- Data protection and data minimisation
+- Metadata and project assignment, where applicable
+- Access permissions, where applicable
 
-<!-- TODO: How long does it take? How is communication handled? -->
+If changes are needed, we will get in touch directly. Otherwise, we proceed with publishing.
 
 ## After Publishing
 
-<!-- TODO: App URL, access permissions, how are updates applied? -->
+After publishing, you will receive the link to your app along with information about access permissions.
 
-## Updates & Changes
+## Updates
 
-<!-- TODO: How to request changes? Who can change what? Branch workflow TBD -->
-
-!!! note "Work in Progress"
-    The process for updates and branch management is still being defined with ICT.
+!!! note "Planned"
+    The process for updates (branch workflow, who can change what) is still being defined. This page will be updated once that is clarified.

@@ -1,6 +1,6 @@
 # Best Practices
 
-Diese Seite beschreibt unsere Empfehlungen für die Entwicklung von Apps, die auf Posit Connect gehostet werden.
+Diese Seite beschreibt unsere Empfehlungen für die Entwicklung von Apps, die auf Posit Connect veröffentlicht sind.
 
 ## Abhängigkeiten verwalten
 
@@ -17,7 +17,3 @@ Damit deine App zuverlässig läuft, sollte deine lokale R-, Python- oder Quarto
 | Quarto | 1.9.37 |
 
 <!-- TODO: renv (R) / requirements.txt oder pyproject.toml (Python) -->
-
-## Barrierefreiheit
-
-<!-- TODO: Empfehlungen zur Barrierefreiheit (Kontraste, Alt-Texte, Tastaturbedienung, WCAG) -->
