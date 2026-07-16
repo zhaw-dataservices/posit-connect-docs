@@ -4,7 +4,7 @@ We provide a template in ZHAW's corporate design. It contains the basic structur
 
 ## Why Use the Template?
 
-<!-- TODO: Explain benefits (CD, best practices) -->
+<!-- TODO: Explain benefits (best practices) -->
 
 ## Download / Clone the Template
 

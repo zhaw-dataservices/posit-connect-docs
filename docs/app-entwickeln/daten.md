@@ -31,7 +31,7 @@ Es gibt keinen fixen Grenzwert. Wenn der Datensatz beim lokalen Testen mit `read
 
 Sind die Daten vertraulich oder personenbezogen, empfehlen wir [ZHAW-REDCap](https://redcap.zhaw.ch/). Eine Schritt-für-Schritt-Anleitung zur Anbindung findet sich unter [REDCap-Integration](redcap.md).
 
-Besonders schützenswerte Personendaten dürfen nur verarbeitet werden, wenn dies im Rahmen der [Nutzungsabklärung](../nutzungsabklaerung.md) explizit freigegeben wurde.
+Besonders schützenswerte Personendaten dürfen nur verarbeitet werden, wenn dies im Rahmen der Nutzungsabklärung explizit freigegeben wurde.
 
 ### Andere Datenquellen
 

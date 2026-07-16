@@ -31,7 +31,7 @@ There is no fixed threshold. If the dataset already takes noticeably long to loa
 
 For confidential or personal data, we recommend [ZHAW-REDCap](https://redcap.zhaw.ch/). See [REDCap Integration](redcap.md) for a step-by-step guide.
 
-Special categories of personal data may only be processed if this has been explicitly approved as part of the [Usage Assessment](../nutzungsabklaerung.md).
+Special categories of personal data may only be processed if this has been explicitly approved as part of the usage assessment.
 
 ### Other Data Sources
 

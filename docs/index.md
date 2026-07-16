@@ -35,7 +35,7 @@ Den Anfang macht die erste Kontaktaufnahme, für Erstanwender:innen empfohlen: a
 
 Wir besprechen ausserdem Code-Entwicklung und Kollaboration, die App-Registrierung und eine allfällige Nutzungsabklärung sowie das weitere Vorgehen und den Zeitplan.
 
-Danach füllst du im Self Service Portal das [SSP-Formular](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) aus, das bei Bedarf auch eine Nutzungsabklärung umfasst. Details dazu auf der Seite [Nutzungsabklärung](nutzungsabklaerung.md).
+Danach füllst du im Self Service Portal das [SSP-Formular](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) aus, das bei Bedarf auch eine Nutzungsabklärung umfasst.
 
 ### Schritt 2: App entwickeln
 

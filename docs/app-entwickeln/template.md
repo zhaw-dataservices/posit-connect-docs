@@ -4,7 +4,7 @@ Wir stellen ein Template im Corporate Design der ZHAW zur Verfügung. Es enthäl
 
 ## Warum das Template?
 
-<!-- TODO: Vorteile erklären (CD, Best Practices) -->
+<!-- TODO: Vorteile erklären (Best Practices) -->
 
 ## Template herunterladen / klonen
 

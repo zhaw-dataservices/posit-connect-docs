@@ -35,7 +35,7 @@ It all starts with initial contact, recommended for first-time users: ideally an
 
 We will also cover code development and collaboration, app registration, any required usage assessment, and agree on the next steps and timeline.
 
-You then complete the [SSP form](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) in the Self Service Portal, which includes a usage assessment if needed. See [Usage Assessment](nutzungsabklaerung.md).
+You then complete the [SSP form](https://servicedesk.zhaw.ch/tas/public/ssp/content/serviceflow?unid=330c213f-12fa-44e4-ad9b-07abb40fa513) in the Self Service Portal, which includes a usage assessment if needed.
 
 ### Step 2: Develop Your App
 

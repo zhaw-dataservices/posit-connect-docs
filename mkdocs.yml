@@ -90,10 +90,8 @@ plugins:
           # Maps each German nav label to its English equivalent.
           nav_translations:
             Review & Veröffentlichung: Review & Publishing
-            Nutzungsabklärung: Usage Assessment
             App entwickeln: Develop Your App
             Übersicht & Templates: Overview & Templates
-            Bestehende App einbinden: Integrate an Existing App
             Datenquellen & Datenzugriff: Data Sources & Access
             Daten aus REDCap laden: Loading Data from REDCap
             Code teilen via GitHub: Share Code via GitHub
@@ -104,16 +102,13 @@ plugins:
 # ---------------------------------------------------------------------------
 nav:
   - Home: index.md
-  - Nutzungsabklärung: nutzungsabklaerung.md
   - App entwickeln:
     - Übersicht & Templates: app-entwickeln/template.md
     - Shiny Basics: app-entwickeln/shiny-basics.md
     - Streamlit Basics: app-entwickeln/streamlit-basics.md
-    - Bestehende App einbinden: app-entwickeln/bestehende-app.md
     - Datenquellen & Datenzugriff: app-entwickeln/daten.md
     - Daten aus REDCap laden: app-entwickeln/redcap.md
   - Code teilen via GitHub: code-teilen/github-zhaw.md
   - Best Practices: app-entwickeln/best-practices.md
-  - Corporate Design: corporate-design.md
   - Review & Veröffentlichung: deployment.md
-  - Support & FAQ: support.md
+  - FAQ: support.md
