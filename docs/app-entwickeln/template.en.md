@@ -1,5 +1,5 @@
 # Templates
-## Why templstes?
+## Why templates?
 
 We provide templates for developing interactive data visualization applications. These templates include the basic application structure and serve as the recommended starting point for new applications.
 
