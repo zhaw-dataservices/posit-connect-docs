@@ -1,4 +1,5 @@
 # Templates
+## Why templstes?
 
 We provide templates for developing interactive data visualization applications. These templates include the basic application structure and serve as the recommended starting point for new applications.
 
@@ -11,7 +12,7 @@ Using the templates offers the following benefits:
 - Centralized configuration of application metadata through a configuration file
 
 
-# Available Templates
+## Available Templates
 
 - https://github.zhaw.ch/service-research-data/shiny-base – Template for Shiny (R)
 - Template for Streamlit (Python) coming in Autumn 2026

@@ -1,4 +1,5 @@
 # Templates
+## Warum Templates?
 
 Für die Entwicklung von Apps zur interaktiven Datenvisualisierung stellen wir Templates zur Verfügung. Diese enthalten die grundlegende Applikationsstruktur und dienen als empfohlener Ausgangspunkt für neue Anwendungen.
 
@@ -11,7 +12,7 @@ Die Nutzung der Templates bietet folgende Vorteile:
 - Zentrale Konfiguration von App-Metadaten über eine Konfigurationsdatei
 
 
-# Verfügbare Templates
+## Verfügbare Templates
 
 - [shiny-base](https://github.zhaw.ch/service-research-data Template für Shiny (R)
 - Template für Streamlit (Python) folgt im Herbst 2026
