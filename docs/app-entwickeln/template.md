@@ -14,5 +14,5 @@ Die Nutzung der Templates bietet folgende Vorteile:
 
 ## Verfügbare Templates
 
-- [shiny-base](https://github.zhaw.ch/service-research-data Template für Shiny (R)
+- [shiny-base](https://github.zhaw.ch/service-research-data) Template für Shiny (R)
 - Template für Streamlit (Python) folgt im Herbst 2026
