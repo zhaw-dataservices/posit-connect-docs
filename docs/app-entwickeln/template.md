@@ -1,5 +1,17 @@
 # Templates
 
-Wir stellen ein Template im Corporate Design der ZHAW zur Verfügung. Es enthält die grundlegende Struktur und ist der empfohlene Ausgangspunkt für neue Apps.
+Für die Entwicklung von Apps zur interaktiven Datenvisualisierung stellen wir Templates zur Verfügung. Diese enthalten die grundlegende Applikationsstruktur und dienen als empfohlener Ausgangspunkt für neue Anwendungen.
 
-- [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) – Shiny (R)
+Die Nutzung der Templates bietet folgende Vorteile:
+
+- Einheitlicher Header und Footer sowie Integration des ZHAW-Logos gemäss Corporate Design
+- Berücksichtigung gesetzlicher Anforderungen wie Impressum und Datenschutzhinweise
+- Unterstützung der Barrierefreiheit durch strukturelle Vorgaben und definierte Farbpaletten gemäss Corporate Design
+- Vorimplementierte Mehrsprachigkeit
+- Zentrale Konfiguration von App-Metadaten über eine Konfigurationsdatei
+
+
+# Verfügbare Templates
+
+- [shiny-base](https://github.zhaw.ch/service-research-data Template für Shiny (R)
+- Template für Streamlit (Python) folgt im Herbst 2026
