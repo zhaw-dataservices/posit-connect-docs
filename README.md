@@ -11,14 +11,16 @@ Inhalte liegen unter `docs/`. Jede Seite existiert auf Deutsch (`.md`) und Engli
 
 ### Rendering mit MkDocs
 
-Falls nicht schon installiert, muss MkDocs und da Material-Theme installiert werden:
+Falls nicht schon installiert, muss MkDocs und das Material-Theme installiert werden:
 
 ```bash
+#SSH
 pip install mkdocs-material
 ```
 
 Anschliessend kann die Webseite lokal gerendert werden:
 
 ```bash
+#SSH
 mkdocs serve
 ```
