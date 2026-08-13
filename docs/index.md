@@ -1,17 +1,14 @@
 # Willkommen
 
-Diese Seite dokumentiert den ZHAW-Service «Interaktive Datenvisualisierung» – die zentrale Hosting-Infrastruktur für interaktive Forschungsdatenvisualisierungen.
-
-!!! note "Hinweis"
-    Diese Dokumentation befindet sich noch im Aufbau und wird laufend ergänzt. Einzelne Inhalte fehlen oder können sich noch ändern.
+Diese Seite dokumentiert den ZHAW-Service [«Interaktive Visualisierung von Forschungsdaten»](https://servicedesk.zhaw.ch/tas/public/ssp/content/detail/service?unid=e3c1b43fa13643cdaed8aa5451e49568&from=df5dab14-4041-45d0-9729-c32c78acfca1), welcher von ZHAW Services Forschungsdaten zur Verfügung gestellt wird.
 
 ## Über diesen Service
 
-Seit Juni 2026 betreibt die ZHAW mit Posit Connect eine Plattform für interaktive Datenvisualisierungen. Forscher:innen können damit ihre Daten interaktiv erlebbar machen – passend für ganz unterschiedliche Zielgruppen.
+Zum Service gehören eine lokale Infrastruktur (Server und Daten an der ZHAW) sowie entsprechende Supportangebote, auf Basis dessen Forschende ihre Forschungsdaten interaktiv visualisieren können. Die Idee soll sein, Forschungsdaten im Sinne von Open Science niederschwellig zugänglich und erlebbar zu machen. Die Möglichkeit, Daten interaktiv zu erkunden, führt erfahrungsgemäss zu einer hohen Resonanz und schafft zusätzliche Aufmerksamkeit für Forschungsthemen.
 
-Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können, ganz ohne eigene Installation. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Ebenso veröffentlichen wir gerne interaktive Berichte und Webseiten, die mit Quarto (R / Python) erstellt wurden.
+Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Auch möglich ist die Erstellung interaktiver Berichte mit Quarto (R / Python).
 
-Posit Connect kann grundsätzlich noch mehr veröffentlichen; einen vollständigen Überblick bietet die [Produktseite von Posit Connect](https://posit.co/products/enterprise/connect). Unsere Best Practices und unser Support sind zunächst auf Shiny und Streamlit ausgerichtet.
+Als Hosting- und Veröffentlichungsplattform wird das Produkt "Posit Connect" der Firma Posit Software verwendet. Posit Connect kann grundsätzlich noch mehr veröffentlichen; einen vollständigen Überblick bietet die [Produktseite von Posit Connect](https://posit.co/products/enterprise/connect). Unsere Best Practices und unser Support sind zunächst auf Shiny, Streamlit und Quarto ausgerichtet.
 
 ## Ablauf
 
@@ -51,7 +48,7 @@ Wir prüfen Code und App – unter anderem auf Best Practices, Corporate Design,
 
 ### Schritt 5: Veröffentlichung
 
-Nach erfolgreichem Review übernehmen wir die Veröffentlichung auf Posit Connect. Die App geht live unter einer Wunsch-URL nach dem Muster `exploredata.zhaw.ch/name-der-app`. Anschliessend werden die Zugriffsrechte konfiguriert, und bei Bedarf folgen spätere Updates. Siehe [Veröffentlichung](deployment.md).
+Nach erfolgreichem Review übernehmen wir die Veröffentlichung. Die App geht live unter einer Wunsch-URL nach dem Muster `exploredata.zhaw.ch/name-der-app`. Anschliessend werden die Zugriffsrechte konfiguriert, und bei Bedarf folgen spätere Updates. Siehe [Veröffentlichung](deployment.md).
 
 ## Kontakt
 
