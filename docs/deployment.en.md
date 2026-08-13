@@ -1,6 +1,6 @@
 # Publishing
 
-Once the code is available on GitHub, we handle the publishing to Posit Connect.
+Once the code is available on GitHub, we handle the publishing.
 
 ## Review
 

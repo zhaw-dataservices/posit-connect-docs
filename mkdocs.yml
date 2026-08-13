@@ -96,6 +96,7 @@ plugins:
             Datenquellen & Datenzugriff: Data Sources & Access
             Daten aus REDCap laden: Loading Data from REDCap
             Code teilen via GitHub: Share Code via GitHub
+            Allgemeines: General
 
 # ---------------------------------------------------------------------------
 # Navigation — list pages explicitly so the order is predictable.
@@ -104,16 +105,17 @@ plugins:
 nav:
   - Home: index.md
   - App entwickeln:
+    - Allgemeines: app-entwickeln/general.md
     - Templates: app-entwickeln/template.md
     - Shiny Basics: app-entwickeln/shiny-basics.md
     - Streamlit Basics: app-entwickeln/streamlit-basics.md
     - Datenquellen & Datenzugriff: app-entwickeln/daten.md
     - Daten aus REDCap laden: app-entwickeln/redcap.md
   - Code teilen via GitHub: code-teilen/github-zhaw.md
-  - Best Practices:
-    - Shiny (R): app-entwickeln/best-practices-shiny.md
-    - Streamlit (Python): app-entwickeln/best-practices-streamlit.md
-    - Quarto: app-entwickeln/best-practices-quarto.md
-    - Barrierefreiheit: app-entwickeln/best-practices-barrierefreiheit.md
+  #- Best Practices:
+    #- Shiny (R): app-entwickeln/best-practices-shiny.md
+    #- Streamlit (Python): app-entwickeln/best-practices-streamlit.md
+    #- Quarto: app-entwickeln/best-practices-quarto.md
+    #- Barrierefreiheit: app-entwickeln/best-practices-barrierefreiheit.md
   - Review & Veröffentlichung: deployment.md
   - FAQ: support.md

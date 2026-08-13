@@ -1,6 +1,6 @@
 # Veröffentlichung
 
-Sobald der Code auf GitHub bereitsteht, übernehmen wir die Veröffentlichung auf Posit Connect.
+Sobald der Code auf GitHub bereitsteht, übernehmen wir die Veröffentlichung.
 
 ## Review
 
