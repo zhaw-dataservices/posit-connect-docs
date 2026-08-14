@@ -1,3 +1,5 @@
+<!-- 14.08.2026, fueh: Transferiert zu "Lernen">
+
 # Streamlit Basics
 
 ## What Is Streamlit?

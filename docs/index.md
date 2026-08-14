@@ -6,7 +6,7 @@ Diese Seite dokumentiert den ZHAW-Service [«Interaktive Visualisierung von Fors
 
 Zum Service gehören eine lokale Infrastruktur (Server und Daten an der ZHAW) sowie entsprechende Supportangebote, auf Basis dessen Forschende ihre Forschungsdaten interaktiv visualisieren können. Die Idee soll sein, Forschungsdaten im Sinne von Open Science niederschwellig zugänglich und erlebbar zu machen. Die Möglichkeit, Daten interaktiv zu erkunden, führt erfahrungsgemäss zu einer hohen Resonanz und schafft zusätzliche Aufmerksamkeit für Forschungsthemen.
 
-Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Auch möglich ist die Erstellung interaktiver Berichte mit Quarto (R / Python).
+Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Auch möglich ist die Erstellung interaktiver Berichte mit Quarto (R / Python). Falls du keine Ahnung hast wovon gesprochen wird, schaue dir [Shiny Basics](learn/shiny-basics.md)/[Streamlit Basics](learn/streamlit-basics.md) an.
 
 Als Hosting- und Veröffentlichungsplattform wird das Produkt "Posit Connect" der Firma Posit Software verwendet. Die Konfiguration und das Veröffentlichen von Visualisierungen erfolgt durch das Team von ZHAW Services Forschungsdaten. 
 

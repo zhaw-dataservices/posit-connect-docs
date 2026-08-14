@@ -97,18 +97,20 @@ plugins:
             Daten aus REDCap laden: Loading Data from REDCap
             Code teilen via GitHub: Share Code via GitHub
             Allgemeines: General
+            Start: Start
+            Lernen & Best Practices: Learning & Best Practices
+            Shiny Basics: Shiny Basics
+            Streamlit Basics: Streamlit Basics
 
 # ---------------------------------------------------------------------------
 # Navigation — list pages explicitly so the order is predictable.
 # Each entry is: "Menu label": path/to/file.md
 # ---------------------------------------------------------------------------
 nav:
-  - Home: index.md
+  - Start: index.md
   - App entwickeln:
     - Allgemeines: app-entwickeln/general.md
     - Templates: app-entwickeln/template.md
-    - Shiny Basics: app-entwickeln/shiny-basics.md
-    - Streamlit Basics: app-entwickeln/streamlit-basics.md
     - Datenquellen & Datenzugriff: app-entwickeln/daten.md
     - Daten aus REDCap laden: app-entwickeln/redcap.md
   - Code teilen via GitHub: code-teilen/github-zhaw.md
@@ -118,4 +120,7 @@ nav:
     #- Quarto: app-entwickeln/best-practices-quarto.md
     #- Barrierefreiheit: app-entwickeln/best-practices-barrierefreiheit.md
   - Review & Veröffentlichung: deployment.md
-  - FAQ: support.md
+  - Lernen & Best Practices:   # <-- Zukünftig Best Practices hier?
+    - Shiny Basics: learn/shiny-basics.md
+    - Streamlit Basics: learn/streamlit-basics.md
+  - FAQ: faq.md

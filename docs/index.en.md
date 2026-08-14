@@ -6,7 +6,7 @@ This page documents the ZHAW service [“Interactive Visualization of Research D
 
 The service includes a local infrastructure (servers and data hosted at ZHAW) as well as corresponding support services that enable researchers to create interactive visualizations of their research data. The idea is to make research data easily accessible and engaging in the spirit of Open Science. Experience has shown that the opportunity to explore data interactively generates strong interest and creates additional visibility for research topics.
 
-At the core of the service are interactive dashboards: small web applications that allow users to explore, filter, and visualize data through charts and other graphical representations. Such dashboards are typically developed using Shiny (for R) or Streamlit (for Python). The creation of interactive reports with Quarto (R / Python) is also supported.
+At the core of the service are interactive dashboards: small web applications that allow users to explore, filter, and visualize data through charts and other graphical representations. Such dashboards are typically developed using Shiny (for R) or Streamlit (for Python). The creation of interactive reports with Quarto (R / Python) is also supported. If you have no idea what is being discussed, take a look at [Shiny Basics](learn/shiny-basics.en.md)/[Streamlit Basics](learn/streamlit-basics.en.md).
 
 The product "Posit Connect" from Posit Software is used as the hosting and publishing platform. The configuration and publishing of visualizations are handled by the team of ZHAW Services Forschungsdaten.
 
