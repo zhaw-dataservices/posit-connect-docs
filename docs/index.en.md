@@ -38,7 +38,7 @@ You then complete the [SSP form](https://servicedesk.zhaw.ch/tas/public/ssp/cont
 
 ### Step 2: Develop Your App
 
-You develop your app, ideally using our templates, available at [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data). We primarily support Shiny, Streamlit, and Quarto. See [Develop Your App](app-entwickeln/template.md). <!--Important info, tips & tricks are under [Best Practices](app-entwickeln/best-practices.md).-->We especially recommend using Git, ideally via [github.zhaw.ch](https://github.zhaw.ch)—it also enables collaboration with other researchers.
+You develop your app, ideally using our templates, available at [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data). We primarily support Shiny, Streamlit, and Quarto. See [Develop Your App](app-entwickeln/general.md). <!--Important info, tips & tricks are under [Best Practices](app-entwickeln/best-practices.md).-->We especially recommend using Git, ideally via [github.zhaw.ch](https://github.zhaw.ch)—it also enables collaboration with other researchers.
 
 ### Step 3: Share Your Code
 

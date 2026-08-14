@@ -39,7 +39,7 @@ Danach füllst du im Self Service Portal das [SSP-Formular](https://servicedesk.
 
 ### Schritt 2: App entwickeln
 
-Du entwickelst deine App, idealerweise mit unseren Templates, die du unter [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data) findest. Unterstützt werden primär Shiny, Streamlit und Quarto. Siehe [App entwickeln](app-entwickeln/template.md). <!--Wichtige Infos, Tipps & Tricks findest du unter [Best Practices](app-entwickeln/best-practices.md).-->Wir empfehlen besonders, Git zu nutzen, idealerweise über [github.zhaw.ch](https://github.zhaw.ch) – Über Git ist auch die Kollaboration mit anderen Forscher:innen möglich.
+Du entwickelst deine App, idealerweise mit unseren Templates, die du unter [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data) findest. Unterstützt werden primär Shiny, Streamlit und Quarto. Siehe [App entwickeln](app-entwickeln/general.md). <!--Wichtige Infos, Tipps & Tricks findest du unter [Best Practices](app-entwickeln/best-practices.md).-->Wir empfehlen besonders, Git zu nutzen, idealerweise über [github.zhaw.ch](https://github.zhaw.ch) – Über Git ist auch die Kollaboration mit anderen Forscher:innen möglich.
 
 ### Schritt 3: Code teilen
 
