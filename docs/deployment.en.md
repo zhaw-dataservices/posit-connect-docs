@@ -7,7 +7,7 @@ Once the code is available on GitHub, we handle the publishing.
 Before publishing, we review the source code and test the app. This includes checking:
 
 - Code quality and readability
-- Adherence to our [Best Practices](app-entwickeln/best-practices-shiny.md)
+<!--- Adherence to our [Best Practices](app-entwickeln/best-practices-shiny.md)-->
 - Data protection and data minimisation
 - Metadata and project assignment, where applicable
 - Access permissions, where applicable

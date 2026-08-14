@@ -7,7 +7,7 @@ Sobald der Code auf GitHub bereitsteht, übernehmen wir die Veröffentlichung.
 Vor der Veröffentlichung schauen wir uns den Source Code an und testen die App. Dabei prüfen wir unter anderem:
 
 - Codequalität und Lesbarkeit
-- Einhaltung unserer [Best Practices](app-entwickeln/best-practices-shiny.md)
+<!--- Einhaltung unserer [Best Practices](app-entwickeln/best-practices-shiny.md)-->
 - Datenschutz und Datensparsamkeit
 - ggf. Metadaten und Projektzuordnung
 - ggf. Zugriffsrechte
