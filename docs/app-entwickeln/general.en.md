@@ -1,25 +1,21 @@
-To ensure the effective implementation of your visualization, we strongly recommend considering the following:
+# General
 
-- Use the available [templates](template.md) and read the corresponding documentation carefully
-- Make sure that you are using a supported R/Python version and supported libraries (see below)
+To ensure an effective and targeted implementation of your visualization, we recommend considering a few fundamental points.
 
-## Supported R and Python Versions
+## 🟦 If you are working with R...
 
-Ideally, your local development environment should match one of the versions supported on our Posit Connect server.
+- Use the provided [templates](template.md) and read the accompanying documentation carefully.
+- Make sure your local development environment matches one of the following R versions:
+    <!-- Status: 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update this information when the server is upgraded. -->
+    - 4.4.3
+    - 4.5.3
+- Whenever possible, use publicly available [CRAN-packages](https://cran.r-project.org/web/packages/available_packages_by_name.html).
 
-| R      | Python |
-|---------|---------|
-| 4.4.3  | 3.14.3 |
-| 4.5.3  | 3.14.4 |
+## 🟨 If you are working with Python...
 
-<!-- As of 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update here after any server upgrade. -->
-
-## Supported Libraries
-
-R:
-Posit Connect supports almost all R packages available through public [CRAN mirrors](https://cran.r-project.org/web/packages/ges_by_name.html) by default.
-
-Python:
-Posit Connect supports almost all Python packages available through the Python Package Index (PyPI) by default.
-
-If you would like to use private packages, please contact us at: [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch).
+- Use the provided [templates](template.md) and read the accompanying documentation carefully.
+- Make sure your local development environment matches one of the following Python versions:
+    <!-- Status: 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update this information when the server is upgraded. -->
+    - 3.14.3
+    - 3.14.4
+- Whenever possible, use packages from the Python Package Index (PyPI).

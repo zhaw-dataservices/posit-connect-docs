@@ -8,7 +8,9 @@ The service includes a local infrastructure (servers and data hosted at ZHAW) as
 
 At the core of the service are interactive dashboards: small web applications that allow users to explore, filter, and visualize data through charts and other graphical representations. Such dashboards are typically developed using Shiny (for R) or Streamlit (for Python). The creation of interactive reports with Quarto (R / Python) is also supported.
 
-As a hosting and publishing platform, the service uses Posit Connect, a product of Posit Software. Posit Connect supports a wide range of publishing options; a comprehensive overview is available on the [Posit Connect product page](https://posit.co/products/enterprise/connect). Our best practices and support services currently focus on Shiny, Streamlit, and Quarto.
+The product "Posit Connect" from Posit Software is used as the hosting and publishing platform. The configuration and publishing of visualizations are handled by the team of ZHAW Services Forschungsdaten.
+
+To use the service, data storage must be defined and code stored on GitHub. It is also important to comply with data protection requirements, web accessibility standards (WCAG), and corporate design guidelines. We therefore recommend using our templates as the basis for developing visualizations. <strong>To ensure efficient development, please read this documentation carefully.</strong> We recommend that first-time users request a brief introduction to the service.
 
 ## Process
 
@@ -36,7 +38,7 @@ You then complete the [SSP form](https://servicedesk.zhaw.ch/tas/public/ssp/cont
 
 ### Step 2: Develop Your App
 
-You develop your app, ideally using our templates, available at [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data). We primarily support Shiny, Streamlit, and Quarto. See [Develop Your App](app-entwickeln/template.md). Important info, tips & tricks are under [Best Practices](app-entwickeln/best-practices.md). We especially recommend using Git, ideally via [github.zhaw.ch](https://github.zhaw.ch)—it also enables collaboration with other researchers.
+You develop your app, ideally using our templates, available at [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data). We primarily support Shiny, Streamlit, and Quarto. See [Develop Your App](app-entwickeln/template.md). <!--Important info, tips & tricks are under [Best Practices](app-entwickeln/best-practices.md).-->We especially recommend using Git, ideally via [github.zhaw.ch](https://github.zhaw.ch)—it also enables collaboration with other researchers.
 
 ### Step 3: Share Your Code
 

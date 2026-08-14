@@ -1,25 +1,23 @@
-Für eine zielgerichtete Umsetzung deiner Visualisierung, empfehlen wir dringend einige Dinge zu berücksichtigen:
+# Allgemeines
 
-- Nutze die [Templates](template.md) und lies die entsprechende Dokumentation genau durch
-- Achte auf die verwendete R-/Python Version und die unterstützten Bibliotheken (siehe unten)
+Für eine zielgerichtete Umsetzung deiner Visualisierung empfehlen wir, einige grundlegende Punkte zu beachten.
 
-## Unterstützte R- und Python Versionen
+## 🟦 Wenn du mit R arbeitest...
 
-Im Idealfall sollte deine lokale Entwicklungsumgebung einer der auf unserem Posit-Connect-Server unterstützten Versionen entsprechen:
+- Nutze die bereitgestellten [Templates](template.md) und lies die zugehörige Dokumentation sorgfältig.
+- Stelle sicher, dass deine lokale Entwicklungsumgebung möglichst einer der folgenden R-Versionen entspricht:
+    <!-- Stand: 2026-07-09, Posit Connect 2026.02.0 (unterstützt bis 31. August 2027). Bei einem Server-Update hier aktualisieren. -->
+    - 4.4.3
+    - 4.5.3
+- Verwende nach Möglichkeit öffentlich verfügbare [CRAN-Pakete](<https://cran.r-project.org/web/packages/available_packages_by_name.html>).
 
-| R      | Python |
-|---------|---------|
-| 4.4.3  | 3.14.3 |
-| 4.5.3  | 3.14.4 |
+## 🟨 Wenn du mit Python arbeitest...
 
-<!-- Stand: 2026-07-09, Posit Connect 2026.02.0 (unterstützt bis 31. August 2027). Bei einem Server-Update hier aktualisieren. -->
+- Nutze die bereitgestellten [Templates](template.md) und lies die zugehörige Dokumentation sorgfältig.
+- Stelle sicher, dass deine lokale Entwicklungsumgebung möglichst einer der folgenden Python-Versionen entspricht:
+    <!-- Stand: 2026-07-09, Posit Connect 2026.02.0 (unterstützt bis 31. August 2027). Bei einem Server-Update hier aktualisieren. -->
+    - 3.14.3
+    - 3.14.4
+- Verwende nach Möglichkeit Pakete aus dem Python Package Index (PyPI).
 
-## Unterstützte Bibliotheken
 
-R:
-Posit Connect unterstützt standardmässig fast alle R-Bibliotheken aus öffentlichen [CRAN-Mirrors](https://cran.r-project.org/web/packages/available_packages_by_name.html).
-
-Python:
-Posit Connect unterstützt standardmäßig fast alle Python-Pakete, die über den Python Package Index (PyPI) verfügbar sind.
-
-Falls private Bibliotheken verwendeten werden sollen, bitten wir um Kontaktaufnahme an: [researchdata@zhaw.ch](mailto:researchdata@zhaw.ch).

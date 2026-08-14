@@ -1,8 +1,8 @@
 # ---------------------------------------------------------------------------
 # Site metadata
 # ---------------------------------------------------------------------------
-site_name: "Posit Connect – Dokumentation"
-site_description: "Interne Dokumentation für Posit Connect an der ZHAW"
+site_name: "Interaktive Visualisierung von Forschungsdaten mit Posit Connect"
+site_description: "Dokumentation interaktive Visualisierung von Forschungsdaten mit Posit Connect"
 # site_url must be the full base URL so that alternate links resolve correctly
 # on GitHub Pages project sites (which are served under a subdirectory).
 # Update this if you use a custom domain.
@@ -85,7 +85,7 @@ plugins:
           name: English
           build: true
           # Translate the header title for the English build.
-          site_name: "Posit Connect—Documentation"
+          site_name: "Interactive Visualization of Research Data with Posit Connect"
           # Translate the nav labels (which come from mkdocs.yml, not the pages).
           # Maps each German nav label to its English equivalent.
           nav_translations:
