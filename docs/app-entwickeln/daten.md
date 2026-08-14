@@ -1,6 +1,6 @@
 # Datenquellen & Datenzugriff
 
-Apps auf Posit Connect sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, wo die Daten für dein Dashboard liegen sollten und wie sie möglichst schonend abgerufen werden.
+Apps sollen nur die Daten verwenden, die tatsächlich benötigt werden. Diese Seite zeigt, wo die Daten für dein Dashboard liegen sollten und wie sie möglichst schonend abgerufen werden.
 
 ## Wo liegen die Daten?
 

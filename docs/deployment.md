@@ -18,7 +18,9 @@ Sind Anpassungen nötig, melden wir uns direkt. Andernfalls folgt die Veröffent
 
 Nach der Veröffentlichung erhältst du den Link zur App sowie die Informationen zu den Zugriffsrechten.
 
+<!--
 ## Updates
 
 !!! note "In Planung"
     Der Prozess für Updates (Branch-Workflow, wer was ändern darf) wird noch definiert. Diese Seite wird aktualisiert, sobald das geklärt ist.
+-->

@@ -1,6 +1,6 @@
 # Data Sources & Access
 
-Apps on Posit Connect should only use the data that is actually needed. This page shows where the data for your dashboard should live and how to retrieve it as gently as possible.
+Apps should only use the data that is actually needed. This page shows where the data for your dashboard should live and how to retrieve it as gently as possible.
 
 ## Where Is the Data?
 

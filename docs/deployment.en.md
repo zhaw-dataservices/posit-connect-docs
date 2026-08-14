@@ -18,7 +18,9 @@ If changes are needed, we will get in touch directly. Otherwise, we proceed with
 
 After publishing, you will receive the link to your app along with information about access permissions.
 
+<!--
 ## Updates
 
 !!! note "Planned"
     The process for updates (branch workflow, who can change what) is still being defined. This page will be updated once that is clarified.
+-->
