@@ -10,13 +10,17 @@
       
       
       
-        <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices/">
+        <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/learn/streamlit-basics/">
       
       
+        <link rel="prev" href="../shiny-basics/">
+      
+      
+        <link rel="next" href="../../faq/">
       
       
         
-          <link rel="alternate" href="../../../app-entwickeln/best-practices/" hreflang="de">
+          <link rel="alternate" href="../../../learn/streamlit-basics/" hreflang="de">
         
           <link rel="alternate" href="./" hreflang="en">
         
@@ -27,7 +31,7 @@
     
     
       
-        <title>Best Practices - Interactive Visualization of Research Data with Posit Connect</title>
+        <title>Streamlit Basics - Interactive Visualization of Research Data with Posit Connect</title>
       
     
     
@@ -72,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#best-practices" class="md-skip">
+        <a href="#streamlit-basics" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Best Practices
+              Streamlit Basics
             
           </span>
         </div>
@@ -128,7 +132,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../app-entwickeln/best-practices/" hreflang="de" class="md-select__link">
+            <a href="../../../learn/streamlit-basics/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
@@ -326,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../general/" class="md-nav__link">
+      <a href="../../app-entwickeln/general/" class="md-nav__link">
         
   
   
@@ -354,7 +358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../template/" class="md-nav__link">
+      <a href="../../app-entwickeln/template/" class="md-nav__link">
         
   
   
@@ -382,7 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../daten/" class="md-nav__link">
+      <a href="../../app-entwickeln/daten/" class="md-nav__link">
         
   
   
@@ -410,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../redcap/" class="md-nav__link">
+      <a href="../../app-entwickeln/redcap/" class="md-nav__link">
         
   
   
@@ -496,18 +500,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -528,7 +534,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -546,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../learn/shiny-basics/" class="md-nav__link">
+      <a href="../shiny-basics/" class="md-nav__link">
         
   
   
@@ -571,10 +577,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../learn/streamlit-basics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Streamlit Basics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -590,6 +623,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Streamlit?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -656,30 +731,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#managing-dependencies" class="md-nav__link">
+  <a href="#what-is-streamlit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Managing Dependencies
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Managing Dependencies">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#supported-versions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supported Versions
+        What is Streamlit?
       
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
   
 </li>
       
@@ -703,36 +772,11 @@
   
 
 
-<h1 id="best-practices">Best Practices</h1>
-<p>This page describes our recommendations for developing apps hosted on Posit Connect.</p>
-<h2 id="managing-dependencies">Managing Dependencies</h2>
-<h3 id="supported-versions">Supported Versions</h3>
-<p>For your app to run reliably, your local R, Python, or Quarto version should match one of the versions supported on our Posit Connect server.</p>
-<!-- As of 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update here after any server upgrade. -->
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Supported Versions</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>R</td>
-<td>4.4.3, 4.5.3</td>
-</tr>
-<tr>
-<td>Python</td>
-<td>3.14.3, 3.14.4</td>
-</tr>
-<tr>
-<td>Quarto</td>
-<td>1.9.37</td>
-</tr>
-</tbody>
-</table>
-<!-- TODO: renv (R) / requirements.txt or pyproject.toml (Python) -->
+<h1 id="streamlit-basics">Streamlit Basics</h1>
+<h2 id="what-is-streamlit">What is Streamlit?</h2>
+<p>Streamlit is a Python framework for building interactive data apps from a single Python script. Rather than separating UI and server logic (as Shiny does), you write one script that runs top to bottom; widgets (sliders, buttons, dropdowns) are added as simple function calls. On every interaction, Streamlit reruns the script and updates the display. Typical use: quick, simple visualization and prototyping on top of Python/pandas.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>The best starting point is the official tutorial: <a href="https://docs.streamlit.io/get-started">Streamlit—Get Started</a>.</p>
 
 
 

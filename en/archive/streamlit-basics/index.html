@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/app-entwickeln/best-practices/">
+        <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/en/archive/streamlit-basics/">
       
       
       
       
         
-          <link rel="alternate" href="../../../app-entwickeln/best-practices/" hreflang="de">
+          <link rel="alternate" href="../../../archive/streamlit-basics/" hreflang="de">
         
           <link rel="alternate" href="./" hreflang="en">
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Best Practices - Interactive Visualization of Research Data with Posit Connect</title>
+        <title>Streamlit basics - Interactive Visualization of Research Data with Posit Connect</title>
       
     
     
@@ -71,11 +71,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#best-practices" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -107,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Best Practices
+              Streamlit basics
             
           </span>
         </div>
@@ -128,7 +123,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../app-entwickeln/best-practices/" hreflang="de" class="md-select__link">
+            <a href="../../../archive/streamlit-basics/" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
@@ -326,7 +321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../general/" class="md-nav__link">
+      <a href="../../app-entwickeln/general/" class="md-nav__link">
         
   
   
@@ -354,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../template/" class="md-nav__link">
+      <a href="../../app-entwickeln/template/" class="md-nav__link">
         
   
   
@@ -382,7 +377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../daten/" class="md-nav__link">
+      <a href="../../app-entwickeln/daten/" class="md-nav__link">
         
   
   
@@ -410,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../redcap/" class="md-nav__link">
+      <a href="../../app-entwickeln/redcap/" class="md-nav__link">
         
   
   
@@ -646,44 +641,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#managing-dependencies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Managing Dependencies
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Managing Dependencies">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#supported-versions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supported Versions
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -703,36 +660,21 @@
   
 
 
-<h1 id="best-practices">Best Practices</h1>
-<p>This page describes our recommendations for developing apps hosted on Posit Connect.</p>
-<h2 id="managing-dependencies">Managing Dependencies</h2>
-<h3 id="supported-versions">Supported Versions</h3>
-<p>For your app to run reliably, your local R, Python, or Quarto version should match one of the versions supported on our Posit Connect server.</p>
-<!-- As of 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update here after any server upgrade. -->
+  <h1>Streamlit basics</h1>
 
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Supported Versions</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>R</td>
-<td>4.4.3, 4.5.3</td>
-</tr>
-<tr>
-<td>Python</td>
-<td>3.14.3, 3.14.4</td>
-</tr>
-<tr>
-<td>Quarto</td>
-<td>1.9.37</td>
-</tr>
-</tbody>
-</table>
-<!-- TODO: renv (R) / requirements.txt or pyproject.toml (Python) -->
+<!-- 14.08.2026, fueh: Transferiert zu "Lernen">
+
+# Streamlit Basics
+
+## What Is Streamlit?
+
+Streamlit is a Python framework for building interactive data apps from a single Python script. Rather than separating UI and server logic (as Shiny does), you write one script that runs top to bottom; widgets (sliders, buttons, dropdowns) are added as simple function calls. On every interaction, Streamlit reruns the script and updates the display. Typical use: quick, simple visualization and prototyping on top of Python/pandas.
+
+## Getting Started
+
+The best starting point is the official tutorial: [Streamlit—Get Started](https://docs.streamlit.io/get-started).
+
+<!-- TODO: minimal example and notes relevant to our hosting on Posit Connect -->
 
 
 

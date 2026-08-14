@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Start
             
           </span>
         </div>
@@ -270,7 +270,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    Start
   
 
     
@@ -288,7 +288,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    Start
   
 
     
@@ -525,62 +525,6 @@
   
   
     <li class="md-nav__item">
-      <a href="app-entwickeln/shiny-basics/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Shiny Basics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="app-entwickeln/streamlit-basics/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Streamlit Basics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="app-entwickeln/daten/" class="md-nav__link">
         
   
@@ -697,8 +641,118 @@
   
   
   
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lernen & Best Practices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Lernen & Best Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="support/" class="md-nav__link">
+      <a href="learn/shiny-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shiny Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="learn/streamlit-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Streamlit Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq/" class="md-nav__link">
         
   
   
@@ -862,7 +916,7 @@
 <p>Diese Seite dokumentiert den ZHAW-Service <a href="https://servicedesk.zhaw.ch/tas/public/ssp/content/detail/service?unid=e3c1b43fa13643cdaed8aa5451e49568&amp;from=df5dab14-4041-45d0-9729-c32c78acfca1">«Interaktive Visualisierung von Forschungsdaten»</a>, welcher von ZHAW Services Forschungsdaten zur Verfügung gestellt wird.</p>
 <h2 id="uber-diesen-service">Über diesen Service</h2>
 <p>Zum Service gehören eine lokale Infrastruktur (Server und Daten an der ZHAW) sowie entsprechende Supportangebote, auf Basis dessen Forschende ihre Forschungsdaten interaktiv visualisieren können. Die Idee soll sein, Forschungsdaten im Sinne von Open Science niederschwellig zugänglich und erlebbar zu machen. Die Möglichkeit, Daten interaktiv zu erkunden, führt erfahrungsgemäss zu einer hohen Resonanz und schafft zusätzliche Aufmerksamkeit für Forschungsthemen.</p>
-<p>Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Auch möglich ist die Erstellung interaktiver Berichte mit Quarto (R / Python).</p>
+<p>Im Zentrum stehen interaktive Dashboards: kleine Web-Anwendungen, in denen Nutzende die Daten selbst erkunden, filtern und in Diagrammen sichtbar machen können. Solche Dashboards entstehen meist mit Shiny (für R) oder Streamlit (für Python). Auch möglich ist die Erstellung interaktiver Berichte mit Quarto (R / Python). Falls du keine Ahnung hast wovon gesprochen wird, schaue dir <a href="learn/shiny-basics/">Shiny Basics</a>/<a href="learn/streamlit-basics/">Streamlit Basics</a> an.</p>
 <p>Als Hosting- und Veröffentlichungsplattform wird das Produkt "Posit Connect" der Firma Posit Software verwendet. Die Konfiguration und das Veröffentlichen von Visualisierungen erfolgt durch das Team von ZHAW Services Forschungsdaten. </p>
 <p>Um den Service zu nutzen, müssen Datenablagen definiert und Code auf Github abgelegt werden. Wichtig ist zudem, dass die Anforderungen an den Datenschutz, Webseitenstandards (WCAG-Standard) sowie Corporate-Design-Richtlinien berücksichtigt werden. Wir empfehlen deshalb als Entwicklungsgrundlage der Visualisierung unsere Templates. <strong>Um eine zielgerichtete Entwicklung zu ermöglichen, bitten wir um ein sorgfältiges Lesen der vorliegenden Dokumentation.</strong> Personen, welche den Service zum ersten Mal nutzen, empfehlen wir, sich eine kurze Einführung geben zu lassen.</p>
 <h2 id="ablauf">Ablauf</h2>

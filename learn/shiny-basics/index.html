@@ -10,33 +10,35 @@
       
       
       
-        <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/support/">
+        <link rel="canonical" href="https://zhaw-dataservices.github.io/posit-connect-docs/learn/shiny-basics/">
       
       
-        <link rel="prev" href="../deployment/">
+        <link rel="prev" href="../../deployment/">
       
+      
+        <link rel="next" href="../streamlit-basics/">
       
       
         
           <link rel="alternate" href="./" hreflang="de">
         
-          <link rel="alternate" href="../en/support/" hreflang="en">
+          <link rel="alternate" href="../../en/learn/shiny-basics/" hreflang="en">
         
       
       
-      <link rel="icon" href="../assets/zhaw-logo.svg">
+      <link rel="icon" href="../../assets/zhaw-logo.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>FAQ - Interaktive Visualisierung von Forschungsdaten mit Posit Connect</title>
+        <title>Shiny Basics - Interaktive Visualisierung von Forschungsdaten mit Posit Connect</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +51,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#faq" class="md-skip">
+        <a href="#shiny-basics" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -90,9 +92,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
-    <a href=".." title="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" class="md-header__button md-logo" aria-label="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" data-md-component="logo">
+    <a href="../.." title="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" class="md-header__button md-logo" aria-label="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" data-md-component="logo">
       
-  <img src="../assets/zhaw-logo.svg" alt="logo">
+  <img src="../../assets/zhaw-logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              FAQ
+              Shiny Basics
             
           </span>
         </div>
@@ -136,7 +138,7 @@
           </li>
         
           <li class="md-select__item">
-            <a href="../en/support/" hreflang="en" class="md-select__link">
+            <a href="../../en/learn/shiny-basics/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -225,9 +227,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" class="md-nav__button md-logo" aria-label="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" data-md-component="logo">
+    <a href="../.." title="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" class="md-nav__button md-logo" aria-label="Interaktive Visualisierung von Forschungsdaten mit Posit Connect" data-md-component="logo">
       
-  <img src="../assets/zhaw-logo.svg" alt="logo">
+  <img src="../../assets/zhaw-logo.svg" alt="logo">
 
     </a>
     Interaktive Visualisierung von Forschungsdaten mit Posit Connect
@@ -254,14 +256,14 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Home
+    Start
   
 
     
@@ -328,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../app-entwickeln/general/" class="md-nav__link">
+      <a href="../../app-entwickeln/general/" class="md-nav__link">
         
   
   
@@ -356,7 +358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../app-entwickeln/template/" class="md-nav__link">
+      <a href="../../app-entwickeln/template/" class="md-nav__link">
         
   
   
@@ -384,63 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../app-entwickeln/shiny-basics/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Shiny Basics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../app-entwickeln/streamlit-basics/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Streamlit Basics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../app-entwickeln/daten/" class="md-nav__link">
+      <a href="../../app-entwickeln/daten/" class="md-nav__link">
         
   
   
@@ -468,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../app-entwickeln/redcap/" class="md-nav__link">
+      <a href="../../app-entwickeln/redcap/" class="md-nav__link">
         
   
   
@@ -503,7 +449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../code-teilen/github-zhaw/" class="md-nav__link">
+      <a href="../../code-teilen/github-zhaw/" class="md-nav__link">
         
   
   
@@ -530,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../deployment/" class="md-nav__link">
+      <a href="../../deployment/" class="md-nav__link">
         
   
   
@@ -558,6 +504,55 @@
   
   
   
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lernen & Best Practices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Lernen & Best Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -566,7 +561,130 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shiny Basics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shiny Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#was-ist-shiny" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was ist Shiny?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erste-schritte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erste Schritte
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../streamlit-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Streamlit Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -582,7 +700,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -607,6 +724,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#was-ist-shiny" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Was ist Shiny?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erste-schritte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erste Schritte
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -625,35 +772,11 @@
   
 
 
-<h1 id="faq">FAQ</h1>
-<div class="admonition note">
-<p class="admonition-title">Diese Seite wird laufend ergänzt.</p>
-</div>
-<!--
-### Muss ich zwingend das Template verwenden?
-
-TODO: Antwort formulieren
-
-### Was passiert mit meinen Daten auf dem Server?
-
-TODO: Antwort formulieren
-
-### Wie lange dauert die Veröffentlichung?
-
-TODO: Antwort formulieren
-
-### Kann ich meine App nach der Veröffentlichung noch ändern?
-
-TODO: Antwort formulieren – Branch-Workflow TBD
-
-## Kontakt
-
-TODO: Kontaktangaben (E-Mail, Teams-Kanal o. Ä.)
-
-## Bekannte Probleme
-
-TODO: Häufige Fehler und Lösungen
--->
+<h1 id="shiny-basics">Shiny Basics</h1>
+<h2 id="was-ist-shiny">Was ist Shiny?</h2>
+<p>Shiny ist ein R-Paket, mit dem sich interaktive Web-Apps direkt aus R-Code bauen lassen – ohne dass du HTML, CSS oder JavaScript schreiben musst. Eine Shiny-App besteht aus zwei Teilen: dem UI (was die Nutzer:innen sehen: Buttons, Grafiken, Tabellen) und der Server-Logik (was im Hintergrund passiert, wenn z. B. ein Filter geändert wird). Ändert jemand eine Eingabe, aktualisiert Shiny automatisch nur die betroffenen Teile der App – das nennt man reaktiv. Typischer Einsatz: interaktive Dashboards und Auswertungen auf Basis von R.</p>
+<h2 id="erste-schritte">Erste Schritte</h2>
+<p>Der beste Einstieg ist das offizielle Tutorial: <a href="https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/">Shiny – Getting Started</a>.</p>
 
 
 
@@ -709,10 +832,10 @@ TODO: Häufige Fehler und Lösungen
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
