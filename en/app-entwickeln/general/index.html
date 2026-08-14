@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Interne Dokumentation für Posit Connect an der ZHAW">
+        <meta name="description" content="Dokumentation interaktive Visualisierung von Forschungsdaten mit Posit Connect">
       
       
       
@@ -31,7 +31,7 @@
     
     
       
-        <title>General - Posit Connect—Documentation</title>
+        <title>General - Interactive Visualization of Research Data with Posit Connect</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#supported-r-and-python-versions" class="md-skip">
+        <a href="#general" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../" title="Posit Connect—Documentation" class="md-header__button md-logo" aria-label="Posit Connect—Documentation" data-md-component="logo">
+    <a href="../../" title="Interactive Visualization of Research Data with Posit Connect" class="md-header__button md-logo" aria-label="Interactive Visualization of Research Data with Posit Connect" data-md-component="logo">
       
   <img src="../../../assets/zhaw-logo.svg" alt="logo">
 
@@ -105,7 +105,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Posit Connect—Documentation
+            Interactive Visualization of Research Data with Posit Connect
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -227,12 +227,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../" title="Posit Connect—Documentation" class="md-nav__button md-logo" aria-label="Posit Connect—Documentation" data-md-component="logo">
+    <a href="../../" title="Interactive Visualization of Research Data with Posit Connect" class="md-nav__button md-logo" aria-label="Interactive Visualization of Research Data with Posit Connect" data-md-component="logo">
       
   <img src="../../../assets/zhaw-logo.svg" alt="logo">
 
     </a>
-    Posit Connect—Documentation
+    Interactive Visualization of Research Data with Posit Connect
   </label>
   
     <div class="md-nav__source">
@@ -338,6 +338,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -380,6 +382,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -388,10 +392,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#supported-r-and-python-versions" class="md-nav__link">
+  <a href="#if-you-are-working-with-r" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Supported R and Python Versions
+        🟦 If you are working with R...
       
     </span>
   </a>
@@ -399,10 +403,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#supported-libraries" class="md-nav__link">
+  <a href="#if-you-are-working-with-python" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Supported Libraries
+        🟨 If you are working with Python...
       
     </span>
   </a>
@@ -663,6 +667,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -671,10 +677,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#supported-r-and-python-versions" class="md-nav__link">
+  <a href="#if-you-are-working-with-r" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Supported R and Python Versions
+        🟦 If you are working with R...
       
     </span>
   </a>
@@ -682,10 +688,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#supported-libraries" class="md-nav__link">
+  <a href="#if-you-are-working-with-python" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Supported Libraries
+        🟨 If you are working with Python...
       
     </span>
   </a>
@@ -712,41 +718,30 @@
   
 
 
-  <h1>General</h1>
-
-<p>To ensure the effective implementation of your visualization, we strongly recommend considering the following:</p>
+<h1 id="general">General</h1>
+<p>To ensure an effective and targeted implementation of your visualization, we recommend considering a few fundamental points.</p>
+<h2 id="if-you-are-working-with-r">🟦 If you are working with R...</h2>
 <ul>
-<li>Use the available <a href="../template/">templates</a> and read the corresponding documentation carefully</li>
-<li>Make sure that you are using a supported R/Python version and supported libraries (see below)</li>
+<li>Use the provided <a href="../template/">templates</a> and read the accompanying documentation carefully.</li>
+<li>Make sure your local development environment matches one of the following R versions:
+    <!-- Status: 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update this information when the server is upgraded. --><ul>
+<li>4.4.3</li>
+<li>4.5.3</li>
 </ul>
-<h2 id="supported-r-and-python-versions">Supported R and Python Versions</h2>
-<p>Ideally, your local development environment should match one of the versions supported on our Posit Connect server.</p>
-<table>
-<thead>
-<tr>
-<th>R</th>
-<th>Python</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>4.4.3</td>
-<td>3.14.3</td>
-</tr>
-<tr>
-<td>4.5.3</td>
-<td>3.14.4</td>
-</tr>
-</tbody>
-</table>
-<!-- As of 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update here after any server upgrade. -->
-
-<h2 id="supported-libraries">Supported Libraries</h2>
-<p>R:
-Posit Connect supports almost all R packages available through public <a href="https://cran.r-project.org/web/packages/ges_by_name.html">CRAN mirrors</a> by default.</p>
-<p>Python:
-Posit Connect supports almost all Python packages available through the Python Package Index (PyPI) by default.</p>
-<p>If you would like to use private packages, please contact us at: <a href="mailto:researchdata@zhaw.ch">researchdata@zhaw.ch</a>.</p>
+</li>
+<li>Whenever possible, use publicly available <a href="https://cran.r-project.org/web/packages/available_packages_by_name.html">CRAN-packages</a>.</li>
+</ul>
+<h2 id="if-you-are-working-with-python">🟨 If you are working with Python...</h2>
+<ul>
+<li>Use the provided <a href="../template/">templates</a> and read the accompanying documentation carefully.</li>
+<li>Make sure your local development environment matches one of the following Python versions:
+    <!-- Status: 2026-07-09, Posit Connect 2026.02.0 (supported until August 31, 2027). Update this information when the server is upgraded. --><ul>
+<li>3.14.3</li>
+<li>3.14.4</li>
+</ul>
+</li>
+<li>Whenever possible, use packages from the Python Package Index (PyPI).</li>
+</ul>
 
 
 
