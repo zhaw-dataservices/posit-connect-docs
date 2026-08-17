@@ -4,6 +4,10 @@
 
 This service enables the interactive publication of research data. The goal is to make research findings easily accessible and explorable for professionals, the media, policymakers, and the interested public. Additionally, we recommend publishing the underlying research data in a suitable repository—such as SWISSUbase or Zenodo — in accordance with Open Research Data principles.
 
+## Where Will the Data Be Published and What Will It Look Like?
+
+After a review, the visualization goes live under a custom URL following the pattern `exploredata.zhaw.ch/app-name`. A small example visualization with the defined header and footer can be seen in the [Palmer Penguins Explorer 🐧](https://exploredata.zhaw.ch/palmer-penguins-explorer/){:target="_blank"}.
+
 ## What can I do if not all my data can be made public?
 
 For publicly accessible apps, data suitable for public release must be separated from internal or confidential data. Depending on the use case, anonymization or pseudonymization may also be appropriate. Proper planning regarding data storage and access rights is essential. Further information can be found under [Developing an App > Data Sources & Data Access](app-entwickeln/daten.md).
