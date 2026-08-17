@@ -4,7 +4,7 @@
 
 This service enables the interactive publication of research data. The goal is to make research findings easily accessible and explorable for professionals, the media, policymakers, and the interested public. Additionally, we recommend publishing the underlying research data in a suitable repository—such as SWISSUbase or Zenodo — in accordance with Open Research Data principles.
 
-## Where Will the Data Be Published and What Will It Look Like?
+## Where will the data be published and what will it look like?
 
 After a review, the visualization goes live under a custom URL following the pattern `exploredata.zhaw.ch/app-name`. A small example visualization with the defined header and footer can be seen in the [Palmer Penguins Explorer 🐧](https://exploredata.zhaw.ch/palmer-penguins-explorer/){:target="_blank"}.
 
