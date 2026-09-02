@@ -7,6 +7,7 @@ Using the templates offers the following benefits:
 
 - Consistent header and footer, including integration of the ZHAW logo in accordance with the corporate design guidelines
 - Compliance with legal requirements, such as an imprint and privacy notice
+- Responsive design (suitable display for desktop and mobile)
 - Support for accessibility through structural guidelines and predefined color palettes aligned with the corporate design
 - Built-in multilingual support
 - Centralized configuration of application metadata through a configuration file

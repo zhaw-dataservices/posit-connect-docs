@@ -7,6 +7,7 @@ Die Nutzung der Templates bietet folgende Vorteile:
 
 - Einheitlicher Header und Footer sowie Integration des ZHAW-Logos gemäss Corporate Design
 - Berücksichtigung gesetzlicher Anforderungen wie Impressum und Datenschutzhinweise
+- Responsive Design (passende Darstellung für Desktop und Mobile)
 - Unterstützung der Barrierefreiheit durch strukturelle Vorgaben und definierte Farbpaletten gemäss Corporate Design
 - Vorimplementierte Mehrsprachigkeit
 - Zentrale Konfiguration von App-Metadaten über eine Konfigurationsdatei
