@@ -43,6 +43,13 @@ body,
   color: #333333;
 }
 
+/* ── Image description ────────────────────────────────────────────────────*/
+.md-typeset figcaption {
+    font-size: 80%;
+    color: #333333;
+}
+
+
 /* ── Navigation ───────────────────────────────────────────────────────────*/
 .md-nav__link,
 .md-nav__link--active {
