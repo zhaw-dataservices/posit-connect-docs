@@ -17,3 +17,22 @@ Using the templates offers the following benefits:
 
 - [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) – Template for Shiny (R)
 - Template for Streamlit (Python) coming in Autumn 2026
+
+!!! warning "Important Note"
+    Please read the template's README carefully. It contains important information for effective and targeted use.
+
+### Preview of the shiny-base Template
+
+The shiny-base template can be run directly as an app without requiring any modifications or configuration. In smartphone view, the app looks as follows:
+
+<!-- Die Bilder wurden mittels der Entwicklerfunktion in Chrome erzeugt (Auflösung iPhone 16 Pro Max) -->
+<figure markdown>
+ ![Mobile view of the shiny-base template (Page 1)](../assets/Screenshot_shiny-base-page_1.png){ width="300" }
+<figcaption>First screen of the shiny-base template<br>(Smartphone-view)</figcaption>
+</figure>
+  
+
+<figure markdown>
+ ![Mobile view of the shiny-base template (Page 2)](../assets/Screenshot_shiny-base-page_2.png){ width="300" }
+<figcaption>Second screen of the shiny-base templatee<br>(Smartphone-view)</figcaption>
+</figure>

@@ -15,5 +15,25 @@ Die Nutzung der Templates bietet folgende Vorteile:
 
 ## Verfügbare Templates
 
-- [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) Template für Shiny (R)
+- [shiny-base](https://github.zhaw.ch/service-research-data/shiny-base) Template für Shiny (R). 
 - Template für Streamlit (Python) folgt im Herbst 2026
+
+!!! warning "Wichtiger Hinweis"
+    Bitte das README des Templates gut durchlesen. Es enthält wichtige Infos für eine zielgerichtete Anwendung. 
+
+### Vorschau shiny-base-Template
+Das shiny-base Template ist direkt und ohne Anpassungen/Konfigurationen vornehmen zu müssen als App ausführbar. In der Ansicht für Smartphones sieht die App so aus:
+
+<!-- Die Bilder wurden mittels der Entwicklerfunktion in Chrome erzeugt (Auflösung iPhone 16 Pro Max) -->
+<figure markdown>
+ ![Mobile-Ansicht shiny-base-Template (1. Seite)](../assets/Screenshot_shiny-base-page_1.png){ width="300" }
+<figcaption>1. Bildschirmseite shiny-base-Template<br>(Smartphone-Ansicht)</figcaption>
+</figure>
+  
+
+<figure markdown>
+ ![Mobile-Ansicht shiny-base-Template (2. Seite)](../assets/Screenshot_shiny-base-page_2.png){ width="300" }
+<figcaption>2. Bildschirmseite shiny-base-Template<br>(Smartphone-Ansicht)</figcaption>
+</figure>
+  
+
