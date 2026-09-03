@@ -6,7 +6,7 @@ This service enables the interactive publication of research data. The goal is t
 
 ## Where will the data be published and what will it look like?
 
-After a review, the visualization goes live under a custom URL following the pattern `exploredata.zhaw.ch/app-name`. A small example visualization with the defined header and footer can be seen in the [Palmer Penguins Explorer 🐧](https://exploredata.zhaw.ch/palmer-penguins-explorer/){:target="_blank"}.
+After a review, the visualization goes live under a custom URL following the pattern `exploredata.zhaw.ch/app-name`. A small example visualization with the defined header and footer can be seen in the [Palmer Penguins Explorer 🐧](https://exploredata.zhaw.ch/palmer-penguins-explorer-chinstrap/){:target="_blank"}.
 
 ## What can I do if not all my data can be made public?
 

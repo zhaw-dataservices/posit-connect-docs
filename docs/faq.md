@@ -6,7 +6,7 @@ Dieser Service ermöglicht die interaktive Veröffentlichung von Forschungsdaten
 
 ## Wo werden die Daten veröffentlicht und wie sieht das dann ungefähr aus?
 
-Nach einer Review, geht die Visualisierung live unter einer Wunsch-URL nach dem Muster `exploredata.zhaw.ch/name-der-app`. Eine kleine Beispielvisualisierung mit definiertem Header und Footer zeigt der [Palmer Penguins Explorer🐧](https://exploredata.zhaw.ch/palmer-penguins-explorer/){:target="_blank"}.
+Nach einer Review, geht die Visualisierung live unter einer Wunsch-URL nach dem Muster `exploredata.zhaw.ch/name-der-app`. Eine kleine Beispielvisualisierung mit definiertem Header und Footer zeigt der [Palmer Penguins Explorer🐧](https://exploredata.zhaw.ch/palmer-penguins-explorer-chinstrap/){:target="_blank"}.
 
 ## Was kann ich tun, wenn nicht alle meine Daten öffentlich gemacht werden können?
 
