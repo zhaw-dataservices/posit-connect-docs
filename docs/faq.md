@@ -27,6 +27,7 @@ Die Nutzung von Templates bringt viele Vorteile, welche unter [App entwickeln ‚û
 
 Falls sich die Version unterscheidet, bitte schreibe eine Mail an researchdata@zhaw.ch.
 
+
 !!! note "Diese Seite wird laufend erg√§nzt."
 
 <!--
