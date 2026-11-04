@@ -22,8 +22,8 @@ Die Nutzung von Templates bringt viele Vorteile, welche unter [App entwickeln �
 
 1. Prüfe die Version von "base" und "design" in der Datei "TEMPLATE_VERSION.yml" im Hauptverzeichnis deiner App.
 2. Vergleiche die Version mit der neusten Version der Templates:
-        Für R/Shiny: [TEMPLATE_VERSION.yml für R](https://github.zhaw.ch/service-research-data/shiny-base/blob/main/TEMPLATE_VERSION.yml){:target="_blank"}<br>
-        Für Python/Streamlit: [TEMPLATE_VERSION.yml für Python](https://github.zhaw.ch/service-research-data/streamlit-base/blob/main/TEMPLATE_VERSION.yml){:target="_blank"}
+    - Für R/Shiny: [TEMPLATE_VERSION.yml für R](https://github.zhaw.ch/service-research-data/shiny-base/blob/main/TEMPLATE_VERSION.yml){:target="_blank"}<br>
+    - Für Python/Streamlit: [TEMPLATE_VERSION.yml für Python](https://github.zhaw.ch/service-research-data/streamlit-base/blob/main/TEMPLATE_VERSION.yml){:target="_blank"}
 
 Falls sich die Version unterscheidet, bitte schreibe eine Mail an researchdata@zhaw.ch.
 
