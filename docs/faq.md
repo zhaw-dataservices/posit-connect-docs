@@ -14,6 +14,19 @@ Für öffentlich zugängliche Apps müssen öffentlich freigebbare Daten von int
 
 Falls die zu visualisierenden Daten ausschliesslich für einen internen oder eingeschränkten Personenkreis bestimmt sind, können in begrenztem Umfang geschützte Apps bereitgestellt werden. Der Zugriff erfolgt dabei über eine Authentifizierung mittels SWITCH edu-ID. Bitte beachte, dass aufgrund von Lizenz- und Kostenbeschränkungen derzeit nur eine begrenzte Anzahl solcher Zugänge verfügbar ist.
 
+## Ich habe von Templates gehört; warum sollen Templates genutzt werden?
+
+Die Nutzung von Templates bringt viele Vorteile, welche unter [App entwickeln ➜ Templates](templates.md) erläutert sind.
+
+## Wie prüfe ich die Version meines Templates?
+
+1. Prüfe die Version von "base" und "design" in der Datei "TEMPLATE_VERSION.yml" im Hauptverzeichnis deiner App
+2. Vergleiche die Version mit der neusten Version der Templates:
+        Für R/Shiny: [TEMPLATE_VERSION.yml für R](https://github.zhaw.ch/service-research-data/shiny-base/blob/main/TEMPLATE_VERSION.yml)
+        Für Python/Streamlit: [TEMPLATE_VERSION.yml für Python](https://github.zhaw.ch/service-research-data/streamlit-base/blob/main/TEMPLATE_VERSION.yml)
+
+Falls sich die Version unterscheidet, bitte schreibe eine Mail an researchdata@zhaw.ch.
+
 !!! note "Diese Seite wird laufend ergänzt."
 
 <!--
