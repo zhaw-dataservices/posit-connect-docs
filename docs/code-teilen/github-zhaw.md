@@ -7,6 +7,6 @@ Neu bei Git oder GitHub? Hier ein paar Einstiegspunkte:
 - [Git – offizielle Dokumentation](https://git-scm.com/doc)
 - [GitHub Docs](https://docs.github.com)
 
-Sobald du bereit bist, deine App zu veröffentlichen, erstellen wir gemeinsam ein Repository unter [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data) — der GitHub-Organisation von Services Forschungsdaten. Von dort wird die App auf Posit Connect veröffentlicht.
+Sobald du bereit bist, deine App zu veröffentlichen, erstellen wir ein Repository unter [github.zhaw.ch/service-research-data](https://github.zhaw.ch/service-research-data) — der GitHub-Organisation von Services Forschungsdaten. Von dort wird die App auf Posit Connect veröffentlicht.
 
 <!-- TODO: Branch-Workflow noch definieren -->
