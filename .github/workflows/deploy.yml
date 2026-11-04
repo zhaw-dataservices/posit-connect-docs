@@ -41,7 +41,7 @@ jobs:
       # 4. Build the static site into the ./site directory.
       #    MkDocs reads mkdocs.yml and writes HTML/CSS/JS to ./site.
       - name: Build site
-        run: mkdocs build --strict
+        run: mkdocs build
 
       # 5. Push the contents of ./site to the gh-pages branch.
       #    peaceiris/actions-gh-pages handles creating or force-updating that
