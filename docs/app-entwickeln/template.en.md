@@ -20,6 +20,7 @@ Using the templates offers the following benefits:
 
 !!! warning "Important Note"
     Please read the template's README carefully. It contains important information for effective and targeted use.
+    Before starting development or submitting a publication request, please verify that you are using the latest template version ([Instructions in the FAQ](../faq.en.md#how-can-i-check-the-version-of-my-template)).
 
 ### Preview of the shiny-base Template
 

@@ -16,14 +16,14 @@ Falls die zu visualisierenden Daten ausschliesslich für einen internen oder ein
 
 ## Ich habe von Templates gehört; warum sollen Templates genutzt werden?
 
-Die Nutzung von Templates bringt viele Vorteile, welche unter [App entwickeln ➜ Templates](templates.md) erläutert sind.
+Die Nutzung von Templates bringt viele Vorteile, welche unter [App entwickeln → Templates](template.md) erläutert sind.
 
 ## Wie prüfe ich die Version meines Templates?
 
-1. Prüfe die Version von "base" und "design" in der Datei "TEMPLATE_VERSION.yml" im Hauptverzeichnis deiner App
+1. Prüfe die Version von "base" und "design" in der Datei "TEMPLATE_VERSION.yml" im Hauptverzeichnis deiner App.
 2. Vergleiche die Version mit der neusten Version der Templates:
-        Für R/Shiny: [TEMPLATE_VERSION.yml für R](https://github.zhaw.ch/service-research-data/shiny-base/blob/main/TEMPLATE_VERSION.yml)
-        Für Python/Streamlit: [TEMPLATE_VERSION.yml für Python](https://github.zhaw.ch/service-research-data/streamlit-base/blob/main/TEMPLATE_VERSION.yml)
+        Für R/Shiny: [TEMPLATE_VERSION.yml für R](https://github.zhaw.ch/service-research-data/shiny-base/blob/main/TEMPLATE_VERSION.yml){:target="_blank"}<br>
+        Für Python/Streamlit: [TEMPLATE_VERSION.yml für Python](https://github.zhaw.ch/service-research-data/streamlit-base/blob/main/TEMPLATE_VERSION.yml){:target="_blank"}
 
 Falls sich die Version unterscheidet, bitte schreibe eine Mail an researchdata@zhaw.ch.
 
