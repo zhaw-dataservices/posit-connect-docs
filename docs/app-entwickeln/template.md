@@ -19,8 +19,7 @@ Die Nutzung der Templates bietet folgende Vorteile:
 - [streamlit-base](https://github.zhaw.ch/service-research-data/streamlit-base){:target="_blank"} – Template für Streamlit (Python)
 
 !!! warning "Wichtiger Hinweis"
-    Bitte das README des Templates gut durchlesen. Es enthält wichtige Infos für eine zielgerichtete Anwendung. 
-    Bitte vor der Entwicklung und Veröffentlichungsanfrage prüfen, ob das aktuellste Template verwendet wird ([Anleitung in FAQ](faq.md#wie-prüfe-ich-die-version-meines-templates)).
+    Bitte das README des Templates gut durchlesen. Es enthält wichtige Infos für eine zielgerichtete Anwendung.
 
 ### Vorschau shiny-base-Template
 Das shiny-base Template ist direkt und ohne Anpassungen/Konfigurationen vornehmen zu müssen als App ausführbar. In der Ansicht für Smartphones sieht die App so aus:
