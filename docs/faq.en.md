@@ -16,7 +16,7 @@ If the data to be visualized is intended exclusively for an internal or restrict
 
 ## I have heard about templates. Why should templates be used?
 
-Using templates offers many advantages, which are described under [Develop Your App → Templates](template.en.md).
+Using templates offers many advantages, which are described under [Develop Your App → Templates](app-entwickeln/template.en.md).
 
 ## How can I check the version of my template?
 

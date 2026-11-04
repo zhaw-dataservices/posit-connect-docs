@@ -16,7 +16,7 @@ Falls die zu visualisierenden Daten ausschliesslich für einen internen oder ein
 
 ## Ich habe von Templates gehört; warum sollen Templates genutzt werden?
 
-Die Nutzung von Templates bringt viele Vorteile, welche unter [App entwickeln → Templates](template.md) erläutert sind.
+Die Nutzung von Templates bringt viele Vorteile, welche unter [App entwickeln → Templates](app-entwickeln/template.md) erläutert sind.
 
 ## Wie prüfe ich die Version meines Templates?
 
